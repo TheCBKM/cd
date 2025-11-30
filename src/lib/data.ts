@@ -115,7 +115,6 @@ export const navLinks = [
     { name: 'Products', href: '/products' },
     { name: 'Our Farm', href: '/our-farm' },
     { name: 'Wellness Guide', href: '/#wellness' },
-    { name: 'AI Health Tool', href: '/#ai-tool' },
     { name: 'About Us', href: '/about' },
     { name: 'Contact', href: '/#contact' },
 ];

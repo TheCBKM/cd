@@ -4,7 +4,6 @@ import WhyChooseUs from '@/components/landing/WhyChooseUs';
 import ProductCatalog from '@/components/landing/ProductCatalog';
 import FarmJourney from '@/components/landing/FarmJourney';
 import WellnessGuide from '@/components/landing/WellnessGuide';
-import HealthSuggestionTool from '@/components/landing/HealthSuggestionTool';
 import Footer from '@/components/landing/Footer';
 
 export default function Home() {
@@ -17,7 +16,6 @@ export default function Home() {
         <ProductCatalog />
         <FarmJourney />
         <WellnessGuide />
-        <HealthSuggestionTool />
       </main>
       <Footer />
     </div>
