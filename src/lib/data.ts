@@ -88,22 +88,19 @@ export const wellnessGuideContent: WellnessItem[] = [
 
 export const teamMembers: TeamMember[] = [
   {
-    name: 'Aarav Sharma',
-    role: 'Founder & Chief Farmer',
-    bio: 'With a deep-rooted passion for organic farming, Aarav started Chaitanya Enterprises to bring pure, natural products to the community.',
-    image: 'team-member-1',
+    name: 'Mrs. Prerna Kolhatkar',
+    role: 'Music and social services',
+    bio: 'Committed to community health awareness.',
   },
   {
-    name: 'Priya Mehta',
-    role: 'Head of Product Development',
-    bio: 'Priya combines traditional wisdom with modern science to create effective and safe wellness products from our farm\'s bounty.',
-    image: 'team-member-2',
+    name: 'Mr. Sanjeev Joshi',
+    role: 'MBA, ex-COO in fibre optics industry',
+    bio: 'Founder of Fincare for Life, experienced in startups and financial management.',
   },
   {
-    name: 'Rohan Desai',
-    role: 'Community & Operations Lead',
-    bio: 'Rohan ensures that from farm to your home, the process is smooth, sustainable, and beneficial for everyone involved.',
-    image: 'team-member-3',
+    name: 'Ms. Shriya Kavishwar',
+    role: 'Pursuing CA, strong financial background',
+    bio: 'Managing finances for esteemed clients.',
   },
 ];
 
