@@ -8,31 +8,31 @@ body {
 
 @layer base {
   :root {
-    --background: 60 56% 91%; /* #F5F5DC */
-    --foreground: 126 70% 23%; /* #13631c */
-    --card: 60 30% 96%;
+    --background: 45 40% 96%; /* Sand */
+    --foreground: 126 70% 23%; /* Forest Green Text */
+    --card: 45 30% 98%; /* Cream */
     --card-foreground: 126 70% 23%;
-    --popover: 60 30% 96%;
+    --popover: 45 30% 98%;
     --popover-foreground: 126 70% 23%;
-    --primary: 30 92% 40%; /* #c26608 */
-    --primary-foreground: 40 50% 98%;
-    --secondary: 60 25% 85%;
-    --secondary-foreground: 126 70% 23%;
+    --primary: 35 90% 55%; /* Turmeric Gold */
+    --primary-foreground: 35 90% 10%;
+    --secondary: 126 70% 23%; /* Forest Green */
+    --secondary-foreground: 45 40% 96%;
     --muted: 60 25% 85%;
     --muted-foreground: 126 30% 35%;
-    --accent: 99 73% 35%; /* #479a16 */
+    --accent: 99 73% 35%; /* Lighter Green for accents if needed */
     --accent-foreground: 60 56% 98%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 60 25% 82%;
-    --input: 60 25% 82%;
-    --ring: 30 92% 40%;
+    --border: 45 20% 88%; /* #E4E4E4 */
+    --input: 45 25% 85%; /* #D9D9D9 */
+    --ring: 99 73% 35%; /* Green glow for focus */
     --chart-1: 12 76% 61%;
     --chart-2: 173 58% 39%;
     --chart-3: 197 37% 24%;
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
-    --radius: 0.5rem;
+    --radius: 0.75rem; /* 12px for buttons, can be overridden */
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
     --sidebar-primary: 240 5.9% 10%;
@@ -44,15 +44,15 @@ body {
   }
   .dark {
     --background: 120 10% 8%;
-    --foreground: 60 56% 91%;
+    --foreground: 45 40% 96%;
     --card: 120 10% 12%;
-    --card-foreground: 60 56% 91%;
+    --card-foreground: 45 40% 96%;
     --popover: 120 10% 8%;
-    --popover-foreground: 60 56% 91%;
-    --primary: 30 85% 50%;
-    --primary-foreground: 30 90% 98%;
-    --secondary: 120 5% 15%;
-    --secondary-foreground: 60 56% 91%;
+    --popover-foreground: 45 40% 96%;
+    --primary: 35 85% 60%;
+    --primary-foreground: 35 90% 10%;
+    --secondary: 126 70% 30%;
+    --secondary-foreground: 45 40% 96%;
     --muted: 120 5% 15%;
     --muted-foreground: 60 30% 70%;
     --accent: 99 65% 45%;
@@ -61,7 +61,7 @@ body {
     --destructive-foreground: 0 0% 98%;
     --border: 120 5% 15%;
     --input: 120 5% 15%;
-    --ring: 30 85% 50%;
+    --ring: 99 73% 40%;
     --chart-1: 220 70% 50%;
     --chart-2: 160 60% 45%;
     --chart-3: 30 80% 55%;
@@ -86,7 +86,7 @@ body {
     @apply bg-background text-foreground;
   }
   section {
-    @apply w-full py-12 md:py-24 lg:py-32;
+    @apply w-full py-8 md:py-16;
   }
 }
 

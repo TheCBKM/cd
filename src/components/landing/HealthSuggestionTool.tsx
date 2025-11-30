@@ -1,8 +1,7 @@
 'use client';
 
-import { useActionState } from 'react';
+import { useActionState, useRef, useEffect } from 'react';
 import { useFormStatus } from 'react-dom';
-import { useEffect, useRef } from 'react';
 import { suggestProducts, type FormState } from '@/app/actions';
 import { Button } from '@/components/ui/button';
 import { Textarea } from '@/components/ui/textarea';
@@ -89,6 +88,7 @@ export default function HealthSuggestionTool() {
                             rows={4}
                             required
                             defaultValue={state.fields?.healthNeeds}
+                            className="rounded-lg"
                         />
                         </div>
                         <SubmitButton />
