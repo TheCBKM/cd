@@ -1,3 +1,25 @@
+import Header from '@/components/landing/Header';
+import Hero from '@/components/landing/Hero';
+import ProductCatalog from '@/components/landing/ProductCatalog';
+import FarmJourney from '@/components/landing/FarmJourney';
+import WellnessGuide from '@/components/landing/WellnessGuide';
+import HealthSuggestionTool from '@/components/landing/HealthSuggestionTool';
+import Team from '@/components/landing/Team';
+import Footer from '@/components/landing/Footer';
+
 export default function Home() {
-  return <></>;
+  return (
+    <div className="flex flex-col min-h-screen">
+      <Header />
+      <main className="flex-1">
+        <Hero />
+        <ProductCatalog />
+        <FarmJourney />
+        <WellnessGuide />
+        <HealthSuggestionTool />
+        <Team />
+      </main>
+      <Footer />
+    </div>
+  );
 }

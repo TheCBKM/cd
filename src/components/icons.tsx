@@ -1,0 +1,87 @@
+import React from 'react';
+
+export const Logo = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 256 256"
+    {...props}
+    className={`w-8 h-8 text-primary ${props.className || ''}`}
+  >
+    <path
+      fill="currentColor"
+      d="M216,48H40A24,24,0,0,0,16,72V200a24,24,0,0,0,24,24H216a24,24,0,0,0,24-24V72A24,24,0,0,0,216,48Zm-84.69,94.69a8,8,0,0,1-11.32,0L73.37,96H96a8,8,0,0,1,0,16H56a8,8,0,0,1-5.66-13.66l56-56a8,8,0,0,1,11.32,0l56,56A8,8,0,0,1,176,112H160a8,8,0,0,1,0-16h22.63Z"
+    />
+    <path
+      fill="currentColor"
+      d="M182.63,96,128,41.37,73.37,96H96a8,8,0,0,1,0,16H56a8,8,0,0,1-5.66-13.66l56-56a8,8,0,0,1,11.32,0l56,56A8,8,0,0,1,176,112H160a8,8,0,0,1,0-16Z"
+      opacity="0.2"
+    />
+  </svg>
+);
+
+
+export const HerbalPowderIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    {...props}
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" />
+    <path d="M12 12c-3 0-5 2.5-5 5" />
+    <path d="M12 12c3 0 5 2.5 5 5" />
+    <path d="M12 12c0-3-2.5-5-5-5" />
+    <path d="M12 12c0-3 2.5-5 5-5" />
+  </svg>
+);
+
+export const SmoothieIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    {...props}
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <path d="M5 22h14" />
+    <path d="M5 22a4 4 0 0 1-4-4V6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v12a4 4 0 0 1-4 4" />
+    <path d="M8 12s.5-1 2-1 2 1 2 1" />
+    <path d="M12 12s.5-1 2-1 2 1 2 1" />
+    <path d="M8 8s.5-1 2-1 2 1 2 1" />
+  </svg>
+);
+
+export const CowIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    {...props}
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <path d="M18.8 8.02A6.4 6.4 0 0 0 12 4a6.4 6.4 0 0 0-6.8 4.02" />
+    <path d="M12 20.5a9.5 9.5 0 0 0 7.1-3.22" />
+    <path d="M4.9 17.28A9.5 9.5 0 0 0 12 20.5" />
+    <path d="M14 13h.01" />
+    <path d="M10 13h.01" />
+    <path d="M12 16a2 2 0 0 1-2-2h4a2 2 0 0 1-2 2Z" />
+    <path d="M17 11a1.5 1.5 0 0 1 2.8.74c-.1.96-1 1.26-1.4 2.26" />
+    <path d="M7 11a1.5 1.5 0 0 0-2.8.74c.1.96 1 1.26 1.4 2.26" />
+  </svg>
+);

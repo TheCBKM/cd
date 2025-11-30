@@ -1,3 +1,70 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A vibrant, lush green organic farm under a bright sun.",
+      "imageUrl": "https://images.unsplash.com/photo-1515150144380-bca9f1650ed9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxvcmdhbmljJTIwZmFybXxlbnwwfHx8fDE3NjQ0MzE5ODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "organic farm"
+    },
+    {
+      "id": "product-herbal-powder",
+      "description": "A mound of fine green herbal powder in a wooden bowl.",
+      "imageUrl": "https://images.unsplash.com/photo-1641296834707-bbe46429d945?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxoZXJiYWwlMjBwb3dkZXJ8ZW58MHx8fHwxNzY0NDg0Mzg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "herbal powder"
+    },
+    {
+      "id": "product-smoothie",
+      "description": "A glass of vibrant green smoothie with fresh fruits next to it.",
+      "imageUrl": "https://images.unsplash.com/photo-1610622930110-3c076902312a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMHNtb290aGllfGVufDB8fHx8MTc2NDM5NDkyMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "green smoothie"
+    },
+    {
+      "id": "product-cow-dung",
+      "description": "Neatly stacked, sun-dried cow dung cakes.",
+      "imageUrl": "https://images.unsplash.com/photo-1725483990240-964bb3788ee3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkcmllZCUyMGNha2VzfGVufDB8fHx8MTc2NDQ4NDM4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dried cakes"
+    },
+    {
+      "id": "farm-sowing",
+      "description": "A farmer's hands carefully sowing seeds into rich, dark soil.",
+      "imageUrl": "https://images.unsplash.com/photo-1518278364075-eb43498f2a73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzb3dpbmclMjBzZWVkc3xlbnwwfHx8fDE3NjQ0ODQzODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sowing seeds"
+    },
+    {
+      "id": "farm-growing",
+      "description": "Young green sprouts emerging from the soil.",
+      "imageUrl": "https://images.unsplash.com/photo-1647550232391-f758832be5c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwbGFudCUyMHNwcm91dHN8ZW58MHx8fHwxNzY0NDg0MzgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "plant sprouts"
+    },
+    {
+      "id": "farm-harvesting",
+      "description": "Hands harvesting fresh, green leaves from a plant.",
+      "imageUrl": "https://images.unsplash.com/photo-1667129898316-bb71f4120e98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxoYXJ2ZXN0aW5nJTIwbGVhdmVzfGVufDB8fHx8MTc2NDQ4NDM4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "harvesting leaves"
+    },
+    {
+      "id": "farm-packaging",
+      "description": "Eco-friendly packaging for organic products being prepared.",
+      "imageUrl": "https://images.unsplash.com/photo-1640941978130-bd19c18c5949?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxlY28lMjBwYWNrYWdpbmd8ZW58MHx8fHwxNzY0NDg0MzgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "eco packaging"
+    },
+    {
+      "id": "team-member-1",
+      "description": "Portrait of a smiling team member in a natural outdoor setting.",
+      "imageUrl": "https://images.unsplash.com/photo-1600180758890-6b94519a8ba6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQ0NTkzNjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "team-member-2",
+      "description": "Portrait of another team member, looking knowledgeable and friendly.",
+      "imageUrl": "https://images.unsplash.com/photo-1701096374092-bb70915fdc5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdHxlbnwwfHx8fDE3NjQ0NjA4ODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional headshot"
+    },
+    {
+      "id": "team-member-3",
+      "description": "Portrait of a third team member, possibly working on the farm.",
+      "imageUrl": "https://images.unsplash.com/photo-1646227655685-a530813759b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d29ya2VyJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY0NDI4MTE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "worker portrait"
+    }
+  ]
 }

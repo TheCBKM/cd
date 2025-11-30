@@ -1,0 +1,99 @@
+import type { Product, JourneyStep, WellnessItem, TeamMember } from './definitions';
+import { Sprout, Package, Tractor, Leaf } from 'lucide-react';
+import { CowIcon, HerbalPowderIcon, SmoothieIcon } from '@/components/icons';
+
+export const products: Product[] = [
+  {
+    name: 'Herbal Powders',
+    description: 'A range of finely ground herbal powders, packed with natural nutrients to boost your health and well-being.',
+    image: 'product-herbal-powder',
+    icon: HerbalPowderIcon,
+  },
+  {
+    name: 'Healthy Smoothies',
+    description: 'Delicious and nutritious smoothie mixes made from our freshest organic produce for a quick and healthy meal.',
+    image: 'product-smoothie',
+    icon: SmoothieIcon,
+  },
+  {
+    name: 'Cow Dung Products',
+    description: 'Eco-friendly and traditional products derived from cow dung, promoting a sustainable and sacred lifestyle.',
+    image: 'product-cow-dung',
+    icon: CowIcon,
+  },
+];
+
+export const journeySteps: JourneyStep[] = [
+  {
+    title: 'Organic Sowing',
+    description: 'We begin with non-GMO, organic seeds, sown with care in nutrient-rich soil, free from any chemical fertilizers.',
+    image: 'farm-sowing',
+    icon: Sprout,
+  },
+  {
+    title: 'Natural Growth',
+    description: 'Our plants are nurtured with pure water and natural compost, allowing them to grow strong and healthy under the sun.',
+    image: 'farm-growing',
+    icon: Leaf,
+  },
+  {
+    title: 'Careful Harvesting',
+    description: 'At peak maturity, our produce is harvested by hand to ensure the highest quality and preservation of nutrients.',
+    image: 'farm-harvesting',
+    icon: Tractor,
+  },
+  {
+    title: 'Pristine Packaging',
+    description: 'The final products are minimally processed and packed in eco-friendly materials to maintain purity and freshness.',
+    image: 'farm-packaging',
+    icon: Package,
+  },
+];
+
+export const wellnessGuideContent: WellnessItem[] = [
+  {
+    title: 'How to Use Herbal Powders',
+    content:
+      'Our herbal powders can be mixed with warm water, milk, or added to your favorite smoothies. A typical dosage is one teaspoon per day. For best results, take it in the morning on an empty stomach. Always start with a smaller dose to see how your body reacts.',
+  },
+  {
+    title: 'Preparing Our Smoothies',
+    content:
+      'Simply blend one scoop of our smoothie mix with 250ml of water, milk, or a plant-based alternative. Add fresh fruits like bananas or berries for extra flavor and nutrients. Our smoothies are a perfect replacement for a quick breakfast or a post-workout snack.',
+  },
+  {
+    title: 'Health Benefits & Disclaimer',
+    content:
+      'Our products are intended to support a healthy lifestyle. The health benefits described are based on traditional knowledge and general research. These products are not intended to diagnose, treat, cure, or prevent any disease. Please consult with a healthcare professional before starting any new dietary supplement. Results may vary from person to person.',
+  },
+];
+
+export const teamMembers: TeamMember[] = [
+  {
+    name: 'Aarav Sharma',
+    role: 'Founder & Chief Farmer',
+    bio: 'With a deep-rooted passion for organic farming, Aarav started Chaitanya Organics to bring pure, natural products to the community.',
+    image: 'team-member-1',
+  },
+  {
+    name: 'Priya Mehta',
+    role: 'Head of Product Development',
+    bio: 'Priya combines traditional wisdom with modern science to create effective and safe wellness products from our farm\'s bounty.',
+    image: 'team-member-2',
+  },
+  {
+    name: 'Rohan Desai',
+    role: 'Community & Operations Lead',
+    bio: 'Rohan ensures that from farm to your home, the process is smooth, sustainable, and beneficial for everyone involved.',
+    image: 'team-member-3',
+  },
+];
+
+export const navLinks = [
+    { name: 'Products', href: '#products' },
+    { name: 'Our Journey', href: '#journey' },
+    { name: 'Wellness Guide', href: '#wellness' },
+    { name: 'AI Health Tool', href: '#ai-tool' },
+    { name: 'Our Team', href: '#team' },
+    { name: 'Contact', href: '#contact' },
+];
