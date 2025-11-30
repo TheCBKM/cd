@@ -72,7 +72,7 @@ export const teamMembers: TeamMember[] = [
   {
     name: 'Aarav Sharma',
     role: 'Founder & Chief Farmer',
-    bio: 'With a deep-rooted passion for organic farming, Aarav started Chaitanya Organics to bring pure, natural products to the community.',
+    bio: 'With a deep-rooted passion for organic farming, Aarav started Chaitanya Enterprises to bring pure, natural products to the community.',
     image: 'team-member-1',
   },
   {
@@ -90,6 +90,7 @@ export const teamMembers: TeamMember[] = [
 ];
 
 export const navLinks = [
+    { name: 'Why Us?', href: '#why-choose-us' },
     { name: 'Products', href: '#products' },
     { name: 'Our Journey', href: '#journey' },
     { name: 'Wellness Guide', href: '#wellness' },

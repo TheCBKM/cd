@@ -1,5 +1,6 @@
 import Header from '@/components/landing/Header';
 import Hero from '@/components/landing/Hero';
+import WhyChooseUs from '@/components/landing/WhyChooseUs';
 import ProductCatalog from '@/components/landing/ProductCatalog';
 import FarmJourney from '@/components/landing/FarmJourney';
 import WellnessGuide from '@/components/landing/WellnessGuide';
@@ -13,6 +14,7 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         <Hero />
+        <WhyChooseUs />
         <ProductCatalog />
         <FarmJourney />
         <WellnessGuide />
