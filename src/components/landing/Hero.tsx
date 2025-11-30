@@ -31,10 +31,10 @@ export default function Hero() {
             From our organic farm at Chaitanyadham to your kitchen – pure herbal powders, healthy smoothies, chutneys and eco-friendly cow dung products for a healthier lifestyle.
           </p>
           <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
-            <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
+            <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground transform transition-transform duration-200 hover:scale-102">
               <Link href="#products">Explore Products</Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="bg-transparent text-white border-white hover:bg-white hover:text-primary">
+            <Button asChild size="lg" variant="outline" className="bg-transparent text-white border-white hover:bg-white hover:text-primary transform transition-transform duration-200 hover:scale-102">
               <Link href="#contact">Contact / WhatsApp</Link>
             </Button>
           </div>

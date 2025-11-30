@@ -22,7 +22,7 @@ export default function ProductCatalog() {
           {products.map((product) => {
             const productImage = PlaceHolderImages.find((img) => img.id === product.image);
             return (
-              <Card key={product.name} className="group overflow-hidden transform transition-all duration-300 hover:shadow-xl hover:-translate-y-2 flex flex-col">
+              <Card key={product.name} className="group overflow-hidden transform transition-all duration-200 hover:shadow-xl hover:-translate-y-1 flex flex-col">
                 <CardHeader className="flex-row items-center gap-4">
                   <product.icon className="w-8 h-8 text-accent" />
                   <CardTitle className="font-headline">{product.name}</CardTitle>
@@ -35,7 +35,7 @@ export default function ProductCatalog() {
                             alt={product.name}
                             width={600}
                             height={400}
-                            className="object-cover w-full h-48 transition-transform duration-300 group-hover:scale-105"
+                            className="object-cover w-full h-48 transition-transform duration-200 group-hover:scale-105"
                             data-ai-hint={productImage.imageHint}
                         />
                     </div>
@@ -47,7 +47,7 @@ export default function ProductCatalog() {
           })}
         </div>
         <div className="text-center">
-            <Button size="lg" asChild>
+            <Button size="lg" asChild className="transform transition-transform duration-200 hover:scale-102">
                 <Link href="/products">
                     View All Products
                     <ArrowRight className="ml-2" />
