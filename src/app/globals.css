@@ -86,7 +86,7 @@ body {
     @apply bg-background text-foreground;
   }
   section {
-    @apply w-full py-8 md:py-16;
+    @apply w-full py-20 md:py-24 lg:py-32;
   }
 }
 
