@@ -45,7 +45,7 @@ export default function Header() {
       <div className="container flex h-16 items-center px-4 md:px-6">
         <Link href="/" className="mr-6 flex items-center gap-2">
           <Leaf className="h-6 w-6 text-accent" />
-          <span className="font-headline text-lg font-bold text-foreground">Chaitanya Organics</span>
+          <span className="font-headline text-lg font-bold text-foreground">Chaitanya Enterprises</span>
         </Link>
 
         <div className="hidden md:flex flex-1 items-center justify-end">
@@ -64,7 +64,7 @@ export default function Header() {
               <div className="flex flex-col gap-6 p-6">
                 <Link href="/" className="flex items-center gap-2">
                   <Leaf className="h-6 w-6 text-accent" />
-                  <span className="font-headline text-lg font-bold">Chaitanya Organics</span>
+                  <span className="font-headline text-lg font-bold">Chaitanya Enterprises</span>
                 </Link>
                 <nav className="grid gap-4">
                   {navLinks.map((link) => (

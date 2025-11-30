@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2">
               <Leaf className="h-6 w-6 text-accent" />
-              <span className="font-headline text-lg font-bold text-foreground">Chaitanya Organics</span>
+              <span className="font-headline text-lg font-bold text-foreground">Chaitanya Enterprises</span>
             </Link>
             <p className="text-muted-foreground text-sm">
               Pure, organic, and eco-friendly products from the heart of nature.
@@ -31,7 +31,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-primary" />
-                <a href="mailto:info@chaitanyaorganics.com" className="text-muted-foreground hover:text-foreground">info@chaitanyaorganics.com</a>
+                <a href="mailto:info@chaitanyaenterprises.com" className="text-muted-foreground hover:text-foreground">info@chaitanyaenterprises.com</a>
               </li>
             </ul>
           </div>

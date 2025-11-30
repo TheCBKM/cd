@@ -66,7 +66,7 @@ export default function HealthSuggestionTool() {
                 AI-Powered Health Assistant
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed">
-                Describe your health needs, and our AI will suggest the best Chaitanya Organics products for you.
+                Describe your health needs, and our AI will suggest the best Chaitanya Enterprises products for you.
                 </p>
             </div>
 

@@ -5,7 +5,7 @@ import { cn } from '@/lib/utils';
 import { Analytics } from "@vercel/analytics/react"
 
 export const metadata: Metadata = {
-  title: 'Chaitanya Organics',
+  title: 'Chaitanya Enterprises',
   description: 'Pure, organic, and eco-friendly products from the heart of nature.',
 };
 
