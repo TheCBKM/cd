@@ -48,7 +48,6 @@ export default function Footer() {
                     451221
                 </span>
                </div>
-               <p className="text-muted-foreground text-xs">Visitors are welcome by prior appointment. Come experience organic farming and natural living at Chaitanyadham.</p>
             </address>
           </div>
           
@@ -64,7 +63,11 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 border-t pt-8 text-center text-sm text-muted-foreground">
+        <div className="mt-12 text-center text-muted-foreground text-sm">
+            <p>Visitors are welcome by prior appointment. Come experience organic farming and natural living at Chaitanyadham.</p>
+        </div>
+
+        <div className="mt-8 border-t pt-8 text-center text-sm text-muted-foreground">
           <p>&copy; {new Date().getFullYear()} Chaitanya Enterprises. All rights reserved.</p>
         </div>
       </div>
