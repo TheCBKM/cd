@@ -17,8 +17,9 @@ export default {
     },
     extend: {
       fontFamily: {
-        body: ['PT Sans', 'sans-serif'],
-        headline: ['Alegreya', 'serif'],
+        body: ['Lato', 'sans-serif'],
+        headline: ['Playfair Display', 'serif'],
+        accent: ['Montserrat Alternates', 'sans-serif'],
         code: ['monospace'],
       },
       colors: {
