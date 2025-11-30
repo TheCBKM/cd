@@ -4,6 +4,7 @@ import { products } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
+import Link from 'next/link';
 
 export default function ProductCatalog() {
   return (
@@ -46,9 +47,11 @@ export default function ProductCatalog() {
           })}
         </div>
         <div className="text-center">
-            <Button size="lg">
-                View All Products
-                <ArrowRight className="ml-2" />
+            <Button size="lg" asChild>
+                <Link href="/products">
+                    View All Products
+                    <ArrowRight className="ml-2" />
+                </Link>
             </Button>
         </div>
       </div>

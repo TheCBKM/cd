@@ -25,3 +25,15 @@ export type TeamMember = {
   role: string;
   bio: string;
 };
+
+export type DetailedProduct = {
+    title?: string;
+    description?: string;
+    subItems?: string[];
+}
+
+export type DetailedProductCategory = {
+    title: string;
+    description: string;
+    items: DetailedProduct[];
+}

@@ -1,4 +1,4 @@
-import type { Product, JourneyStep, WellnessItem, TeamMember } from './definitions';
+import type { Product, JourneyStep, WellnessItem, TeamMember, DetailedProductCategory } from './definitions';
 import { Sprout, Package, Tractor, Leaf, UtensilsCrossed, Wheat } from 'lucide-react';
 import { CowIcon, HerbalPowderIcon, PickleJarIcon, SmoothieIcon } from '@/components/icons';
 
@@ -112,10 +112,95 @@ export const teamMembers: TeamMember[] = [
 
 export const navLinks = [
     { name: 'Why Us?', href: '/#why-choose-us' },
-    { name: 'Products', href: '/#products' },
+    { name: 'Products', href: '/products' },
     { name: 'Our Farm', href: '/our-farm' },
     { name: 'Wellness Guide', href: '/#wellness' },
     { name: 'AI Health Tool', href: '/#ai-tool' },
     { name: 'About Us', href: '/about' },
     { name: 'Contact', href: '/#contact' },
+];
+
+export const detailedProducts: DetailedProductCategory[] = [
+  {
+    title: 'Herbal & Vegetable Powders',
+    description: 'Pure, single-ingredient powders made from organically grown leaves and vegetables.',
+    items: [
+      {
+        title: 'Leaf Powders',
+        subItems: [
+          'Moringa leaf powder',
+          'Curry leaves powder',
+          'Mint leaves powder',
+          'Basil (Tulsi) powder',
+          'Jamun leaves powder',
+          'Mango leaves powder',
+          'Custard apple leaves powder',
+        ],
+      },
+      {
+        title: 'Vegetable Powders',
+        subItems: ['Coriander leaves powder', 'Spinach powder', 'Beetroot powder', 'Cucumber powder'],
+      },
+    ],
+  },
+  {
+    title: 'Dry Fruit / Fruit Powders',
+    description: '',
+    items: [
+      {
+        subItems: [
+          'Guava fruit powder',
+          'Apple powder',
+          'Banana powder',
+        ],
+      },
+    ],
+  },
+  {
+    title: 'Smoothies',
+    description: 'These smoothies help improve gut health, digestion, metabolism, weight balance and daily nutrition. Available in multiple flavours.',
+    items: [
+      {
+        title: 'Specially curated for:',
+        subItems: [
+          'Diabetic & Hypothyroid & Kidney support',
+          'Diabetic management',
+          'Health conscious individuals, youngsters & children',
+        ],
+      },
+    ],
+  },
+  {
+    title: 'Chutneys & Pickles',
+    description: '',
+    items: [
+      {
+        subItems: ['Curry leaves chutney', 'Ginger Turmeric pickle'],
+      },
+    ],
+  },
+  {
+    title: 'Ready to Eat & Masala',
+    description: '',
+    items: [
+      {
+        subItems: ['Dry snacks', 'Masala sprinkles', 'Tea powders', 'Organic Bhaji Masala'],
+      },
+    ],
+  },
+  {
+    title: 'Cow Dung & Eco Products',
+    description: 'Pure, traditional and environment friendly products for home, puja and gardening.',
+    items: [
+      {
+        subItems: [
+          'Cow dung cakes',
+          'Cow dung diya',
+          'Cow dung incense sticks',
+          'Cow dung fertilizer',
+          'Cow ghee for homa',
+        ],
+      },
+    ],
+  },
 ];
