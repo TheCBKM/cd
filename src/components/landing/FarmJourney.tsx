@@ -9,9 +9,9 @@ export default function FarmJourney() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
           <div className="space-y-2">
-            <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-5xl">Our Farm to Product Journey</h2>
+            <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-5xl">From Our Farm to You</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Follow the path of our products from a single seed to the final package, a journey of purity and dedication.
+              All leaves and farm produce are grown organically at Chaitanyadham, handpicked, naturally dried, processed hygienically and packed with care. We ensure purity, freshness and nutritional value in every product.
             </p>
           </div>
         </div>
