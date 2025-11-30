@@ -1,5 +1,5 @@
 import type { Product, JourneyStep, WellnessItem, TeamMember } from './definitions';
-import { Sprout, Package, Tractor, Leaf, UtensilsCrossed } from 'lucide-react';
+import { Sprout, Package, Tractor, Leaf, UtensilsCrossed, Wheat } from 'lucide-react';
 import { CowIcon, HerbalPowderIcon, PickleJarIcon, SmoothieIcon } from '@/components/icons';
 
 export const products: Product[] = [
@@ -32,6 +32,12 @@ export const products: Product[] = [
     description: 'Healthy and tasty snacks, perfect for guilt-free munching anytime.',
     image: 'product-snacks',
     icon: UtensilsCrossed,
+  },
+  {
+    name: 'Organic Masalas',
+    description: 'Aromatic and flavorful organic spices to elevate your cooking.',
+    image: 'product-masalas',
+    icon: Wheat,
   },
   {
     name: 'Cow Dung Products',
@@ -105,11 +111,11 @@ export const teamMembers: TeamMember[] = [
 ];
 
 export const navLinks = [
-    { name: 'Why Us?', href: '#why-choose-us' },
-    { name: 'Products', href: '#products' },
-    { name: 'Our Farm', href: '#journey' },
-    { name: 'Wellness Guide', href: '#wellness' },
-    { name: 'AI Health Tool', href: '#ai-tool' },
-    { name: 'Our Team', href: '#team' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Why Us?', href: '/#why-choose-us' },
+    { name: 'Products', href: '/#products' },
+    { name: 'Our Farm', href: '/#journey' },
+    { name: 'Wellness Guide', href: '/#wellness' },
+    { name: 'AI Health Tool', href: '/#ai-tool' },
+    { name: 'About Us', href: '/about' },
+    { name: 'Contact', href: '/#contact' },
 ];

@@ -7,9 +7,11 @@ import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from '@/components/ui/sheet';
 import { navLinks } from '@/lib/data';
 import { cn } from '@/lib/utils';
+import { usePathname } from 'next/navigation';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = React.useState(false);
+  const pathname = usePathname();
 
   React.useEffect(() => {
     const handleScroll = () => {
@@ -23,15 +25,18 @@ export default function Header() {
 
   const NavLinks = ({ className }: { className?: string }) => (
     <nav className={cn('flex items-center gap-4 lg:gap-6', className)}>
-      {navLinks.map((link) => (
-        <Link
-          key={link.name}
-          href={link.href}
-          className="text-sm font-medium transition-colors hover:text-primary"
-        >
-          {link.name}
-        </Link>
-      ))}
+      {navLinks.map((link) => {
+        const isActive = pathname === link.href;
+        return (
+            <Link
+            key={link.name}
+            href={link.href}
+            className={cn("text-sm font-medium transition-colors hover:text-primary", isActive && "text-primary font-bold")}
+            >
+            {link.name}
+            </Link>
+        );
+      })}
     </nav>
   );
 
@@ -67,16 +72,19 @@ export default function Header() {
                   <span className="font-headline text-lg font-bold">Chaitanya Enterprises</span>
                 </Link>
                 <nav className="grid gap-4">
-                  {navLinks.map((link) => (
-                    <SheetClose asChild key={link.name}>
-                      <Link
-                        href={link.href}
-                        className="text-lg font-medium transition-colors hover:text-primary"
-                      >
-                        {link.name}
-                      </Link>
-                    </SheetClose>
-                  ))}
+                  {navLinks.map((link) => {
+                     const isActive = pathname === link.href;
+                     return (
+                        <SheetClose asChild key={link.name}>
+                        <Link
+                            href={link.href}
+                            className={cn("text-lg font-medium transition-colors hover:text-primary", isActive && "text-primary font-bold")}
+                        >
+                            {link.name}
+                        </Link>
+                        </SheetClose>
+                     )
+                  })}
                 </nav>
               </div>
             </SheetContent>

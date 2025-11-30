@@ -5,7 +5,6 @@ import ProductCatalog from '@/components/landing/ProductCatalog';
 import FarmJourney from '@/components/landing/FarmJourney';
 import WellnessGuide from '@/components/landing/WellnessGuide';
 import HealthSuggestionTool from '@/components/landing/HealthSuggestionTool';
-import Team from '@/components/landing/Team';
 import Footer from '@/components/landing/Footer';
 
 export default function Home() {
@@ -19,7 +18,6 @@ export default function Home() {
         <FarmJourney />
         <WellnessGuide />
         <HealthSuggestionTool />
-        <Team />
       </main>
       <Footer />
     </div>
