@@ -13,10 +13,28 @@
       "imageHint": "herbal powder"
     },
     {
+      "id": "product-dry-fruit-powder",
+      "description": "A bowl of mixed dry fruit powder.",
+      "imageUrl": "https://images.unsplash.com/photo-1674066253665-4d2553a3bcb8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkcnklMjBmcnVpdHxlbnwwfHx8fDE3NjQ0ODQ5NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dry fruit"
+    },
+    {
       "id": "product-smoothie",
       "description": "A glass of vibrant green smoothie with fresh fruits next to it.",
       "imageUrl": "https://images.unsplash.com/photo-1610622930110-3c076902312a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMHNtb290aGllfGVufDB8fHx8MTc2NDM5NDkyMHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "green smoothie"
+    },
+    {
+      "id": "product-pickles",
+      "description": "Jars of colorful homemade pickles.",
+      "imageUrl": "https://images.unsplash.com/photo-1659694459412-02735752031f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwaWNrbGVzJTIwamFyc3xlbnwwfHx8fDE3NjQ0MzEwMjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pickles jars"
+    },
+    {
+      "id": "product-snacks",
+      "description": "A bowl of healthy, ready-to-eat snacks.",
+      "imageUrl": "https://images.unsplash.com/photo-1569419904069-081571452242?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxoZWFsdGh5JTIwc25hY2tzfGVufDB8fHx8MTc2NDQ4NDk2Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "healthy snacks"
     },
     {
       "id": "product-cow-dung",

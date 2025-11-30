@@ -1,23 +1,41 @@
 import type { Product, JourneyStep, WellnessItem, TeamMember } from './definitions';
-import { Sprout, Package, Tractor, Leaf } from 'lucide-react';
-import { CowIcon, HerbalPowderIcon, SmoothieIcon } from '@/components/icons';
+import { Sprout, Package, Tractor, Leaf, UtensilsCrossed } from 'lucide-react';
+import { CowIcon, HerbalPowderIcon, PickleJarIcon, SmoothieIcon } from '@/components/icons';
 
 export const products: Product[] = [
   {
-    name: 'Herbal Powders',
-    description: 'A range of finely ground herbal powders, packed with natural nutrients to boost your health and well-being.',
+    name: 'Herbal & Vegetable Powders',
+    description: 'Nutrient-rich powders from dehydrated vegetables and herbs to boost your health.',
     image: 'product-herbal-powder',
     icon: HerbalPowderIcon,
   },
   {
-    name: 'Healthy Smoothies',
-    description: 'Delicious and nutritious smoothie mixes made from our freshest organic produce for a quick and healthy meal.',
+    name: 'Dry Fruit Powders',
+    description: 'A blend of finely ground dry fruits, perfect for adding to milk, smoothies, or desserts.',
+    image: 'product-dry-fruit-powder',
+    icon: HerbalPowderIcon,
+  },
+  {
+    name: 'Health Smoothies',
+    description: 'Delicious and nutritious smoothie mixes for a quick, healthy meal on the go.',
     image: 'product-smoothie',
     icon: SmoothieIcon,
   },
   {
+    name: 'Chutneys & Pickles',
+    description: 'Homemade, traditional chutneys and pickles to add a flavorful punch to your meals.',
+    image: 'product-pickles',
+    icon: PickleJarIcon,
+  },
+  {
+    name: 'Ready to Eat Snacks',
+    description: 'Healthy and tasty snacks, perfect for guilt-free munching anytime.',
+    image: 'product-snacks',
+    icon: UtensilsCrossed,
+  },
+  {
     name: 'Cow Dung Products',
-    description: 'Eco-friendly and traditional products derived from cow dung, promoting a sustainable and sacred lifestyle.',
+    description: 'Eco-friendly and traditional products promoting a sustainable lifestyle.',
     image: 'product-cow-dung',
     icon: CowIcon,
   },

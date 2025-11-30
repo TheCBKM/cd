@@ -2,6 +2,8 @@ import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { products } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { Button } from '@/components/ui/button';
+import { ArrowRight } from 'lucide-react';
 
 export default function ProductCatalog() {
   return (
@@ -19,12 +21,12 @@ export default function ProductCatalog() {
           {products.map((product) => {
             const productImage = PlaceHolderImages.find((img) => img.id === product.image);
             return (
-              <Card key={product.name} className="group overflow-hidden transform transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+              <Card key={product.name} className="group overflow-hidden transform transition-all duration-300 hover:shadow-xl hover:-translate-y-2 flex flex-col">
                 <CardHeader className="flex-row items-center gap-4">
                   <product.icon className="w-8 h-8 text-accent" />
                   <CardTitle className="font-headline">{product.name}</CardTitle>
                 </CardHeader>
-                <CardContent>
+                <CardContent className="flex flex-col flex-grow">
                   {productImage && (
                     <div className="overflow-hidden rounded-lg mb-4">
                         <Image
@@ -37,11 +39,17 @@ export default function ProductCatalog() {
                         />
                     </div>
                   )}
-                  <p className="text-muted-foreground">{product.description}</p>
+                  <p className="text-muted-foreground flex-grow">{product.description}</p>
                 </CardContent>
               </Card>
             );
           })}
+        </div>
+        <div className="text-center">
+            <Button size="lg">
+                View All Products
+                <ArrowRight className="ml-2" />
+            </Button>
         </div>
       </div>
     </section>
