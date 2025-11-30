@@ -2,6 +2,9 @@ import Image from 'next/image';
 import { journeySteps } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { cn } from '@/lib/utils';
+import Link from 'next/link';
+import { Button } from '../ui/button';
+import { ArrowRight } from 'lucide-react';
 
 export default function FarmJourney() {
   return (
@@ -42,7 +45,7 @@ export default function FarmJourney() {
                     )}
                   </div>
                   <div className="w-full md:w-5/12 space-y-2 text-center md:text-left">
-                    <div className="flex items-center justify-center gap-4 mb-4">
+                    <div className="flex items-center justify-center md:justify-start gap-4 mb-4">
                         <div className="bg-background border-4 border-card p-2 rounded-full flex">
                             <step.icon className="w-8 h-8 text-primary" />
                         </div>
@@ -54,6 +57,14 @@ export default function FarmJourney() {
               </div>
             );
           })}
+        </div>
+        <div className="text-center mt-8">
+            <Button asChild size="lg">
+                <Link href="/our-farm">
+                    Learn More About Our Farm
+                    <ArrowRight className="ml-2" />
+                </Link>
+            </Button>
         </div>
       </div>
     </section>

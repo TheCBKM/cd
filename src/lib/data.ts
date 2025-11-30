@@ -113,7 +113,7 @@ export const teamMembers: TeamMember[] = [
 export const navLinks = [
     { name: 'Why Us?', href: '/#why-choose-us' },
     { name: 'Products', href: '/#products' },
-    { name: 'Our Farm', href: '/#journey' },
+    { name: 'Our Farm', href: '/our-farm' },
     { name: 'Wellness Guide', href: '/#wellness' },
     { name: 'AI Health Tool', href: '/#ai-tool' },
     { name: 'About Us', href: '/about' },

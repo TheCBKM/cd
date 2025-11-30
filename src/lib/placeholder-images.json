@@ -37,6 +37,12 @@
       "imageHint": "healthy snacks"
     },
     {
+      "id": "product-masalas",
+      "description": "Bowls of colorful Indian spices and masalas.",
+      "imageUrl": "https://images.unsplash.com/photo-1599529941121-a39c893666d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBzcGljZXN8ZW58MHx8fHwxNzY1MDUxODg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian spices"
+    },
+    {
       "id": "product-cow-dung",
       "description": "Neatly stacked, sun-dried cow dung cakes.",
       "imageUrl": "https://images.unsplash.com/photo-1725483990240-964bb3788ee3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkcmllZCUyMGNha2VzfGVufDB8fHx8MTc2NDQ4NDM4NHww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -83,6 +89,24 @@
       "description": "Portrait of a third team member, possibly working on the farm.",
       "imageUrl": "https://images.unsplash.com/photo-1646227655685-a530813759b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d29ya2VyJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY0NDI4MTE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "worker portrait"
+    },
+    {
+      "id": "our-farm-hero",
+      "description": "A beautiful view of an organic farm with a river in the background.",
+      "imageUrl": "https://images.unsplash.com/photo-1498709322049-277069df3f58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmYXJtJTIwcml2ZXJ8ZW58MHx8fHwxNzY1MDUzNTAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "farm river"
+    },
+    {
+      "id": "farm-produce",
+      "description": "A variety of fresh vegetables and leaves harvested from the farm.",
+      "imageUrl": "https://images.unsplash.com/photo-1557844352-761f2565b576?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmcmVzaCUyMGxlYXZlc3xlbnwwfHx8fDE3NjUwNTM1NTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fresh leaves"
+    },
+    {
+      "id": "organic-practices",
+      "description": "A close-up of hands holding rich, dark compost soil.",
+      "imageUrl": "https://images.unsplash.com/photo-1617109214732-28a113d0922a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb21wb3N0JTIwc29pbHxlbnwwfHx8fDE3NjUwNTM1OTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "compost soil"
     }
   ]
 }
