@@ -48,7 +48,7 @@ export default function Footer() {
                     451221
                 </span>
                </div>
-               <p className="text-muted-foreground text-xs">Visits by appointment only. Please call us to schedule.</p>
+               <p className="text-muted-foreground text-xs">Visitors are welcome by prior appointment. Come experience organic farming and natural living at Chaitanyadham.</p>
             </address>
           </div>
           
