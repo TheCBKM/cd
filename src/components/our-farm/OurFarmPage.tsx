@@ -41,9 +41,9 @@ export default function OurFarmPage() {
             data-ai-hint={heroImage.imageHint}
           />
         )}
-        <div className="absolute inset-0 bg-black/60 -z-10" />
+        <div className="absolute inset-0 bg-black/50 -z-10" />
         <div className="container px-4 md:px-6 z-10">
-          <div className="max-w-3xl mx-auto space-y-4">
+          <div className="max-w-3xl mx-auto space-y-4 bg-black/30 backdrop-blur-sm p-8 rounded-lg">
             <h1 className="font-headline text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl">
               Chaitanyadham Farm
             </h1>
