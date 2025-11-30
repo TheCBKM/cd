@@ -42,9 +42,10 @@ export default function Footer() {
                <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
                 <span className="text-muted-foreground">
-                    Chaitanyadham,<br />
-                    Organic Farms Lane,<br />
-                    Village Name, State, 123456
+                    Chaitanya Enterprises<br />
+                    Chaitanya Dham, Mandleshwar<br />
+                    Teh: Maheshwar, Dist: Khargone (MP)<br />
+                    451221
                 </span>
                </div>
                <p className="text-muted-foreground text-xs">Visits by appointment only. Please call us to schedule.</p>
