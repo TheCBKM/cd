@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { CheckCircle, Sprout, Hand, Wind, Package } from 'lucide-react';
+import { CheckCircle, Sprout, Hand, Wind, Package, ChevronsRight } from 'lucide-react';
 
 const produce = [
   'Moringa', 'Curry leaves', 'Mint', 'Tulsi / Basil', 'Jamun leaves', 'Mango leaves',
@@ -94,6 +94,7 @@ export default function OurFarmPage() {
           )}
           <div className="space-y-4">
             <h2 className="text-3xl font-headline font-bold">Our Organic Practices</h2>
+            <p className="text-muted-foreground">We follow traditional farming methods:</p>
             <ul className="space-y-2 text-muted-foreground">
               {practices.map((item) => (
                 <li key={item} className="flex items-start gap-3">
