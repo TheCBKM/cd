@@ -23,9 +23,6 @@ export default function FarmJourney() {
 
             return (
               <div key={step.title} className="relative mb-12 md:mb-24">
-                <div className="md:absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 bg-card border-4 border-card p-2 rounded-full hidden md:flex z-10">
-                  <step.icon className="w-8 h-8 text-primary" />
-                </div>
                 <div
                   className={cn(
                     'flex flex-col md:flex-row items-center gap-6 md:gap-12 w-full',
@@ -45,7 +42,7 @@ export default function FarmJourney() {
                     )}
                   </div>
                   <div className="w-full md:w-5/12 space-y-2 text-center md:text-left">
-                    <div className="flex md:hidden items-center justify-center gap-4 mb-4">
+                    <div className="flex items-center justify-center gap-4 mb-4">
                         <div className="bg-background border-4 border-card p-2 rounded-full flex">
                             <step.icon className="w-8 h-8 text-primary" />
                         </div>
