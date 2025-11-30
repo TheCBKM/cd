@@ -14,7 +14,7 @@ export default function Hero() {
           alt={heroImage.description}
           fill
           priority
-          className="object-cover -z-10 scale-105 animate-zoom-in"
+          className="object-cover -z-10 animate-zoom-in"
           data-ai-hint={heroImage.imageHint}
         />
       )}

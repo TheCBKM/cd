@@ -114,15 +114,15 @@ export default {
           },
         },
         'zoom-in': {
-          '0%': { transform: 'scale(1)' },
-          '100%': { transform: 'scale(1.05)' },
+          '0%': { transform: 'scale(1.05)' },
+          '100%': { transform: 'scale(1.1)' },
         }
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
         'fade-up': 'fade-up 0.5s ease-out forwards',
-        'zoom-in': 'zoom-in 15s ease-in-out forwards',
+        'zoom-in': 'zoom-in 15s ease-out forwards alternate infinite',
       },
       transitionDuration: {
         '220': '220ms',

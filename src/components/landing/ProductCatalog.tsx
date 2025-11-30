@@ -35,7 +35,7 @@ export default function ProductCatalog() {
                             alt={product.name}
                             width={600}
                             height={400}
-                            className="object-cover w-full h-48 transition-transform duration-300 group-hover:scale-105"
+                            className="object-cover w-full h-48 transition-transform duration-300 group-hover:scale-110"
                             data-ai-hint={productImage.imageHint}
                         />
                     </div>
