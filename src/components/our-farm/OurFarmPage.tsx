@@ -3,6 +3,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { SafeImage } from "@/components/ui/safe-image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
+import { OrderNowButton } from "@/components/ui/order-now-button";
 import {
   CheckCircle,
   Sprout,
@@ -157,6 +158,9 @@ export default function OurFarmPage() {
               Located near Mandleshwar in District Khargone, in the sacred
               Narmada river valley, Chaitanya Dham is the heart of our work. .
             </p>
+            <div className="mt-6">
+              <OrderNowButton size="lg" />
+            </div>
           </div>
         </div>
       </section>
@@ -242,6 +246,9 @@ export default function OurFarmPage() {
               </div>
             ))}
           </div>
+          <div className="text-center mt-12">
+            <OrderNowButton size="lg" />
+          </div>
         </div>
       </section>
 
@@ -305,6 +312,9 @@ export default function OurFarmPage() {
               <CarouselNext className="right-2 md:right-4 bg-white/80 hover:bg-white shadow-lg" />
             </Carousel>
           </motion.div>
+          <div className="text-center mt-12">
+            <OrderNowButton size="lg" />
+          </div>
         </div>
       </section>
     </div>

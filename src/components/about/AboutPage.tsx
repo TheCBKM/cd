@@ -59,9 +59,7 @@ export default function AboutPage() {
                 <h2 className="text-3xl font-headline font-bold">Our Vision</h2>
               </div>
               <p className="text-muted-foreground text-lg">
-                To create a future where every household enjoys natural,
-                authentic, and consciously grown food that nurtures body, mind,
-                and environment.
+              To inspire a world where mindful living, regenerative farming, and evidence-based wellness practices work together for the upliftment of individuals and the planet.
               </p>
             </div>
             <div className="space-y-4">
@@ -72,10 +70,7 @@ export default function AboutPage() {
                 </h2>
               </div>
               <p className="text-muted-foreground text-lg">
-                We cultivate, process, and deliver high-quality organic farm
-                products — from nutrient-rich powders to wellness smoothies —
-                using sustainable practices that respect nature, empower
-                farmers, and promote holistic wellbeing.
+              Our mission is to create trustworthy natural wellness solutions by integrating research-backed nutrition, sustainable agriculture, and the spiritual principles of purity, harmony, and service.
               </p>
             </div>
           </div>

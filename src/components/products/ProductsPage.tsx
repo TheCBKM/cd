@@ -4,9 +4,10 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from '@/components/ui/card';
-import { detailedProducts } from '@/lib/data';
-import { CheckCircle } from 'lucide-react';
+} from "@/components/ui/card";
+import { detailedProducts } from "@/lib/data";
+import { CheckCircle } from "lucide-react";
+import { OrderNowButton } from "@/components/ui/order-now-button";
 
 export default function ProductsPage() {
   return (
@@ -18,8 +19,12 @@ export default function ProductsPage() {
               Our Products
             </h1>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Explore our full range of organic, homemade, and eco-friendly products, made with the purest ingredients from our farm.
+              Explore our full range of organic, homemade, and eco-friendly
+              products, made with the purest ingredients from our farm.
             </p>
+            <div className="mt-6">
+              <OrderNowButton size="lg" />
+            </div>
           </div>
         </div>
       </section>
@@ -29,26 +34,47 @@ export default function ProductsPage() {
           <div className="grid gap-12">
             {detailedProducts.map((category) => (
               <div key={category.title}>
-                <h2 className="text-3xl font-headline font-bold mb-2">{category.title}</h2>
-                <p className="text-muted-foreground mb-6 text-lg">{category.description}</p>
+                <h2 className="text-3xl font-headline font-bold mb-2">
+                  {category.title}
+                </h2>
+                <p className="text-muted-foreground mb-6 text-lg">
+                  {category.description}
+                </p>
                 <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                   {category.items.map((item, index) => (
-                    <Card key={index} className="flex flex-col bg-white border border-border shadow-sm hover:shadow-lg transition-shadow">
+                    <Card
+                      key={index}
+                      className="flex flex-col bg-white border border-border shadow-sm hover:shadow-lg transition-shadow"
+                    >
                       <CardHeader>
-                        {item.title && <CardTitle className="text-xl font-headline">{item.title}</CardTitle>}
-                        {item.description && <CardDescription>{item.description}</CardDescription>}
-                      </CardHeader>
-                      <CardContent className="flex-grow">
-                        {item.subItems && (
-                           <ul className="space-y-2">
-                           {item.subItems.map((subItem, subIndex) => (
-                             <li key={subIndex} className="flex items-start gap-3">
-                               <CheckCircle className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                               <span className="text-muted-foreground">{subItem}</span>
-                             </li>
-                           ))}
-                         </ul>
+                        {item.title && (
+                          <CardTitle className="text-xl font-headline">
+                            {item.title}
+                          </CardTitle>
                         )}
+                        {item.description && (
+                          <CardDescription>{item.description}</CardDescription>
+                        )}
+                      </CardHeader>
+                      <CardContent className="flex-grow flex flex-col">
+                        {item.subItems && (
+                          <ul className="space-y-2 flex-grow">
+                            {item.subItems.map((subItem, subIndex) => (
+                              <li
+                                key={subIndex}
+                                className="flex items-start gap-3"
+                              >
+                                <CheckCircle className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                                <span className="text-muted-foreground">
+                                  {subItem}
+                                </span>
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                        <div className="mt-4 pt-4 border-t">
+                          <OrderNowButton size="sm" />
+                        </div>
                       </CardContent>
                     </Card>
                   ))}

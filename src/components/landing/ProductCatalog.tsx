@@ -6,6 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { products } from "@/lib/data";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Button } from "@/components/ui/button";
+import { OrderNowButton } from "@/components/ui/order-now-button";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { SafeImage } from "@/components/ui/safe-image";
@@ -177,6 +178,9 @@ function ProductCard({
           <p className="text-muted-foreground flex-grow leading-relaxed">
             {product.description}
           </p>
+          <div className="mt-4 pt-4 border-t">
+            <OrderNowButton size="sm" />
+          </div>
         </CardContent>
       </Card>
     </motion.div>

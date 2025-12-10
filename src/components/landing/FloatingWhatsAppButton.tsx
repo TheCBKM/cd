@@ -6,7 +6,7 @@ import { WhatsAppIcon } from "@/components/icons";
 export default function FloatingWhatsAppButton() {
   return (
     <motion.a
-      href="https://wa.me/919203692001"
+      href="https://api.whatsapp.com/send?phone=919203692001&text=Namaskar%20%F0%9F%99%8F%0AI%20would%20like%20to%20know%20more%20about%20Chaitanya%20Dham."
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 bg-[#25D366] hover:bg-[#20BA5A] text-white w-16 h-16 md:w-20 md:h-20 rounded-full flex items-center justify-center shadow-2xl shadow-[#25D366]/40 z-50 group"

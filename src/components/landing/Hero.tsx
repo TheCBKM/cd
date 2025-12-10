@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import RotatingTagline from "@/components/landing/RotatingTagline";
 import { ChaitanyaLogo } from "@/components/ui/logo";
+import { OrderNowButton } from "@/components/ui/order-now-button";
 import {
   fadeInUp,
   textReveal,
@@ -16,7 +17,7 @@ export default function Hero() {
   return (
     <section className="relative min-h-[80vh] w-full flex items-center justify-center bg-gradient-to-b from-white via-green-50/30 to-white py-20 md:py-32">
       {/* Subtle Background Pattern with Logo */}
-      <div className="absolute inset-0 opacity-[0.5] flex items-center justify-center">
+      <div className="absolute inset-0 opacity-[0.35] flex items-center justify-center">
         {/* <div className="absolute top-20 left-10 w-72 h-72 bg-primary rounded-full blur-3xl" /> */}
         {/* <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent rounded-full blur-3xl" /> */}
         {/* Logo in center */}
@@ -37,11 +38,11 @@ export default function Hero() {
 
           {/* Description */}
           <motion.p
-            className="text-lg text-muted-foreground md:text-xl max-w-3xl mx-auto leading-relaxed"
+            className="text-lg text-foreground md:text-xl max-w-3xl mx-auto leading-relaxed"
             variants={fadeInUp}
           >
-            From our organic farm at Chaitanya Dham to your kitchen, Your heart –
-            pure herbal powders, healthy smoothies, chutneys, Premium cold
+            From our organic farm at Chaitanya Dham to your kitchen, Your heart
+            – pure herbal powders, healthy smoothies, chutneys, Premium cold
             pressed oils and eco-friendly cow dung products for a healthier
             lifestyle.
           </motion.p>
@@ -67,28 +68,7 @@ export default function Hero() {
               </Button>
             </motion.div>
 
-            <motion.div
-              variants={button3DVariants}
-              initial="rest"
-              whileHover="hover"
-              whileTap="tap"
-              className="perspective-1000"
-            >
-              <Button
-                asChild
-                size="lg"
-                variant="outline"
-                className="bg-white text-primary border-2 border-primary hover:bg-primary hover:text-white transform-3d text-lg px-8 py-6"
-              >
-                <a
-                  href="https://wa.me/919203692001"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Contact / WhatsApp
-                </a>
-              </Button>
-            </motion.div>
+            <OrderNowButton size="lg" className="text-lg px-8 py-6" />
           </motion.div>
         </motion.div>
       </div>

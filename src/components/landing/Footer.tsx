@@ -15,7 +15,11 @@ export default function Footer() {
   });
 
   const socialLinks = [
-    { name: "Instagram", icon: Instagram, href: "https://www.instagram.com/thechaitanyagroup/" },
+    {
+      name: "Instagram",
+      icon: Instagram,
+      href: "https://www.instagram.com/thechaitanyagroup/",
+    },
   ];
 
   return (
@@ -63,7 +67,7 @@ export default function Footer() {
                   <WhatsAppIcon className="w-4 h-4 text-primary" />
                 </motion.div>
                 <motion.a
-                  href="https://wa.me/919203692001"
+                  href="https://api.whatsapp.com/send?phone=919203692001&text=Namaskar%20%F0%9F%99%8F%0AI%20would%20like%20to%20know%20more%20about%20Chaitanya%20Dham."
                   className="text-muted-foreground hover:text-foreground"
                   whileHover={{ x: 5 }}
                   transition={{ duration: 0.2 }}
