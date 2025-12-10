@@ -2,9 +2,13 @@ import Header from "@/components/landing/Header";
 import Footer from "@/components/landing/Footer";
 import ProductsPage from "@/components/products/ProductsPage";
 import type { Metadata } from "next";
-import { siteConfig } from "@/lib/seo";
+import {
+  siteConfig,
+  generateProductSchema,
+  generateItemListSchema,
+} from "@/lib/seo";
 import Script from "next/script";
-import { products } from "@/lib/data";
+import { products, detailedProducts } from "@/lib/data";
 
 export const dynamic = "force-static";
 
@@ -43,41 +47,34 @@ export const metadata: Metadata = {
 };
 
 export default function Products() {
-  // Generate Product schema for all products
-  const productSchemas = products.map((product) => ({
-    "@context": "https://schema.org",
-    "@type": "Product",
-    name: product.name,
-    description: product.description,
-    image: `${siteConfig.url}/images/offerings/${product.image}.png`,
-    category: "Organic Products",
-    brand: {
-      "@type": "Brand",
-      name: siteConfig.name,
-    },
-    offers: {
-      "@type": "Offer",
-      availability: "https://schema.org/InStock",
-      priceCurrency: "INR",
-    },
-  }));
+  // Generate Product schemas for all main product categories
+  const productSchemas = products.map((product) =>
+    generateProductSchema({
+      name: product.name,
+      description: product.description,
+      image: `/images/offerings/${product.image}.png`,
+      category: "Organic Products",
+    })
+  );
 
-  const itemListSchema = {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    name: "Organic Products from The Chaitanya Group",
-    description: "Complete catalog of organic products",
-    itemListElement: products.map((product, index) => ({
-      "@type": "ListItem",
-      position: index + 1,
-      item: {
-        "@type": "Product",
-        name: product.name,
-        description: product.description,
-        image: `${siteConfig.url}/images/offerings/${product.image}.png`,
-      },
-    })),
-  };
+  // Generate ItemList schema for all products
+  const itemListSchema = generateItemListSchema(
+    products.map((product) => ({
+      name: product.name,
+      description: product.description,
+      image: `/images/offerings/${product.image}.png`,
+      url: `${siteConfig.url}/products`,
+    }))
+  );
+
+  // Generate Product schemas for detailed product categories
+  const detailedProductSchemas = detailedProducts.map((category) =>
+    generateProductSchema({
+      name: category.title,
+      description: category.description,
+      category: "Organic Products",
+    })
+  );
 
   return (
     <>
@@ -89,6 +86,28 @@ export default function Products() {
           __html: JSON.stringify(itemListSchema),
         }}
       />
+      {productSchemas.map((schema, index) => (
+        <Script
+          key={`product-schema-${index}`}
+          id={`product-schema-${index}`}
+          type="application/ld+json"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(schema),
+          }}
+        />
+      ))}
+      {detailedProductSchemas.map((schema, index) => (
+        <Script
+          key={`detailed-product-schema-${index}`}
+          id={`detailed-product-schema-${index}`}
+          type="application/ld+json"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(schema),
+          }}
+        />
+      ))}
       <div className="flex flex-col min-h-screen">
         <Header />
         <main className="flex-1">

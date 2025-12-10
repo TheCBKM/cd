@@ -175,3 +175,99 @@ export function generateWebSiteSchema() {
     },
   };
 }
+
+/**
+ * Generate structured data for ItemList (JSON-LD)
+ */
+export function generateItemListSchema(items: Array<{
+  name: string;
+  description: string;
+  image?: string;
+  url?: string;
+}>) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      item: {
+        "@type": "Product",
+        name: item.name,
+        description: item.description,
+        image: item.image ? `${siteConfig.url}${item.image}` : `${siteConfig.url}${siteConfig.ogImage}`,
+        url: item.url || `${siteConfig.url}/products`,
+      },
+    })),
+  };
+}
+
+/**
+ * Generate structured data for FAQPage (JSON-LD)
+ */
+export function generateFAQPageSchema(faqs: Array<{
+  question: string;
+  answer: string;
+}>) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  };
+}
+
+/**
+ * Generate structured data for Person (JSON-LD)
+ */
+export function generatePersonSchema(person: {
+  name: string;
+  jobTitle?: string;
+  description?: string;
+  image?: string;
+  url?: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: person.name,
+    jobTitle: person.jobTitle,
+    description: person.description,
+    image: person.image ? `${siteConfig.url}${person.image}` : undefined,
+    url: person.url || siteConfig.url,
+    worksFor: {
+      "@type": "Organization",
+      name: siteConfig.name,
+    },
+  };
+}
+
+/**
+ * Generate structured data for Farm (JSON-LD)
+ */
+export function generateFarmSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Farm",
+    name: "Chaitanya Dham",
+    description:
+      "Organic farm producing pure, chemical-free products including herbal powders, smoothies, cold-pressed oils, and eco-friendly products.",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: siteConfig.contact.address.street,
+      addressLocality: siteConfig.contact.address.city,
+      addressRegion: siteConfig.contact.address.state,
+      postalCode: siteConfig.contact.address.postalCode,
+      addressCountry: siteConfig.contact.address.country,
+    },
+    telephone: siteConfig.contact.phone,
+    email: siteConfig.contact.email,
+    url: `${siteConfig.url}/our-farm`,
+  };
+}

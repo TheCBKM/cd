@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Footer from "@/components/landing/Footer";
 import OurFarmPage from "@/components/our-farm/OurFarmPage";
 import type { Metadata } from "next";
-import { siteConfig } from "@/lib/seo";
+import { siteConfig, generateFarmSchema } from "@/lib/seo";
 import Script from "next/script";
 
 export const dynamic = "force-static";
@@ -41,24 +41,7 @@ export const metadata: Metadata = {
 };
 
 export default function OurFarm() {
-  const farmSchema = {
-    "@context": "https://schema.org",
-    "@type": "Farm",
-    name: "Chaitanya Dham",
-    description:
-      "Organic farm producing pure, chemical-free products including herbal powders, smoothies, cold-pressed oils, and eco-friendly products.",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: siteConfig.contact.address.street,
-      addressLocality: siteConfig.contact.address.city,
-      addressRegion: siteConfig.contact.address.state,
-      postalCode: siteConfig.contact.address.postalCode,
-      addressCountry: siteConfig.contact.address.country,
-    },
-    telephone: siteConfig.contact.phone,
-    email: siteConfig.contact.email,
-    url: `${siteConfig.url}/our-farm`,
-  };
+  const farmSchema = generateFarmSchema();
 
   return (
     <>
