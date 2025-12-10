@@ -66,17 +66,50 @@ export default function OurFarmPage() {
 
   // Farm gallery images from public/images/gallery
   const farmGalleryImages = [
-    { src: "/images/gallery/1.jpg", alt: "Farm image 1" },
-    { src: "/images/gallery/2.jpg", alt: "Farm image 2" },
-    { src: "/images/gallery/3.jpg", alt: "Farm image 3" },
-    { src: "/images/gallery/4.jpg", alt: "Farm image 4" },
-    { src: "/images/gallery/5.jpg", alt: "Farm image 5" },
-    { src: "/images/gallery/6.jpg", alt: "Farm image 6" },
-    { src: "/images/gallery/7.jpg", alt: "Farm image 7" },
-    { src: "/images/gallery/8.jpg", alt: "Farm image 8" },
-    { src: "/images/gallery/9.jpg", alt: "Farm image 9" },
-    { src: "/images/gallery/10.jpg", alt: "Farm image 10" },
-    { src: "/images/gallery/11.jpg", alt: "Farm image 11" },
+    {
+      src: "/images/gallery/1.jpg",
+      alt: "Organic farming at Chaitanya Dham showing lush green fields and sustainable agriculture practices",
+    },
+    {
+      src: "/images/gallery/2.jpg",
+      alt: "Organic produce cultivation at Chaitanya Dham farm in Mandleshwar, Madhya Pradesh",
+    },
+    {
+      src: "/images/gallery/3.jpg",
+      alt: "Natural farming methods and organic crop growth at Chaitanya Dham organic farm",
+    },
+    {
+      src: "/images/gallery/4.jpg",
+      alt: "Sustainable agriculture and organic farming practices at Chaitanya Dham",
+    },
+    {
+      src: "/images/gallery/5.jpg",
+      alt: "Organic vegetables and herbs growing at Chaitanya Dham farm using natural methods",
+    },
+    {
+      src: "/images/gallery/6.jpg",
+      alt: "Farm-to-table organic produce at Chaitanya Dham showing fresh organic crops",
+    },
+    {
+      src: "/images/gallery/7.jpg",
+      alt: "Chemical-free organic farming at Chaitanya Dham with natural compost and cow dung manure",
+    },
+    {
+      src: "/images/gallery/8.jpg",
+      alt: "Organic farm landscape at Chaitanya Dham showcasing sustainable agriculture",
+    },
+    {
+      src: "/images/gallery/9.jpg",
+      alt: "Natural organic farming practices and crop cultivation at Chaitanya Dham",
+    },
+    {
+      src: "/images/gallery/10.jpg",
+      alt: "Organic produce harvest and farming activities at Chaitanya Dham farm",
+    },
+    {
+      src: "/images/gallery/11.jpg",
+      alt: "Sustainable organic agriculture and farm management at Chaitanya Dham",
+    },
   ];
 
   const [api, setApi] = useState<CarouselApi>();

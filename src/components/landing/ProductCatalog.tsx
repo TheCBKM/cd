@@ -28,7 +28,7 @@ export default function ProductCatalog() {
       id="products"
       className="py-16 md:py-20 lg:py-24 bg-white perspective-1000"
     >
-      <div className="container px-4 md:px-6">
+      <div className="container px-5 sm:px-6 md:px-8">
         <motion.div
           className="flex flex-col items-center justify-center space-y-4 text-center mb-12"
           initial={{ opacity: 0, y: 50 }}
@@ -48,7 +48,7 @@ export default function ProductCatalog() {
 
         <motion.div
           ref={ref}
-          className="mx-auto grid max-w-5xl items-start gap-6 py-12 lg:grid-cols-3 lg:gap-12"
+          className="mx-auto grid max-w-5xl items-start gap-6 sm:gap-8 py-8 sm:py-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-12"
           variants={staggerContainer}
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
@@ -166,7 +166,7 @@ function ProductCard({
             >
               <SafeImage
                 src={productImage.imageUrl}
-                alt={product.name}
+                alt={`${product.name} - ${product.description} from The Chaitanya Group organic products`}
                 width={600}
                 height={400}
                 className="object-cover w-full h-48"

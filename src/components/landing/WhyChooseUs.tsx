@@ -1,26 +1,34 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
-import { Leaf, HeartPulse, Recycle } from 'lucide-react';
-import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
-import { card3DVariants, staggerContainer, icon3DVariants, fadeInUp } from '@/lib/animations';
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { Leaf, HeartPulse, Recycle } from "lucide-react";
+import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+import {
+  card3DVariants,
+  staggerContainer,
+  icon3DVariants,
+  fadeInUp,
+} from "@/lib/animations";
 
 const features = [
   {
     icon: Leaf,
-    title: 'Organic Farming',
-    description: 'Grown at Chaitanya Dham in the Narmada valley, near Mandleshwar; using natural farming methods – no chemicals, no pesticides.',
+    title: "Organic Farming",
+    description:
+      "Grown at Chaitanya Dham in the Narmada valley, near Mandleshwar; using natural farming methods – no chemicals, no pesticides.",
   },
   {
     icon: HeartPulse,
-    title: 'Holistic Health',
-    description: 'Smoothies and supplements specially curated for gut health improvements, toxin removal, full of micro nutrients and weight management.',
+    title: "Holistic Health",
+    description:
+      "Smoothies and supplements specially curated for gut health improvements, toxin removal, full of micro nutrients and weight management.",
   },
   {
     icon: Recycle,
-    title: 'Eco-Friendly Living',
-    description: 'Cow dung cakes, Homa sticks of natural fragrances and fertilisers that promote traditional, sustainable living.',
+    title: "Eco-Friendly Living",
+    description:
+      "Cow dung cakes, Homa sticks of natural fragrances and fertilisers that promote traditional, sustainable living.",
   },
 ];
 
@@ -31,8 +39,11 @@ export default function WhyChooseUs() {
   });
 
   return (
-    <section id="why-choose-us" className="bg-white relative overflow-hidden py-16 md:py-20 lg:py-24">
-      <div className="container px-4 md:px-6">
+    <section
+      id="why-choose-us"
+      className="bg-white relative overflow-hidden py-16 md:py-20 lg:py-24"
+    >
+      <div className="container px-5 sm:px-6 md:px-8">
         <motion.div
           className="flex flex-col items-center justify-center space-y-4 text-center mb-12"
           initial={{ opacity: 0, y: 50 }}
@@ -45,20 +56,16 @@ export default function WhyChooseUs() {
             </h2>
           </div>
         </motion.div>
-        
+
         <motion.div
           ref={ref}
-          className="mx-auto grid max-w-5xl items-start gap-6 lg:grid-cols-3 lg:gap-12"
+          className="mx-auto grid max-w-5xl items-start gap-6 sm:gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-12"
           variants={staggerContainer}
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
         >
           {features.map((feature, index) => (
-            <FeatureCard
-              key={feature.title}
-              feature={feature}
-              index={index}
-            />
+            <FeatureCard key={feature.title} feature={feature} index={index} />
           ))}
         </motion.div>
       </div>
@@ -70,7 +77,7 @@ function FeatureCard({
   feature,
   index,
 }: {
-  feature: typeof features[0];
+  feature: (typeof features)[0];
   index: number;
 }) {
   return (
@@ -89,7 +96,9 @@ function FeatureCard({
             <feature.icon className="w-8 h-8 text-primary" />
           </motion.div>
           <motion.div variants={fadeInUp}>
-            <CardTitle className="font-headline mt-4 text-foreground">{feature.title}</CardTitle>
+            <CardTitle className="font-headline mt-4 text-foreground">
+              {feature.title}
+            </CardTitle>
           </motion.div>
         </CardHeader>
         <CardContent>

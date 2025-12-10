@@ -1,0 +1,26 @@
+{
+  "name": "The Chaitanya Group - Pure Organic Products",
+  "short_name": "Chaitanya Organics",
+  "description": "Pure, organic, and eco-friendly products from the heart of nature",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F5F5DC",
+  "theme_color": "#13631c",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/chaitanya-logo-icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/chaitanya-logo-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["food", "health", "lifestyle"],
+  "lang": "en-IN"
+}
