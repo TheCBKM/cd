@@ -29,6 +29,13 @@ const nextConfig: NextConfig = {
         pathname: '/**',
       },
     ],
+    // Add image optimization settings
+    formats: ['image/avif', 'image/webp'],
+    // Increase timeout for external images
+    minimumCacheTTL: 60,
+    // Allow unoptimized images as fallback
+    dangerouslyAllowSVG: true,
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
 };
 

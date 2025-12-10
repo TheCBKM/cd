@@ -3,10 +3,10 @@
 ## Core Features:
 
 - Product Catalog: Showcase a range of organic and eco-friendly products, including herbal powders, smoothies, and cow dung products, with detailed descriptions and images.
-- Farm to Product Journey: Visually present the organic farming process at Chaitanyadham, from growing to packaging, emphasizing purity and nutritional value.
+- Farm to Product Journey: Visually present the organic farming process at Chaitanya Dham, from growing to packaging, emphasizing purity and nutritional value.
 - Wellness Guide: Provide usage guidelines for herbal powders and smoothies, along with health benefits and disclaimers.
-- Contact and Visit Information: Display contact details, including phone/WhatsApp number, email, and address, with information on visiting Chaitanyadham.
-- Team Introduction: Introduce the team members with their backgrounds and roles in Chaitanya Enterprises.
+- Contact and Visit Information: Display contact details, including phone/WhatsApp number, email, and address, with information on visiting Chaitanya Dham.
+- Team Introduction: Introduce the team members with their backgrounds and roles in The Chaitanya Group.
 - AI-Powered Health Suggestion Tool: An AI tool analyzes user-input health needs and recommends suitable products from the Chaitanya Organics catalog, acting as an informational assistant to the user. This tool will consider existing stock, popularity, and user feedback.
 
 ## Style Guidelines:

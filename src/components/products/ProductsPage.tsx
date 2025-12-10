@@ -10,8 +10,8 @@ import { CheckCircle } from 'lucide-react';
 
 export default function ProductsPage() {
   return (
-    <div className="bg-background text-foreground">
-      <section className="py-12 md:py-24 lg:py-32 bg-card">
+    <div className="bg-white text-foreground">
+      <section className="py-12 md:py-24 lg:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <h1 className="text-3xl font-headline font-bold tracking-tighter sm:text-5xl">
@@ -33,7 +33,7 @@ export default function ProductsPage() {
                 <p className="text-muted-foreground mb-6 text-lg">{category.description}</p>
                 <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                   {category.items.map((item, index) => (
-                    <Card key={index} className="flex flex-col">
+                    <Card key={index} className="flex flex-col bg-white border border-border shadow-sm hover:shadow-lg transition-shadow">
                       <CardHeader>
                         {item.title && <CardTitle className="text-xl font-headline">{item.title}</CardTitle>}
                         {item.description && <CardDescription>{item.description}</CardDescription>}

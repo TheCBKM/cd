@@ -22,7 +22,7 @@ const HealthSuggestionOutputSchema = z.object({
   products: z
     .string()
     .describe(
-      'A list of product recommendations from Chaitanya Enterprises, tailored to the user health needs.'
+      'A list of product recommendations from The Chaitanya Group, tailored to the user health needs.'
     ),
 });
 export type HealthSuggestionOutput = z.infer<typeof HealthSuggestionOutputSchema>;
@@ -35,7 +35,7 @@ const prompt = ai.definePrompt({
   name: 'healthSuggestionPrompt',
   input: {schema: HealthSuggestionInputSchema},
   output: {schema: HealthSuggestionOutputSchema},
-  prompt: `You are an AI assistant specialized in recommending products from Chaitanya Enterprises.
+  prompt: `You are an AI assistant specialized in recommending products from The Chaitanya Group.
 
   Based on the user's described health needs, provide a list of suitable product recommendations.
   Consider existing stock, popularity, and user feedback in your recommendations.

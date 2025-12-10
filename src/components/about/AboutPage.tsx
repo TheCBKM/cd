@@ -1,108 +1,133 @@
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Avatar, AvatarFallback } from '@/components/ui/avatar';
-import { Leaf, Target, Goal, Users } from 'lucide-react';
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Target, Goal, Users } from "lucide-react";
+import { ChaitanyaLogo } from "@/components/ui/logo";
+import { SafeImage } from "@/components/ui/safe-image";
 
 const founders = [
   {
-    name: 'Mrs. Prerna Kolhatkar',
-    bio: 'Music and social services background, active in community health and awareness.',
-    initials: 'PK',
+    name: "Mrs. Prerna Kolhatkar",
+    bio: "Music and social services background, active in community health and awareness.",
+    image: "/images/profile/1.png",
   },
   {
-    name: 'Mr. Sanjeev Joshi',
-    bio: 'MBA, corporate leadership experience as COO in fibre optics sector, founder of Fincare for Life, passionate about wellness and organic living.',
-    initials: 'SJ',
+    name: "Mr. Sanjeev Joshi",
+    bio: "MBA, corporate leadership experience as COO in fibre optics sector, founder of Fincare for Life, passionate about wellness and organic living.",
+    image: "/images/profile/2.png",
   },
   {
-    name: 'Ms. Shriya Kavishwar',
-    bio: 'Pursuing CA, strong financial background, managing finances for multiple clients.',
-    initials: 'SK',
+    name: "Ms. Shriya Kavishwar",
+    bio: "Pursuing CA, strong financial background, managing finances for multiple clients.",
+    image: "/images/profile/3.png",
   },
 ];
 
 export default function AboutPage() {
   return (
-    <div className="bg-background">
+    <div className="bg-white">
       <section className="py-12 md:py-24 lg:py-32">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
-            <Leaf className="h-12 w-12 text-accent" />
+            <ChaitanyaLogo variant="icon" className="h-12 w-12" />
             <h1 className="text-3xl font-headline font-bold tracking-tighter sm:text-5xl">
-              About Chaitanya Enterprises
+              About The Chaitanya Group
             </h1>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Chaitanya Enterprises is a part of the Chaitanya Group, dedicated to organic farming, value addition of farm produce, and promoting a healthy lifestyle through natural products.
+              The Chaitanya Group is dedicated to organic farming, value
+              addition of farm produce, and promoting a healthy lifestyle
+              through natural products.
             </p>
             <p className="max-w-[700px] text-foreground italic text-lg">
-                Our journey began with a simple thought – to provide pure, affordable, and natural health foods to our families and communities.
+              Our journey began with a simple thought – to provide pure,
+              affordable, and natural health foods to our families and
+              communities.
             </p>
-             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Today, we offer herbal powders, smoothies, chutneys, pickles, masalas, dry snacks, and eco-friendly cow dung products.
+            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+              To consistently offer pure, traceable, and responsibly sourced
+              farm produce, while fostering community awareness about natural
+              living and regenerative agriculture.
             </p>
           </div>
         </div>
       </section>
 
-      <section className="bg-card py-12 md:py-24">
+      <section className="bg-white py-12 md:py-24">
         <div className="container px-4 md:px-6">
-            <div className="grid gap-12 md:grid-cols-2">
-                <div className="space-y-4">
-                    <div className="flex items-center gap-4">
-                        <Target className="w-10 h-10 text-primary" />
-                        <h2 className="text-3xl font-headline font-bold">Our Vision</h2>
-                    </div>
-                    <p className="text-muted-foreground text-lg">
-                        To improve the health of common people in India by offering natural, organic, and traditional products that support daily wellness.
-                    </p>
-                </div>
-                <div className="space-y-4">
-                    <div className="flex items-center gap-4">
-                        <Goal className="w-10 h-10 text-primary" />
-                        <h2 className="text-3xl font-headline font-bold">Our Mission</h2>
-                    </div>
-                    <ul className="list-disc list-inside space-y-2 text-muted-foreground text-lg">
-                        <li>Promote organic farming</li>
-                        <li>Provide pure and chemical-free food products</li>
-                        <li>Support gut health and weight management</li>
-                        <li>Encourage eco-friendly and traditional living</li>
-                    </ul>
-                </div>
+          <div className="grid gap-12 md:grid-cols-2">
+            <div className="space-y-4">
+              <div className="flex items-center gap-4">
+                <Target className="w-10 h-10 text-primary" />
+                <h2 className="text-3xl font-headline font-bold">Our Vision</h2>
+              </div>
+              <p className="text-muted-foreground text-lg">
+                To create a future where every household enjoys natural,
+                authentic, and consciously grown food that nurtures body, mind,
+                and environment.
+              </p>
             </div>
+            <div className="space-y-4">
+              <div className="flex items-center gap-4">
+                <Goal className="w-10 h-10 text-primary" />
+                <h2 className="text-3xl font-headline font-bold">
+                  Our Mission
+                </h2>
+              </div>
+              <p className="text-muted-foreground text-lg">
+                We cultivate, process, and deliver high-quality organic farm
+                products — from nutrient-rich powders to wellness smoothies —
+                using sustainable practices that respect nature, empower
+                farmers, and promote holistic wellbeing.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
-      
+
       <section className="py-12 md:py-24 lg:py-32">
         <div className="container px-4 md:px-6">
-            <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
-                <Users className="h-12 w-12 text-primary" />
-                <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-5xl">
-                Our Founders
-                </h2>
-            </div>
-            <div className="mx-auto grid gap-8 sm:grid-cols-1 md:grid-cols-3 lg:max-w-5xl">
+          <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
+            <Users className="h-12 w-12 text-primary" />
+            <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-5xl">
+              Our Founders
+            </h2>
+          </div>
+          <div className="mx-auto grid gap-8 sm:grid-cols-1 md:grid-cols-3 lg:max-w-5xl">
             {founders.map((founder) => (
-                <Card key={founder.name} className="text-center flex flex-col">
-                <CardHeader>
-                    <Avatar className="w-20 h-20 border-4 border-primary/50 mx-auto">
-                        <AvatarFallback className="bg-primary/20 text-primary font-headline text-2xl">
-                        {founder.initials}
-                        </AvatarFallback>
-                    </Avatar>
+              <Card
+                key={founder.name}
+                className="text-center flex flex-col bg-white border border-border shadow-sm hover:shadow-lg transition-shadow"
+              >
+                <CardHeader className="pb-8">
+                  <div className="w-40 h-40 md:w-48 md:h-48 lg:w-56 lg:h-56 mx-auto rounded-full overflow-hidden border-4 border-primary/50 shadow-lg mt-4">
+                    <SafeImage
+                      src={founder.image}
+                      alt={founder.name}
+                      width={224}
+                      height={224}
+                      className="w-full h-full object-cover object-top"
+                      priority
+                    />
+                  </div>
                 </CardHeader>
                 <CardContent className="flex flex-col items-center justify-center gap-2 flex-grow">
-                    <div className="space-y-1">
-                    <h3 className="text-xl font-bold font-headline">{founder.name}</h3>
-                    <p className="text-sm text-muted-foreground">{founder.bio}</p>
-                    </div>
+                  <div className="space-y-1">
+                    <h3 className="text-xl font-bold font-headline">
+                      {founder.name}
+                    </h3>
+                    <p className="text-sm text-muted-foreground">
+                      {founder.bio}
+                    </p>
+                  </div>
                 </CardContent>
-                </Card>
+              </Card>
             ))}
-            </div>
-            <div className="mx-auto max-w-3xl mt-12 text-center">
-                <p className="text-muted-foreground text-lg">
-                    Their combined expertise in social service, corporate management, and finance drives Chaitanya Enterprises with purpose and commitment.
-                </p>
-            </div>
+          </div>
+          <div className="mx-auto max-w-3xl mt-12 text-center">
+            <p className="text-muted-foreground text-lg">
+              Their combined expertise in social service, corporate management,
+              and finance drives The Chaitanya Group with purpose and
+              commitment.
+            </p>
+          </div>
         </div>
       </section>
     </div>
