@@ -35,7 +35,7 @@ export default function Hero() {
               <Link href="/products">Explore Products</Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="bg-transparent text-white border-white hover:bg-white hover:text-primary transform transition-transform duration-200 hover:scale-102">
-              <Link href="#contact">Contact / WhatsApp</Link>
+              <a href="https://wa.me/919260369200" target="_blank" rel="noopener noreferrer">Contact / WhatsApp</a>
             </Button>
           </div>
         </div>

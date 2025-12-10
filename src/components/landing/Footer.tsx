@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Leaf, Phone, Mail, MapPin, Twitter, Instagram, Facebook } from 'lucide-react';
+import { WhatsAppIcon } from '../icons';
 
 export default function Footer() {
   const socialLinks = [
@@ -26,8 +27,8 @@ export default function Footer() {
             <h4 className="font-headline text-lg font-semibold">Contact Us</h4>
             <ul className="space-y-2 text-sm">
               <li className="flex items-center gap-2">
-                <Phone className="w-4 h-4 text-primary" />
-                <a href="tel:+911234567890" className="text-muted-foreground hover:text-foreground">(+91) 123-456-7890</a>
+                <WhatsAppIcon className="w-4 h-4 text-primary" />
+                <a href="https://wa.me/919260369200" className="text-muted-foreground hover:text-foreground">(+91) 9260369200</a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-primary" />

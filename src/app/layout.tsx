@@ -3,6 +3,7 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { cn } from '@/lib/utils';
 import { Analytics } from "@vercel/analytics/react"
+import FloatingWhatsAppButton from '@/components/landing/FloatingWhatsAppButton';
 
 export const metadata: Metadata = {
   title: 'Chaitanya Enterprises',
@@ -15,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="!scroll-smooth">
+    <html lang="en" className="!scroll-smooth dark">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -28,6 +29,7 @@ export default function RootLayout({
         {children}
         <Toaster />
         <Analytics />
+        <FloatingWhatsAppButton />
       </body>
     </html>
   );
