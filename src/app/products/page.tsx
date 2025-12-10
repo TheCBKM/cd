@@ -6,6 +6,8 @@ import { siteConfig } from "@/lib/seo";
 import Script from "next/script";
 import { products } from "@/lib/data";
 
+export const dynamic = "force-static";
+
 export const metadata: Metadata = {
   title: "Products",
   description:
@@ -82,6 +84,7 @@ export default function Products() {
       <Script
         id="item-list-schema"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(itemListSchema),
         }}

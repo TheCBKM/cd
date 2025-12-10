@@ -2,12 +2,29 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import WhyChooseUs from "@/components/landing/WhyChooseUs";
 import ProductCatalog from "@/components/landing/ProductCatalog";
-import FarmJourney from "@/components/landing/FarmJourney";
-import WellnessGuide from "@/components/landing/WellnessGuide";
-import Footer from "@/components/landing/Footer";
+import dynamicImport from "next/dynamic";
 import type { Metadata } from "next";
 import { siteConfig } from "@/lib/seo";
 import Script from "next/script";
+
+// Lazy load below-the-fold components
+const FarmJourney = dynamicImport(
+  () => import("@/components/landing/FarmJourney"),
+  {
+    ssr: true,
+  }
+);
+const WellnessGuide = dynamicImport(
+  () => import("@/components/landing/WellnessGuide"),
+  {
+    ssr: true,
+  }
+);
+const Footer = dynamicImport(() => import("@/components/landing/Footer"), {
+  ssr: true,
+});
+
+export const dynamic = "force-static";
 
 export const metadata: Metadata = {
   title: "Home",
@@ -69,6 +86,7 @@ export default function Home() {
       <Script
         id="local-business-schema"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(localBusinessSchema),
         }}

@@ -22,9 +22,9 @@ export default {
     },
     extend: {
       fontFamily: {
-        body: ['Lato', 'sans-serif'],
-        headline: ['Playfair Display', 'serif'],
-        accent: ['Montserrat Alternates', 'sans-serif'],
+        body: ['var(--font-body)', 'sans-serif'],
+        headline: ['var(--font-headline)', 'serif'],
+        accent: ['var(--font-accent)', 'sans-serif'],
         code: ['monospace'],
       },
       colors: {

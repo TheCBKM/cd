@@ -5,6 +5,8 @@ import type { Metadata } from "next";
 import { siteConfig } from "@/lib/seo";
 import Script from "next/script";
 
+export const dynamic = "force-static";
+
 export const metadata: Metadata = {
   title: "Our Farm",
   description:
@@ -63,6 +65,7 @@ export default function OurFarm() {
       <Script
         id="farm-schema"
         type="application/ld+json"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(farmSchema),
         }}

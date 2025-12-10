@@ -4,6 +4,8 @@ import AboutPage from "@/components/about/AboutPage";
 import type { Metadata } from "next";
 import { siteConfig } from "@/lib/seo";
 
+export const dynamic = "force-static";
+
 export const metadata: Metadata = {
   title: "About Us",
   description:

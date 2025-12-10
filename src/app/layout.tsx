@@ -6,6 +6,33 @@ import { Analytics } from "@vercel/analytics/react";
 import FloatingWhatsAppButton from "@/components/landing/FloatingWhatsAppButton";
 import { siteConfig } from "@/lib/seo";
 import Script from "next/script";
+import {
+  Playfair_Display,
+  Lato,
+  Montserrat_Alternates,
+} from "next/font/google";
+
+// Optimize fonts with next/font/google
+const playfairDisplay = Playfair_Display({
+  weight: ["500", "700"],
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-headline",
+});
+
+const lato = Lato({
+  weight: ["300", "400", "700"],
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-body",
+});
+
+const montserratAlternates = Montserrat_Alternates({
+  weight: ["400", "500", "600"],
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-accent",
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -128,21 +155,20 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en-IN" className="!scroll-smooth">
+    <html
+      lang="en-IN"
+      className={cn(
+        "!scroll-smooth",
+        playfairDisplay.variable,
+        lato.variable,
+        montserratAlternates.variable
+      )}
+    >
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Lato:wght@300;400;700&family=Montserrat+Alternates:wght@400;500;600&display=swap"
-          rel="stylesheet"
-        />
         <Script
           id="organization-schema"
           type="application/ld+json"
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(organizationSchema),
           }}
@@ -150,6 +176,7 @@ export default function RootLayout({
         <Script
           id="website-schema"
           type="application/ld+json"
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(websiteSchema),
           }}
@@ -157,7 +184,10 @@ export default function RootLayout({
       </head>
       <body
         className={cn(
-          "font-body antialiased min-h-screen bg-background text-foreground"
+          "font-body antialiased min-h-screen bg-background text-foreground",
+          playfairDisplay.variable,
+          lato.variable,
+          montserratAlternates.variable
         )}
       >
         {children}
