@@ -32,7 +32,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-primary" />
-                <a href="mailto:info@chaitanyaenterprises.com" className="text-muted-foreground hover:text-foreground">info@chaitanyaenterprises.com</a>
+                <a href="mailto:info@thechaitanyagroup.com" className="text-muted-foreground hover:text-foreground">info@thechaitanyagroup.com</a>
               </li>
             </ul>
           </div>
