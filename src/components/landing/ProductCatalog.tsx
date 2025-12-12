@@ -6,7 +6,6 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { products } from "@/lib/data";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Button } from "@/components/ui/button";
-import { OrderNowButton } from "@/components/ui/order-now-button";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { SafeImage } from "@/components/ui/safe-image";
@@ -17,6 +16,16 @@ import {
   button3DVariants,
 } from "@/lib/animations";
 import { useState } from "react";
+
+// Map old product names to new category IDs
+const productToCategoryMap: Record<string, string> = {
+  "Vitality Boost": "cat-2",
+  "NutriPowder Vault": "cat-1",
+  "The Zing Collection": "cat-3",
+  "Chaitanya Cold Pressed Oil": "cat-4",
+  "Chaitanya Blends": "cat-5",
+  "Śuddhāhuti - Sacred Flames": "cat-6",
+};
 
 export default function ProductCatalog() {
   const [ref, inView] = useInView({
@@ -112,6 +121,12 @@ function ProductCard({
   const [isHovered, setIsHovered] = useState(false);
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
     const card = e.currentTarget;
+    // Don't apply transform if hovering over button area
+    const target = e.target as HTMLElement;
+    if (target.closest("button, a")) {
+      return;
+    }
+
     const rect = card.getBoundingClientRect();
     const x = e.clientX - rect.left;
     const y = e.clientY - rect.top;
@@ -141,7 +156,7 @@ function ProductCard({
       onMouseLeave={handleMouseLeave}
       className="magnetic perspective-1000 preserve-3d"
     >
-      <Card className="group overflow-hidden flex flex-col h-full transform-3d backface-hidden bg-white border border-border shadow-sm hover:shadow-lg transition-all duration-300">
+      <Card className="group overflow-hidden flex flex-col h-full transform-3d backface-hidden bg-white border border-border shadow-sm hover:shadow-lg transition-all duration-300 relative">
         <CardHeader className="flex-row items-center gap-4 pb-3">
           <motion.div
             animate={
@@ -178,8 +193,35 @@ function ProductCard({
           <p className="text-muted-foreground flex-grow leading-relaxed">
             {product.description}
           </p>
-          <div className="mt-4 pt-4 border-t">
-            <OrderNowButton size="sm" />
+          <div className="mt-4 pt-4 border-t relative z-10">
+            <motion.div
+              variants={button3DVariants}
+              initial="rest"
+              whileHover="hover"
+              whileTap="tap"
+              className="perspective-1000"
+              style={{ pointerEvents: "auto" }}
+            >
+              <Button
+                asChild
+                size="sm"
+                variant="outline"
+                className="w-full border-primary text-primary hover:bg-primary hover:text-white transition-colors relative z-10"
+                style={{ pointerEvents: "auto" }}
+              >
+                <Link
+                  href={
+                    productToCategoryMap[product.name]
+                      ? `/products#${productToCategoryMap[product.name]}`
+                      : "/products"
+                  }
+                  style={{ pointerEvents: "auto" }}
+                >
+                  View More
+                  <ArrowRight className="ml-2 w-4 h-4" />
+                </Link>
+              </Button>
+            </motion.div>
           </div>
         </CardContent>
       </Card>

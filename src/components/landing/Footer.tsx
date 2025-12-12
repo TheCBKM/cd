@@ -19,6 +19,7 @@ export default function Footer() {
       name: "Instagram",
       icon: Instagram,
       href: "https://www.instagram.com/thechaitanyagroup/",
+      handle: "thechaitanyagroup",
     },
   ];
 
@@ -121,21 +122,32 @@ export default function Footer() {
 
           <motion.div className="space-y-4" variants={fadeInUp}>
             <h4 className="font-headline text-lg font-semibold">Follow Us</h4>
-            <div className="flex space-x-4">
+            <div className="flex flex-col space-y-3">
               {socialLinks.map((social, index) => (
                 <motion.a
                   key={social.name}
                   href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   aria-label={social.name}
-                  className="text-muted-foreground hover:text-primary transition-colors perspective-1000"
+                  className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors perspective-1000 group"
                   whileHover={{
-                    scale: 1.2,
-                    rotateY: 360,
+                    scale: 1.05,
                   }}
-                  whileTap={{ scale: 0.9 }}
-                  transition={{ duration: 0.5 }}
+                  whileTap={{ scale: 0.95 }}
+                  transition={{ duration: 0.2 }}
                 >
-                  <social.icon className="h-6 w-6" />
+                  <motion.div
+                    whileHover={{
+                      rotateY: 360,
+                    }}
+                    transition={{ duration: 0.5 }}
+                  >
+                    <social.icon className="h-5 w-5" />
+                  </motion.div>
+                  <span className="text-sm">
+                    @{social.handle || "thechaitanyagroup"}
+                  </span>
                 </motion.a>
               ))}
             </div>

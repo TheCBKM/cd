@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import RotatingTagline from "@/components/landing/RotatingTagline";
 import { ChaitanyaLogo } from "@/components/ui/logo";
 import { OrderNowButton } from "@/components/ui/order-now-button";
+import { ChevronDown } from "lucide-react";
 import {
   fadeInUp,
   textReveal,
@@ -17,7 +18,7 @@ export default function Hero() {
   return (
     <section className="relative min-h-[80vh] w-full flex items-center justify-center bg-gradient-to-b from-white via-green-50/30 to-white py-20 md:py-32">
       {/* Subtle Background Pattern with Logo */}
-      <div className="absolute inset-0 opacity-[0.35] flex items-center justify-center">
+      <div className="absolute inset-0 opacity-[0.20] flex items-center justify-center">
         {/* <div className="absolute top-20 left-10 w-72 h-72 bg-primary rounded-full blur-3xl" /> */}
         {/* <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent rounded-full blur-3xl" /> */}
         {/* Logo in center */}
@@ -38,7 +39,8 @@ export default function Hero() {
 
           {/* Description */}
           <motion.p
-            className="text-lg text-foreground md:text-xl max-w-3xl mx-auto leading-relaxed"
+            className="text-lg md:text-xl max-w-3xl mx-auto leading-relaxed font-bold"
+            style={{ color: "#180a80" }}
             variants={fadeInUp}
           >
             From our organic farm at Chaitanya Dham to your kitchen, Your heart
@@ -69,6 +71,32 @@ export default function Hero() {
             </motion.div>
 
             <OrderNowButton size="lg" className="text-lg px-8 py-6" />
+          </motion.div>
+
+          {/* Scroll Down Arrow */}
+          <motion.div
+            className="flex justify-center mt-8"
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 1, duration: 0.6 }}
+            variants={fadeInUp}
+          >
+            <motion.a
+              href="#why-choose-us"
+              className="flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-colors cursor-pointer"
+              animate={{ y: [0, 10, 0] }}
+              transition={{
+                duration: 2,
+                repeat: Infinity,
+                ease: "easeInOut",
+              }}
+              whileHover={{ scale: 1.1 }}
+            >
+              <span className="text-s font-medium text-center whitespace-nowrap">
+                Scroll to learn more
+              </span>
+              <ChevronDown className="w-6 h-6" />
+            </motion.a>
           </motion.div>
         </motion.div>
       </div>

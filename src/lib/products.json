@@ -1,0 +1,1398 @@
+{
+  "categories": [
+    {
+      "id": "cat-1",
+      "title": "NutriPowder Vault",
+      "description": "Nutrient-rich powders from dehydrated herbs, vegetables and fruits to boost your health. Swapping instant mixes to suit a busy lifestyle and travel. Naturally supports daily health.",
+      "subcategories": [
+        {
+          "id": "subcat-1",
+          "title": "Leaf Powders",
+          "description": "Premium leaf-based powders packed with essential nutrients and antioxidants. Perfect for daily health supplementation.",
+          "products": [
+            {
+              "id": "prod-1",
+              "title": "Moringa leaf powder",
+              "description": "Moringa leaf powder is a nutrient-dense superfood packed with vitamins, minerals, and antioxidants. Rich in protein, iron, calcium, and vitamin C, it supports immune health, bone strength, and overall vitality. Perfect for adding to smoothies, soups, or beverages.",
+              "compressedDescription": "Nutrient-dense superfood rich in vitamins, minerals, and antioxidants. Supports immune health and vitality.",
+              "images": ["moringa-1.jpg", "moringa-2.jpg"],
+              "benefits": [
+                "Super food that provides natural vitamins & minerals",
+                "Supports immunity, digestion & energy levels",
+                "Promotes liver health, heart health, blood sugar balance",
+                "Strengthens cellular health",
+                "Anti-aging"
+              ],
+              "recommendedProductIds": [
+                "prod-15",
+                "prod-16",
+                "prod-17",
+                "prod-18"
+              ],
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "200g",
+                  "price": 300,
+                  "discount": 0,
+                  "discountedPrice": 0,
+                  "outOfStock": false
+                },
+                {
+                  "title": "80g",
+                  "price": 180,
+                  "discount": 3,
+                  "discountedPrice": 175,
+                  "outOfStock": false
+                }
+              ]
+            },
+            {
+              "id": "prod-2",
+              "title": "Wheat grass powder",
+              "description": "Wheat grass powder is a powerful detoxifying agent rich in chlorophyll, vitamins, and minerals. Known for its alkalizing properties, it helps cleanse the body, boost energy levels, and support digestive health. Ideal for daily wellness routines.",
+              "compressedDescription": "Powerful detoxifying agent rich in chlorophyll. Supports digestive health and natural energy.",
+              "images": ["wheatgrass-1.jpg", "wheatgrass-2.jpg"],
+              "benefits": [
+                "High chlorophyll content for detoxification",
+                "Alkalizing properties",
+                "Boosts energy levels naturally",
+                "Supports digestive health",
+                "Rich in vitamins A, C, and E"
+              ],
+              "recommendedProductIds": [
+                "prod-15",
+                "prod-16",
+                "prod-17",
+                "prod-18"
+              ],
+              "outOfStock": false,
+              "variants": []
+            },
+            {
+              "id": "prod-3",
+              "title": "Curry leaves powder",
+              "description": "A nutrient-rich powder made from sun-dried curry leaves, known for supporting healthy hair, digestion, and iron levels. Adds a natural flavour and wellness boost to everyday nutrition.",
+              "images": ["curry-leaves-1.jpg", "curry-leaves-2.jpg"],
+              "benefits": [
+                "Supports better digestion, stronger immunity, and improved hair health",
+                "Enhances taste and aroma of cooked food",
+                "Natural source of iron, calcium, antioxidants & vitamins A, B, C, E",
+                "Offers potent anti-inflammatory benefits",
+                "Nourishes the scalp, reduces dandruff & hair fall, and supports new hair growth",
+                "Improves gut health by reducing bloating, gas, and constipation"
+              ],
+              "recommendedProductIds": ["prod-4", "prod-5", "prod-6", "prod-9"],
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "200g",
+                  "price": 300,
+                  "discount": 10,
+                  "discountedPrice": 270,
+                  "outOfStock": false
+                },
+                {
+                  "title": "80",
+                  "price": 180,
+                  "discount": 8,
+                  "discountedPrice": 165,
+                  "outOfStock": false
+                }
+              ]
+            },
+            {
+              "id": "prod-4",
+              "title": "Mint leaves powder",
+              "description": "A fresh, aromatic powder made from naturally dried coriander leaves. Supports digestion, detoxification, and overall wellness while adding a gentle herbal lift to your daily health routine.",
+              "images": ["mint-1.jpg"],
+              "benefits": [
+                "Supports digestion and detoxification",
+                "Culinary use - Naturally aromatic, hence adds flavor & nutrition to food",
+                "Rich in antioxidants that help boost immunity",
+                "Promotes healthy skin and metabolism"
+              ],
+              "recommendedProductIds": [
+                "prod-18",
+                "prod-12",
+                "prod-9",
+                "prod-3"
+              ],
+              "price": 199,
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "200g",
+                  "price": 300,
+                  "discount": 10,
+                  "discountedPrice": 270,
+                  "outOfStock": false
+                },
+                {
+                  "title": "80",
+                  "price": 180,
+                  "discount": 8,
+                  "discountedPrice": 165,
+                  "outOfStock": false
+                }
+              ]
+            },
+            {
+              "id": "prod-5",
+              "title": "Coriander leaves powder",
+              "description": "Coriander leaves powder is rich in vitamins and antioxidants. It supports heart health, aids digestion, and helps manage cholesterol levels. A versatile addition to your daily nutrition.",
+              "compressedDescription": "Rich in vitamins and antioxidants. Supports heart health and aids digestion.",
+              "images": ["coriander-1.jpg", "coriander-2.jpg"],
+              "benefits": [
+                "Supports digestion and detoxification",
+                "Culinary use - Naturally aromatic, hence adds flavor & nutrition to food",
+                "Rich in antioxidants that help boost immunity",
+                "Promotes healthy skin and metabolism"
+              ],
+              "recommendedProductIds": [
+                "prod-12",
+                "prod-9",
+                "prod-6",
+                "prod-4"
+              ],
+              "price": 199,
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "200g",
+                  "price": 300,
+                  "discount": 13,
+                  "discountedPrice": 260,
+                  "outOfStock": false
+                },
+                {
+                  "title": "80",
+                  "price": 180,
+                  "discount": 8,
+                  "discountedPrice": 165,
+                  "outOfStock": false
+                }
+              ]
+            },
+            {
+              "id": "prod-6",
+              "title": "Spinach powder",
+              "description": "Spinach powder is a powerhouse of iron, folate, and vitamins. Essential for maintaining healthy blood, supporting bone health, and promoting overall vitality. Great for daily nutrition.",
+              "compressedDescription": "Powerhouse of iron and folate. Supports healthy blood and bone health.",
+              "images": ["spinach-1.jpg", "spinach-2.jpg"],
+              "benefits": [
+                "Rich in iron, folate & minerals, supporting energy &  vitality",
+                "Helps maintain healthy blood & hemoglobin levels",
+                "Supports digestion and gut wellness with natural fiber",
+                "High in antioxidants, supporting immunity & cellular health",
+                "Promotes skin & hair wellness due to vitamins A, C & iron",
+                "Helps support bone strength with natural calcium & magnesium"
+              ],
+              "recommendedProductIds": [
+                "prod-13",
+                "prod-5",
+                "prod-4",
+                "prod-3"
+              ],
+              "price": 279,
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "200g",
+                  "price": 300,
+                  "discount": 13,
+                  "discountedPrice": 260,
+                  "outOfStock": false
+                },
+                {
+                  "title": "80",
+                  "price": 180,
+                  "discount": 11,
+                  "discountedPrice": 160,
+                  "outOfStock": false
+                }
+              ]
+            },
+            {
+              "id": "prod-7",
+              "title": "Neem leaves powder",
+              "description": "A pure, natural powder made from dried neem leaves to support cleansing and wellness. Its strong anti-microbial and detoxifying properties help promote clear skin, better digestion, and overall balance.",
+              "compressedDescription": "A pure, natural powder made from dried neem leaves to support cleansing and wellness. Its strong anti-microbial and detoxifying properties help promote clear skin, better digestion, and overall balance.",
+              "images": ["neem-1.jpg", "neem-2.jpg", "neem-3.jpg"],
+              "benefits": [
+                "Important ingredient in skincare products - Helps maintain clear, healthy skin",
+                "Traditionally supports healthy blood sugar & liver health",
+                "Promotes scalp cleanliness & reduces dandruff",
+                "Helps maintain oral hygiene",
+                "Has anti-fungal properties",
+                "Burn in combination with camphor & cow dung cake for vatavaran shuddhi at home and repelling mosquitoes"
+              ],
+              "recommendedProductIds": ["prod-32", "prod-14", "prod-11"],
+              "price": 329,
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "200g",
+                  "price": 300,
+                  "discount": 13,
+                  "discountedPrice": 260,
+                  "outOfStock": false
+                },
+                {
+                  "title": "80",
+                  "price": 180,
+                  "discount": 6,
+                  "discountedPrice": 170,
+                  "outOfStock": false
+                }
+              ]
+            },
+            {
+              "id": "prod-8",
+              "title": "Java plum leaves powder",
+              "description": "A finely milled herbal powder rich in bioactive compounds that help support healthy blood sugar management. Traditionally used to improve digestion, reduce glucose absorption, and promote overall metabolic wellness.",
+              "images": ["java-plum-1.jpg", "java-plum-2.jpg"],
+              "benefits": [
+                "Helps maintain healthy blood sugar levels",
+                "Boosts immunity with antioxidants & Vitamin C",
+                "Reduces inflammation and supports joint/arthritis relief",
+                "Supports heart and skin health",
+                "Aids weight control and improves oral hygiene"
+              ],
+              "recommendedProductIds": ["prod-10"],
+              "price": 299,
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "200g",
+                  "price": 300,
+                  "discount": 10,
+                  "discountedPrice": 270,
+                  "outOfStock": false
+                },
+                {
+                  "title": "80",
+                  "price": 180,
+                  "discount": 8,
+                  "discountedPrice": 165,
+                  "outOfStock": false
+                }
+              ]
+            },
+            {
+              "id": "prod-9",
+              "title": "Basil (Tulsi) powder",
+              "description": "A naturally dried, aromatic powder rich in antioxidants and essential nutrients. It supports digestion, immunity, and overall wellness while adding a refreshing herbal boost to daily health routines.",
+              "images": ["tulsi-1.jpg", "tulsi-2.jpg"],
+              "benefits": [
+                "Boosts immunity with natural antioxidants and essential oils",
+                "Supports respiratory health by easing cough, cold, and congestion",
+                "Acts as a natural adaptogen to reduce stress and improve mental clarity",
+                "Provides strong anti-inflammatory and antibacterial support",
+                "Promotes cleansing and detoxification for overall wellness"
+              ],
+              "recommendedProductIds": [
+                "prod-32",
+                "prod-7",
+                "prod-6",
+                "prod-5"
+              ],
+              "price": 249,
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "100g",
+                  "price": 249,
+                  "discount": 10,
+                  "discountedPrice": 224,
+                  "outOfStock": false
+                },
+                {
+                  "title": "200g",
+                  "price": 498,
+                  "discount": 10,
+                  "discountedPrice": 448,
+                  "outOfStock": false
+                },
+                {
+                  "title": "500g",
+                  "price": 1245,
+                  "discount": 10,
+                  "discountedPrice": 1120,
+                  "outOfStock": false
+                }
+              ]
+            },
+            {
+              "id": "prod-10",
+              "title": "Mango leaves powder",
+              "description": "A fine herbal powder rich in mangiferin, known for supporting healthy blood sugar and fat metabolism. Traditionally used to aid digestion and promote metabolic balance.",
+              "images": ["mango-leaves-1.jpg", "mango-leaves-2.jpg"],
+              "benefits": [
+                "Acts as a natural adaptogen to reduce stress and improve mental clarity",
+                "Helps regulate blood sugar with mangiferin for better insulin sensitivity",
+                "Promotes healthy digestion and gut function",
+                "Rich in antioxidants that protect cells from damage",
+                "Supports overall heart health and strengthens immunity"
+              ],
+              "recommendedProductIds": ["prod-8"],
+              "price": 279,
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "100g",
+                  "price": 279,
+                  "discount": 10,
+                  "discountedPrice": 251,
+                  "outOfStock": false
+                },
+                {
+                  "title": "200g",
+                  "price": 558,
+                  "discount": 10,
+                  "discountedPrice": 502,
+                  "outOfStock": false
+                },
+                {
+                  "title": "500g",
+                  "price": 1395,
+                  "discount": 10,
+                  "discountedPrice": 1255,
+                  "outOfStock": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "subcat-2",
+          "title": "Vegetable Powders",
+          "description": "Nutritious vegetable powders that preserve the goodness of fresh vegetables. Easy to incorporate into daily meals for enhanced nutrition.",
+          "products": [
+            {
+              "id": "prod-11",
+              "title": "Beetroot powder",
+              "description": "A vibrant, nutrient-dense powder rich in natural nitrates that help support healthy blood flow and stamina. Known for boosting energy, improving digestion, and adding a natural antioxidant lift.",
+              "images": ["beetroot-1.jpg", "beetroot-2.jpg"],
+              "benefits": [
+                "Supports natural iron levels to reduce fatigue and boost stamina",
+                "Acts as a natural food colorant for dishes like pav bhaji",
+                "Rich in nitrates that enhance energy and healthy blood circulation",
+                "Promotes liver detoxification and better digestion",
+                "Supports healthy hair growth, skin health & overall wellness"
+              ],
+              "recommendedProductIds": ["prod-12", "prod-7", "prod-14"],
+              "price": 319,
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "100g",
+                  "price": 319,
+                  "discount": 10,
+                  "discountedPrice": 287,
+                  "outOfStock": false
+                },
+                {
+                  "title": "200g",
+                  "price": 638,
+                  "discount": 10,
+                  "discountedPrice": 574,
+                  "outOfStock": false
+                },
+                {
+                  "title": "500g",
+                  "price": 1595,
+                  "discount": 10,
+                  "discountedPrice": 1435,
+                  "outOfStock": false
+                }
+              ]
+            },
+            {
+              "id": "prod-12",
+              "title": "Bottle Gourd powder",
+              "description": "A light, nutrient-rich powder made from naturally dried bottle gourd, known for supporting digestion and hydration. Helps promote gentle detox, weight management, and overall metabolic comfort.",
+              "images": ["bottle-gourd-1.jpg", "bottle-gourd-2.jpg"],
+              "benefits": [
+                "Aids weight management with low calories, high fibre & natural hunger control",
+                "Supports heart health by lowering bad cholesterol and regulating blood pressure",
+                "Promotes liver detoxification and reduces liver inflammation",
+                "Hydrates skin from within, reduces acne-causing toxins & boosts natural glow",
+                "Improves digestion by easing acidity, constipation & bloating; diabetic-friendly nutrients"
+              ],
+              "recommendedProductIds": ["prod-3", "prod-4", "prod-5", "prod-6"],
+              "price": 259,
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "100g",
+                  "price": 259,
+                  "discount": 10,
+                  "discountedPrice": 233,
+                  "outOfStock": false
+                },
+                {
+                  "title": "200g",
+                  "price": 518,
+                  "discount": 10,
+                  "discountedPrice": 466,
+                  "outOfStock": false
+                },
+                {
+                  "title": "500g",
+                  "price": 1295,
+                  "discount": 10,
+                  "discountedPrice": 1165,
+                  "outOfStock": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "subcat-3",
+          "title": "Fruit Powders",
+          "description": "A tangy, vitamin-rich powder made from naturally dried guava, packed with Vitamin C and antioxidants. Supports immunity, digestion, and adds a naturally sweet–tart boost to health drinks and mixes.",
+          "products": [
+            {
+              "id": "prod-13",
+              "title": "Guava fruit powder",
+              "description": "Guava fruit powder is exceptionally rich in vitamin C and fiber. Supports immune health, aids digestion, and promotes skin health naturally.",
+              "compressedDescription": "Exceptionally rich in vitamin C. Supports immune health and aids digestion.",
+              "images": ["guava-1.jpg", "guava-2.jpg"],
+              "benefits": [
+                "Improves digestion with high fibre and supports healthy gut bacteria",
+                "Helps regulate blood sugar levels with a low glycemic index",
+                "Supports heart health by managing cholesterol and blood pressure",
+                "Aids weight management by keeping you full and reducing cravings",
+                "Enhances skin health with Vitamin C for clearer, brighter skin"
+              ],
+              "recommendedProductIds": [
+                "prod-14",
+                "prod-12",
+                "prod-11",
+                "prod-6"
+              ],
+              "price": 349,
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "100g",
+                  "price": 349,
+                  "discount": 10,
+                  "discountedPrice": 314,
+                  "outOfStock": false
+                },
+                {
+                  "title": "200g",
+                  "price": 698,
+                  "discount": 10,
+                  "discountedPrice": 628,
+                  "outOfStock": false
+                },
+                {
+                  "title": "500g",
+                  "price": 1745,
+                  "discount": 10,
+                  "discountedPrice": 1570,
+                  "outOfStock": false
+                }
+              ]
+            },
+            {
+              "id": "prod-14",
+              "title": "Banana powder",
+              "description": "A naturally sweet, energy-rich powder made from sun-ripened bananas. High in potassium and easy to digest, it supports stamina, gut comfort, and adds a smooth, creamy taste to health mixes.",
+              "images": ["banana-1.jpg", "banana-2.jpg"],
+              "benefits": [
+                "Naturally uplifts mood with tryptophan to support serotonin and reduce stress",
+                "Strengthens bones & muscles with magnesium, potassium and natural sugars",
+                "Supports healthy weight gain with nutrient-dense, high-calorie energy",
+                "Boosts immunity with Vitamins C, B6 and antioxidants",
+                "Maintains electrolyte balance while supporting digestive and skin wellness"
+              ],
+              "recommendedProductIds": [
+                "prod-13",
+                "prod-12",
+                "prod-11",
+                "prod-6"
+              ],
+              "price": 299,
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "100g",
+                  "price": 299,
+                  "discount": 10,
+                  "discountedPrice": 269,
+                  "outOfStock": false
+                },
+                {
+                  "title": "200g",
+                  "price": 598,
+                  "discount": 10,
+                  "discountedPrice": 538,
+                  "outOfStock": false
+                },
+                {
+                  "title": "500g",
+                  "price": 1495,
+                  "discount": 10,
+                  "discountedPrice": 1345,
+                  "outOfStock": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cat-2",
+      "title": "Vitality Boost",
+      "description": "Delicious and nutritious smoothie mixes suitable for various body needs and tastes for a quick, healthy greens on the go! Include NutriGreens with superfoods like moringa, wheatgrass, and spirulina one at a time on a weekly basis to boost your health",
+      "subcategories": [
+        {
+          "id": "subcat-4",
+          "title": "NutriGreen",
+          "description": "Ready-to-mix smoothie blends designed for specific health needs. Quick, convenient, and packed with nutrition.",
+          "products": [
+            {
+              "id": "prod-15",
+              "title": "NutriGreen",
+              "description": "NutriGreen is a comprehensive green superfood blend featuring moringa, wheatgrass, and spirulina. Perfect for daily nutrition, immune support, and overall vitality. Mix with water or your favorite beverage.",
+              "compressedDescription": "Comprehensive green superfood blend with moringa, wheatgrass, and spirulina. Perfect for daily nutrition.",
+              "images": ["nutrigreen-1.jpg", "nutrigreen-2.jpg"],
+              "benefits": [
+                "Complete green superfood blend",
+                "Supports immune health",
+                "Boosts energy naturally",
+                "Rich in vitamins and minerals",
+                "Convenient daily nutrition"
+              ],
+              "recommendedProductIds": [
+                "prod-13",
+                "prod-14",
+                "prod-1",
+                "prod-2"
+              ],
+              "price": 399,
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "100g",
+                  "price": 399,
+                  "discount": 10,
+                  "discountedPrice": 359,
+                  "outOfStock": false
+                },
+                {
+                  "title": "200g",
+                  "price": 798,
+                  "discount": 10,
+                  "discountedPrice": 718,
+                  "outOfStock": false
+                },
+                {
+                  "title": "500g",
+                  "price": 1995,
+                  "discount": 10,
+                  "discountedPrice": 1795,
+                  "outOfStock": false
+                }
+              ]
+            },
+            {
+              "id": "prod-16",
+              "title": "NutriGreen - Bottle Gourd",
+              "description": "A nutrient-rich, gut-friendly blend that supports digestion, immunity, and healthy weight control. High in fiber and antioxidants, it helps curb cravings and suits even diabetic or hypothyroid-friendly diets—perfect for quick daily use.",
+              "images": [
+                "nutrigreen-bottle-gourd-1.jpg",
+                "nutrigreen-bottle-gourd-2.jpg"
+              ],
+              "benefits": [
+                "Boosts immunity and supports overall wellness",
+                "Improves digestion and strengthens gut health",
+                "Aids weight management by reducing cravings",
+                "Rich in fibre, antioxidants, vitamins, minerals & micronutrients",
+                "Easy to prepare and suitable for diabetic & hypothyroid-friendly diets"
+              ],
+              "recommendedProductIds": [
+                "prod-13",
+                "prod-14",
+                "prod-1",
+                "prod-2"
+              ],
+              "price": 429,
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "100g",
+                  "price": 429,
+                  "discount": 10,
+                  "discountedPrice": 386,
+                  "outOfStock": false
+                },
+                {
+                  "title": "200g",
+                  "price": 858,
+                  "discount": 10,
+                  "discountedPrice": 772,
+                  "outOfStock": false
+                },
+                {
+                  "title": "500g",
+                  "price": 2145,
+                  "discount": 10,
+                  "discountedPrice": 1930,
+                  "outOfStock": false
+                }
+              ]
+            },
+            {
+              "id": "prod-17",
+              "title": "NutriGreen - Guava",
+              "description": "A tasty, nutrient-packed blend that supports immunity, digestion, and healthy weight balance. Rich in fiber and antioxidants, it helps reduce cravings and keeps you energized—perfect for kids and health-conscious youngsters on the go.",
+              "images": ["nutrigreen-guava-1.jpg", "nutrigreen-guava-2.jpg"],
+              "benefits": [
+                "Boosts immunity and supports overall wellness",
+                "Improves digestion and strengthens gut health",
+                "Helps manage weight by reducing cravings",
+                "Packed with fibre, antioxidants, vitamins, minerals & micronutrients",
+                "Easy to prepare and naturally tasty with guava — great for kids & health-conscious youngsters"
+              ],
+              "recommendedProductIds": [
+                "prod-13",
+                "prod-14",
+                "prod-1",
+                "prod-2"
+              ],
+              "price": 429,
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "100g",
+                  "price": 429,
+                  "discount": 10,
+                  "discountedPrice": 386,
+                  "outOfStock": false
+                },
+                {
+                  "title": "200g",
+                  "price": 858,
+                  "discount": 10,
+                  "discountedPrice": 772,
+                  "outOfStock": false
+                },
+                {
+                  "title": "500g",
+                  "price": 2145,
+                  "discount": 10,
+                  "discountedPrice": 1930,
+                  "outOfStock": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cat-3",
+      "title": "The Zing Collection",
+      "description": "Zingy, Tangy & Savory sides, traditional chutneys and pickles add a flavorful punch to meals alongside health. Cooling & refreshing drinks best suited for स्वाद भी! सेहत भी !!",
+      "subcategories": [
+        {
+          "id": "subcat-5",
+          "title": "Chutneys & Pickles",
+          "description": "Traditional chutneys and pickles that add flavor and health to every meal. Made with authentic recipes and natural ingredients.",
+          "products": [
+            {
+              "id": "prod-18",
+              "title": "Lime Cordial",
+              "description": "A refreshing, vitamin-rich drink mix that hydrates instantly, boosts energy, and supports smooth digestion. Loaded with natural Vitamin C and antioxidants, it aids detox, promotes clear skin, and supports healthy metabolism.",
+              "images": ["lime-cordial-1.jpg", "lime-cordial-2.jpg"],
+              "benefits": [
+                "Instantly hydrates by replenishing electrolytes and cooling the body",
+                "Refreshes mood and provides quick natural energy",
+                "Strengthens immunity with natural Vitamin C",
+                "Supports smooth digestion and reduces acidity",
+                "Aids detox & skin health with antioxidants for a clear, glowing look"
+              ],
+              "recommendedProductIds": [
+                "prod-28",
+                "prod-26",
+                "prod-21",
+                "prod-19"
+              ],
+              "price": 199,
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "100g",
+                  "price": 199,
+                  "discount": 10,
+                  "discountedPrice": 179,
+                  "outOfStock": false
+                },
+                {
+                  "title": "200g",
+                  "price": 398,
+                  "discount": 10,
+                  "discountedPrice": 358,
+                  "outOfStock": false
+                },
+                {
+                  "title": "500g",
+                  "price": 995,
+                  "discount": 10,
+                  "discountedPrice": 895,
+                  "outOfStock": false
+                }
+              ]
+            },
+            {
+              "id": "prod-19",
+              "title": "Savory Date Pickle",
+              "description": "A tangy–spicy, fiber-rich blend of dates, jaggery, and digestive spices that supports gut comfort and boosts metabolism. Packed with natural antioxidants and minerals, it’s a healthier, flavourful alternative to refined-sugar chutneys.",
+              "images": ["date-pickle-1.jpg", "date-pickle-2.jpg"],
+              "benefits": [
+                "Tasty way to add fibre, minerals & plant nutrients to the diet",
+                "Digestive spices reduce bloating and support gut comfort",
+                "Jaggery & dates provide natural antioxidants and boost energy",
+                "Lemon & turmeric support immunity and healthy digestion",
+                "Spice blend enhances metabolism and offers a healthier alternative to refined-sugar chutneys"
+              ],
+              "recommendedProductIds": [
+                "prod-28",
+                "prod-26",
+                "prod-21",
+                "prod-18"
+              ],
+              "price": 249,
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "100g",
+                  "price": 249,
+                  "discount": 10,
+                  "discountedPrice": 224,
+                  "outOfStock": false
+                },
+                {
+                  "title": "200g",
+                  "price": 498,
+                  "discount": 10,
+                  "discountedPrice": 448,
+                  "outOfStock": false
+                },
+                {
+                  "title": "500g",
+                  "price": 1245,
+                  "discount": 10,
+                  "discountedPrice": 1120,
+                  "outOfStock": false
+                }
+              ]
+            },
+            {
+              "id": "prod-20",
+              "title": "Tangy Four Blend Pickle",
+              "description": "A zesty mix of lemon, green chillies, ginger, and garlic, crafted for bold flavour and natural wellness support. Rich in antioxidants and digestive benefits, it adds a fresh, fiery punch to everyday meals.",
+              "images": ["four-blend-pickle-1.jpg", "four-blend-pickle-2.jpg"],
+              "benefits": [
+                "Supports natural detoxification and boosts digestive fire (agni)",
+                "Helps reduce bloating and improves digestion with ginger & garlic",
+                "Rich in natural Vitamin C to strengthen immunity",
+                "Antimicrobial properties support gut wellness",
+                "Spices enhance metabolism, appetite & daily meal nutrition"
+              ],
+              "recommendedProductIds": [
+                "prod-28",
+                "prod-26",
+                "prod-21",
+                "prod-18"
+              ],
+              "price": 229,
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "100g",
+                  "price": 229,
+                  "discount": 10,
+                  "discountedPrice": 206,
+                  "outOfStock": false
+                },
+                {
+                  "title": "200g",
+                  "price": 458,
+                  "discount": 10,
+                  "discountedPrice": 412,
+                  "outOfStock": false
+                },
+                {
+                  "title": "500g",
+                  "price": 1145,
+                  "discount": 10,
+                  "discountedPrice": 1030,
+                  "outOfStock": false
+                }
+              ]
+            },
+            {
+              "id": "prod-21",
+              "title": "Zingy Nimbu Chutney",
+              "description": "A bright, zingy chutney that elevates simple meals while naturally boosting appetite. Rich in citric acid and antioxidants, it supports digestion, reduces bloating, and adds a refreshing zest to everyday dishes.",
+              "images": ["nimbu-chutney-1.jpg", "nimbu-chutney-2.jpg"],
+              "benefits": [
+                "Acts as a natural adaptogen to reduce stress and improve mental clarity",
+                "Naturally stimulates appetite and enhances taste",
+                "Supports digestion by reducing bloating and acidity",
+                "Promotes healthy secretion of digestive juices",
+                "Rich in antioxidants that support overall wellness"
+              ],
+              "recommendedProductIds": [
+                "prod-28",
+                "prod-26",
+                "prod-21",
+                "prod-18"
+              ],
+              "price": 199,
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "100g",
+                  "price": 199,
+                  "discount": 10,
+                  "discountedPrice": 179,
+                  "outOfStock": false
+                },
+                {
+                  "title": "200g",
+                  "price": 398,
+                  "discount": 10,
+                  "discountedPrice": 358,
+                  "outOfStock": false
+                },
+                {
+                  "title": "500g",
+                  "price": 995,
+                  "discount": 10,
+                  "discountedPrice": 895,
+                  "outOfStock": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cat-4",
+      "title": "Chaitanya Cold Pressed Premium Oils",
+      "description": "Premium Quality Cold pressed oils with nutrients & anti-oxidants. Pure, chemical free & non-refined.",
+      "subcategories": [
+        {
+          "id": "subcat-6",
+          "title": "Cold Pressed Oils",
+          "description": "Pure, unrefined cold-pressed oils that preserve all natural nutrients and antioxidants. Perfect for cooking and health.",
+          "products": [
+            {
+              "id": "prod-22",
+              "title": "Groundnut oil",
+              "description": "A 100% pure, preservative-free oil extracted at low temperatures to retain natural nutrients and rich aroma. Ideal for everyday cooking, it offers authentic flavour, high stability, and wholesome goodness in every drop.",
+              "images": ["groundnut-oil-1.jpg", "groundnut-oil-2.jpg"],
+              "benefits": [
+                "Rich in heart-healthy monounsaturated fats",
+                "Cold-pressed to retain natural nutrients, antioxidants & flavor",
+                "Contains Vitamin E for cell protection and skin health",
+                "Pure, chemical-free & unrefined"
+              ],
+              "recommendedProductIds": [
+                "prod-20",
+                "prod-26",
+                "prod-24",
+                "prod-23"
+              ],
+              "price": 499,
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "100g",
+                  "price": 499,
+                  "discount": 10,
+                  "discountedPrice": 449,
+                  "outOfStock": false
+                },
+                {
+                  "title": "200g",
+                  "price": 998,
+                  "discount": 10,
+                  "discountedPrice": 898,
+                  "outOfStock": false
+                },
+                {
+                  "title": "500g",
+                  "price": 2495,
+                  "discount": 10,
+                  "discountedPrice": 2245,
+                  "outOfStock": false
+                }
+              ]
+            },
+            {
+              "id": "prod-23",
+              "title": "Mustard oil",
+              "description": "Cold-pressed mustard oil is known for its strong flavor and health benefits. Rich in omega-3 fatty acids, it supports heart health and has natural antimicrobial properties.",
+              "compressedDescription": "Rich in omega-3 fatty acids. Supports heart health with natural antimicrobial properties.",
+              "images": ["mustard-oil-1.jpg", "mustard-oil-2.jpg"],
+              "benefits": [
+                "Rich in omega-3 fatty acids",
+                "Supports heart health",
+                "Natural antimicrobial properties",
+                "Strong flavor",
+                "Traditional cooking oil"
+              ],
+              "recommendedProductIds": [
+                "prod-20",
+                "prod-26",
+                "prod-24",
+                "prod-23"
+              ],
+              "price": 449,
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "100g",
+                  "price": 449,
+                  "discount": 10,
+                  "discountedPrice": 404,
+                  "outOfStock": false
+                },
+                {
+                  "title": "200g",
+                  "price": 898,
+                  "discount": 10,
+                  "discountedPrice": 808,
+                  "outOfStock": false
+                },
+                {
+                  "title": "500g",
+                  "price": 2245,
+                  "discount": 10,
+                  "discountedPrice": 2020,
+                  "outOfStock": false
+                }
+              ]
+            },
+            {
+              "id": "prod-24",
+              "title": "Sesame oil",
+              "description": "Cold-pressed sesame oil is rich in antioxidants and healthy fats. Supports skin health, heart health, and adds a nutty flavor to dishes.",
+              "compressedDescription": "Rich in antioxidants and healthy fats. Supports skin and heart health.",
+              "images": ["sesame-oil-1.jpg", "sesame-oil-2.jpg"],
+              "benefits": [
+                "Rich in antioxidants",
+                "Supports skin health",
+                "Heart health benefits",
+                "Healthy fats content",
+                "Nutty flavor"
+              ],
+              "recommendedProductIds": [
+                "prod-20",
+                "prod-26",
+                "prod-24",
+                "prod-23"
+              ],
+              "price": 549,
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "100g",
+                  "price": 549,
+                  "discount": 10,
+                  "discountedPrice": 494,
+                  "outOfStock": false
+                },
+                {
+                  "title": "200g",
+                  "price": 1098,
+                  "discount": 10,
+                  "discountedPrice": 988,
+                  "outOfStock": false
+                },
+                {
+                  "title": "500g",
+                  "price": 2745,
+                  "discount": 10,
+                  "discountedPrice": 2470,
+                  "outOfStock": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cat-5",
+      "title": "Chaitanya Blends",
+      "description": "Premium Products specially curated for gut care, aromatic and flavorful blast to everyday boring meals. Chilli delights add power-packed metabolism to the life!",
+      "subcategories": [
+        {
+          "id": "subcat-7",
+          "title": "Gut Care & Flavors",
+          "description": "Specialty blends designed for gut health and flavor enhancement. Natural ingredients that support digestion and add zest to meals.",
+          "products": [
+            {
+              "id": "prod-25",
+              "title": "Digextract",
+              "description": "A bright, zingy chutney that elevates simple meals while naturally boosting appetite. Rich in citric acid and antioxidants, it supports digestion, reduces bloating, and adds a refreshing zest to everyday dishes.",
+              "images": ["digextract-1.jpg", "digextract-2.jpg"],
+              "benefits": [
+                "Eases discomfort from overeating, such as bloating and nausea",
+                "Acts as a natural appetizer when taste or appetite is low",
+                "Works as a quick, convenient wellness shot",
+                "Supports digestion and overall gut comfort",
+                "Boosts antioxidants with lemon & ginger to reset the digestive system"
+              ],
+              "recommendedProductIds": ["prod-18"],
+              "price": 179,
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "100g",
+                  "price": 179,
+                  "discount": 10,
+                  "discountedPrice": 161,
+                  "outOfStock": false
+                },
+                {
+                  "title": "200g",
+                  "price": 358,
+                  "discount": 10,
+                  "discountedPrice": 322,
+                  "outOfStock": false
+                },
+                {
+                  "title": "500g",
+                  "price": 895,
+                  "discount": 10,
+                  "discountedPrice": 805,
+                  "outOfStock": false
+                }
+              ]
+            },
+            {
+              "id": "prod-26",
+              "title": "Curry Leaves Chutney",
+              "description": "A flavourful blend of curry leaves, lentils, nuts, and spices that adds an earthy, tangy boost to any meal. Rich in natural antioxidants and digestive ingredients, it enhances taste while supporting gut comfort.",
+              "compressedDescription": "Flavorful condiment that supports hair health and aids digestion. Authentic flavor.",
+              "images": [
+                "curry-leaves-chutney-1.jpg",
+                "curry-leaves-chutney-2.jpg"
+              ],
+              "benefits": [
+                "Adds nutrient-dense greens and flavor to daily meals",
+                "Helps maintain healthy cholesterol levels",
+                "Contains natural antioxidants that support immunity",
+                "Supports digestion and gut comfort",
+                "Helps promote healthy hair & reduces hair fall (traditional use)",
+                "Rich in iron, supporting energy and vitality"
+              ],
+              "recommendedProductIds": ["prod-27", "prod-22", "prod-20"],
+              "price": 199,
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "100g",
+                  "price": 199,
+                  "discount": 10,
+                  "discountedPrice": 179,
+                  "outOfStock": false
+                },
+                {
+                  "title": "200g",
+                  "price": 398,
+                  "discount": 10,
+                  "discountedPrice": 358,
+                  "outOfStock": false
+                },
+                {
+                  "title": "500g",
+                  "price": 995,
+                  "discount": 10,
+                  "discountedPrice": 895,
+                  "outOfStock": false
+                }
+              ]
+            },
+            {
+              "id": "prod-27",
+              "title": "Sun-dried stuffed Green Chillies (सांडगे मिर्ची)",
+              "description": "Tangy, spicy stuffed chillies made with fenugreek, coriander seeds, and curd for a bold, traditional flavour. Naturally sun-dried, they add a sharp, savory punch to meals while supporting digestion.",
+              "images": ["sundried-chillies-1.jpg"],
+              "benefits": [
+                "Stimulates digestion and improves appetite with traditional spices",
+                "Rich in natural antioxidants that support immunity",
+                "Spicy compounds help boost metabolism and energy",
+                "Sun-dried for concentrated flavour and gut-friendly plant nutrients",
+                "Adds bold flavour with very few calories"
+              ],
+              "recommendedProductIds": ["prod-28", "prod-22", "prod-20"],
+              "price": 279,
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "100g",
+                  "price": 279,
+                  "discount": 10,
+                  "discountedPrice": 251,
+                  "outOfStock": false
+                },
+                {
+                  "title": "200g",
+                  "price": 558,
+                  "discount": 10,
+                  "discountedPrice": 502,
+                  "outOfStock": false
+                },
+                {
+                  "title": "500g",
+                  "price": 1395,
+                  "discount": 10,
+                  "discountedPrice": 1255,
+                  "outOfStock": false
+                }
+              ]
+            },
+            {
+              "id": "prod-28",
+              "title": "Stuffed Green Chillies (भरली मिर्ची)",
+              "description": "Stuffed green chillies are a flavorful preparation that combines heat with taste. Supports metabolism, aids digestion, and adds zest to everyday meals.",
+              "compressedDescription": "Flavorful stuffed chillies. Supports metabolism and adds zest to meals.",
+              "images": ["stuffed-chillies-1.jpg", "stuffed-chillies-2.jpg"],
+              "benefits": [
+                "Supports metabolism",
+                "Aids digestion",
+                "Rich in flavor",
+                "Adds zest to meals",
+                "Traditional recipe"
+              ],
+              "recommendedProductIds": [
+                "prod-26",
+                "prod-22",
+                "prod-20",
+                "prod-19"
+              ],
+              "price": 279,
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "100g",
+                  "price": 279,
+                  "discount": 10,
+                  "discountedPrice": 251,
+                  "outOfStock": false
+                },
+                {
+                  "title": "200g",
+                  "price": 558,
+                  "discount": 10,
+                  "discountedPrice": 502,
+                  "outOfStock": false
+                },
+                {
+                  "title": "500g",
+                  "price": 1395,
+                  "discount": 10,
+                  "discountedPrice": 1255,
+                  "outOfStock": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cat-6",
+      "title": "Śuddhāhuti - Sacred Flames",
+      "description": "Burn the sacred, ecofriendly, traditional Homa to enhance the ambience with purity and goodness of Sacred cow dung & Ayurvedic herbs & richness of Rose & Chandan",
+      "subcategories": [
+        {
+          "id": "subcat-8",
+          "title": "Sacred Homa Products",
+          "description": "Traditional and eco-friendly Homa products made with sacred cow dung and Ayurvedic herbs. Enhance your spiritual practice with purity and goodness.",
+          "products": [
+            {
+              "id": "prod-29",
+              "title": "Chandan",
+              "description": "Pure, traditionally crafted dhoop sticks made from desi cow dung, jatamansi, guggul, and desi ghee—completely free from chemicals or artificial fragrances. Available in soothing sandalwood and rose aromas, they create a serene, purifying atmosphere for daily rituals and spiritual practices.",
+              "compressedDescription": "Pure sandalwood Homa. Creates serene, purifying atmosphere for spiritual practices.",
+              "images": ["chandan-1.jpg"],
+              "benefits": [
+                "Purifies the surroundings and uplifts the aura with its fragrance & herbal incense smoke",
+                "Creates a calm, centered environment ideal for meditation, yoga & rituals",
+                "Promotes mental relaxation by reducing stress and negative vibrations",
+                "Refreshes living spaces, work areas, prayer rooms & meditation corners",
+                "Safe for daily use — made from 100% natural, chemical-free ingredients"
+              ],
+              "recommendedProductIds": ["prod-30", "prod-31", "prod-32"],
+              "price": 199,
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "100g",
+                  "price": 199,
+                  "discount": 10,
+                  "discountedPrice": 179,
+                  "outOfStock": false
+                },
+                {
+                  "title": "200g",
+                  "price": 398,
+                  "discount": 10,
+                  "discountedPrice": 358,
+                  "outOfStock": false
+                },
+                {
+                  "title": "500g",
+                  "price": 995,
+                  "discount": 10,
+                  "discountedPrice": 895,
+                  "outOfStock": false
+                }
+              ]
+            },
+            {
+              "id": "prod-30",
+              "title": "Gulab",
+              "description": "Pure, traditionally crafted dhoop sticks made from desi cow dung, jatamansi, guggul, and desi ghee—completely free from chemicals or artificial fragrances. Available in soothing sandalwood and rose aromas, they create a serene, purifying atmosphere for daily rituals and spiritual practices.",
+              "compressedDescription": "Rose-scented Homa. Creates beautiful, aromatic atmosphere for spiritual practices.",
+              "images": ["gulab-1.jpg"],
+              "benefits": [
+                "Purifies the surroundings and uplifts the aura with its fragrance & herbal incense smoke",
+                "Creates a calm, centered environment ideal for meditation, yoga & rituals",
+                "Promotes mental relaxation by reducing stress and negative vibrations",
+                "Refreshes living spaces, work areas, prayer rooms & meditation corners",
+                "Safe for daily use — made from 100% natural, chemical-free ingredients"
+              ],
+              "recommendedProductIds": ["prod-29", "prod-31", "prod-32"],
+              "price": 219,
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "100g",
+                  "price": 219,
+                  "discount": 10,
+                  "discountedPrice": 197,
+                  "outOfStock": false
+                },
+                {
+                  "title": "200g",
+                  "price": 438,
+                  "discount": 10,
+                  "discountedPrice": 394,
+                  "outOfStock": false
+                },
+                {
+                  "title": "500g",
+                  "price": 1095,
+                  "discount": 10,
+                  "discountedPrice": 985,
+                  "outOfStock": false
+                }
+              ]
+            },
+            {
+              "id": "prod-31",
+              "title": "Plain",
+              "description": "Pure, traditionally crafted dhoop sticks made from desi cow dung, jatamansi, guggul, and desi ghee—completely free from chemicals or artificial fragrances. Available in soothing sandalwood and rose aromas, they create a serene, purifying atmosphere for daily rituals and spiritual practices.",
+              "compressedDescription": "Pure sacred cow dung Homa. Traditional, eco-friendly option for spiritual practices.",
+              "images": ["plain-homa-1.jpg"],
+              "benefits": [
+                "Purifies the surroundings and uplifts the aura with its fragrance & herbal incense smoke",
+                "Creates a calm, centered environment ideal for meditation, yoga & rituals",
+                "Promotes mental relaxation by reducing stress and negative vibrations",
+                "Refreshes living spaces, work areas, prayer rooms & meditation corners",
+                "Safe for daily use — made from 100% natural, chemical-free ingredients"
+              ],
+              "recommendedProductIds": ["prod-29", "prod-30", "prod-32"],
+              "price": 179,
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "100g",
+                  "price": 179,
+                  "discount": 10,
+                  "discountedPrice": 161,
+                  "outOfStock": false
+                },
+                {
+                  "title": "200g",
+                  "price": 358,
+                  "discount": 10,
+                  "discountedPrice": 322,
+                  "outOfStock": false
+                },
+                {
+                  "title": "500g",
+                  "price": 895,
+                  "discount": 10,
+                  "discountedPrice": 805,
+                  "outOfStock": false
+                }
+              ]
+            },
+            {
+              "id": "prod-32",
+              "title": "Divya Gomaya Saṃhitā (Cow Dung Cakes for Homa)",
+              "description": "Divya Gomaya Saṃhitā are specially prepared cow dung cakes for Homa rituals. Made with sacred cow dung and Ayurvedic herbs, they create a purifying, traditional atmosphere.",
+              "compressedDescription": "Specially prepared cow dung cakes for Homa. Purifying and traditional.",
+              "images": ["gomaya-1.jpg", "gomaya-2.jpg"],
+              "benefits": [
+                "Traditional Homa preparation",
+                "Purifying properties",
+                "Eco-friendly",
+                "Sacred ingredients",
+                "Spiritual enhancement"
+              ],
+              "recommendedProductIds": [
+                "prod-29",
+                "prod-30",
+                "prod-31",
+                "prod-7"
+              ],
+              "price": 249,
+              "outOfStock": false,
+              "variants": [
+                {
+                  "title": "100g",
+                  "price": 249,
+                  "discount": 10,
+                  "discountedPrice": 224,
+                  "outOfStock": false
+                },
+                {
+                  "title": "200g",
+                  "price": 498,
+                  "discount": 10,
+                  "discountedPrice": 448,
+                  "outOfStock": false
+                },
+                {
+                  "title": "500g",
+                  "price": 1245,
+                  "discount": 10,
+                  "discountedPrice": 1120,
+                  "outOfStock": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

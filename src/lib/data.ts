@@ -4,27 +4,21 @@ import { CowIcon, HerbalPowderIcon, PickleJarIcon, SmoothieIcon } from '@/compon
 
 export const products: Product[] = [
   {
-    name: 'NutriPowder Vault',
-    description: 'Nutrient-rich powders from dehydrated herbs, vegetables and fruits to boost your health.',
-    image: 'product-herbal-powder',
-    icon: HerbalPowderIcon,
-  },
-  {
     name: 'Vitality Boost',
-    description: 'Nutritious smoothie mixes for varied body needs and tastes, giving quick healthy greens.',
+    description: 'Nutritious smoothie mixes for varied body needs and tastes, giving quick, healthy greens. A daily dose of greens. Favoured greens make them popular even with kids.',
     image: 'product-smoothie',
     icon: SmoothieIcon,
   },
+  {
+    name: 'NutriPowder Vault',
+    description: 'Nutrient-rich powders from dehydrated herbs, vegetables and fruits to boost your health. Swapping instant mixes to suit a busy lifestyle and travel.',
+    image: 'product-herbal-powder',
+    icon: HerbalPowderIcon,
+  },
 
   {
-    name: 'Chaitanya Cold Pressed Oil',
-    description: 'Premium Quality Cold pressed oils with nutrients & anti-oxidants. Pure, chemical free & non-refined.',
-    image: 'product-pickles',
-    icon: PickleJarIcon,
-  },
-  {
     name: 'The Zing Collection',
-    description: 'Zingy, Tangy & Savory sides, traditional chutneys and pickles add a flavorful punch to meals alongside health. Cooling & refreshing drinks best suited for स्वाद भी! सेहत भी !!',
+    description: 'Zingy, Tangy & Savory sides, traditional chutneys and pickles add a flavorful punch to meals alongside health. Refreshing drinks best suited for स्वाद भी! सेहत भी !!',
     image: 'product-dry-fruit-powder',
     icon: HerbalPowderIcon,
   },
@@ -33,6 +27,12 @@ export const products: Product[] = [
     description: 'Premium Products specially curated for gut care, aromatic and flavorful blast to everyday boring meals. Chilli delights add power-packed metabolism to the life! ',
     image: 'product-snacks',
     icon: UtensilsCrossed,
+  },
+  {
+    name: 'Chaitanya Cold Pressed Oil',
+    description: 'Premium Quality Cold-pressed oils with nutrients & anti-oxidants. Pure, chemical-free & non-refined. Rich in heart-healthy monounsaturated fats that support good cholesterol levels.',
+    image: 'product-pickles',
+    icon: PickleJarIcon,
   },
   {
     name: 'Śuddhāhuti - Sacred Flames',

@@ -27,13 +27,52 @@ export type TeamMember = {
 };
 
 export type DetailedProduct = {
-    title?: string;
-    description?: string;
-    subItems?: string[];
+  title?: string;
+  description?: string;
+  subItems?: string[];
 }
 
 export type DetailedProductCategory = {
-    title: string;
-    description: string;
-    items: DetailedProduct[];
+  title: string;
+  description: string;
+  items: DetailedProduct[];
 }
+
+// New types for Amazon-style product catalog
+export type ProductVariant = {
+  title: string; // e.g., "100g", "200g", "500g"
+  price: number; // Original price in rupees
+  discount: number; // Discount percentage
+  discountedPrice: number; // Price after discount
+  outOfStock: boolean; // Out of stock flag for this variant
+};
+
+export type CatalogProduct = {
+  id: string;
+  title: string;
+  description: string;
+  images: string[];
+  benefits: string[];
+  recommendedProductIds: string[];
+  price?: number; // Price in rupees (deprecated, use variants)
+  outOfStock?: boolean; // Out of stock flag (deprecated, use variants)
+  variants?: ProductVariant[]; // Product variants with different sizes/prices
+};
+
+export type CatalogSubcategory = {
+  id: string;
+  title: string;
+  description: string;
+  products: CatalogProduct[];
+};
+
+export type CatalogCategory = {
+  id: string;
+  title: string;
+  description: string;
+  subcategories: CatalogSubcategory[];
+};
+
+export type ProductsData = {
+  categories: CatalogCategory[];
+};

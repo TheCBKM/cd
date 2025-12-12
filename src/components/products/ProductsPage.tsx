@@ -1,15 +1,10 @@
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import { detailedProducts } from "@/lib/data";
-import { CheckCircle } from "lucide-react";
+import { getAllCategories } from "@/lib/products";
+import { ProductCard } from "./ProductCard";
 import { OrderNowButton } from "@/components/ui/order-now-button";
 
 export default function ProductsPage() {
+  const categories = getAllCategories();
+
   return (
     <div className="bg-white text-foreground">
       <section className="py-12 md:py-24 lg:py-32 bg-white">
@@ -31,52 +26,48 @@ export default function ProductsPage() {
 
       <section className="py-12 md:py-24">
         <div className="container px-4 md:px-6">
-          <div className="grid gap-12">
-            {detailedProducts.map((category) => (
-              <div key={category.title}>
-                <h2 className="text-3xl font-headline font-bold mb-2">
-                  {category.title}
-                </h2>
-                <p className="text-muted-foreground mb-6 text-lg">
-                  {category.description}
-                </p>
-                <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-                  {category.items.map((item, index) => (
-                    <Card
-                      key={index}
-                      className="flex flex-col bg-white border border-border shadow-sm hover:shadow-lg transition-shadow"
-                    >
-                      <CardHeader>
-                        {item.title && (
-                          <CardTitle className="text-xl font-headline">
-                            {item.title}
-                          </CardTitle>
+          <div className="grid gap-16">
+            {categories.map((category) => (
+              <div
+                key={category.id}
+                id={category.id}
+                className="space-y-8 scroll-mt-24"
+              >
+                {/* Category Section */}
+                <div className="space-y-4">
+                  <h2 className="text-3xl md:text-4xl font-headline font-bold">
+                    {category.title}
+                  </h2>
+                  <p className="text-muted-foreground text-lg md:text-xl max-w-3xl">
+                    {category.description}
+                  </p>
+                </div>
+
+                {/* Subcategories and Products */}
+                <div className="space-y-12">
+                  {category.subcategories.map((subcategory) => (
+                    <div key={subcategory.id} className="space-y-6">
+                      {/* Subcategory Section */}
+                      <div className="space-y-2">
+                        <h3 className="text-xl md:text-2xl font-headline font-semibold">
+                          {subcategory.title}
+                        </h3>
+                        {subcategory.description && (
+                          <p className="text-muted-foreground text-sm md:text-base max-w-2xl">
+                            {subcategory.description}
+                          </p>
                         )}
-                        {item.description && (
-                          <CardDescription>{item.description}</CardDescription>
-                        )}
-                      </CardHeader>
-                      <CardContent className="flex-grow flex flex-col">
-                        {item.subItems && (
-                          <ul className="space-y-2 flex-grow">
-                            {item.subItems.map((subItem, subIndex) => (
-                              <li
-                                key={subIndex}
-                                className="flex items-start gap-3"
-                              >
-                                <CheckCircle className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                                <span className="text-muted-foreground">
-                                  {subItem}
-                                </span>
-                              </li>
-                            ))}
-                          </ul>
-                        )}
-                        <div className="mt-4 pt-4 border-t">
-                          <OrderNowButton size="sm" />
+                      </div>
+
+                      {/* Product Cards Grid */}
+                      {subcategory.products.length > 0 && (
+                        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                          {subcategory.products.map((product) => (
+                            <ProductCard key={product.id} product={product} />
+                          ))}
                         </div>
-                      </CardContent>
-                    </Card>
+                      )}
+                    </div>
                   ))}
                 </div>
               </div>

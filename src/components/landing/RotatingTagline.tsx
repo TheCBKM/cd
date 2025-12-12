@@ -1,12 +1,12 @@
-'use client';
+"use client";
 
-import { motion, AnimatePresence } from 'framer-motion';
-import { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from "framer-motion";
+import { useState, useEffect } from "react";
 
 const taglines = [
-  'Awakening Health Naturally',
-  'प्राकृतिक पद्धति से स्वस्थ जीवन',
-  'स्वाद भी ! सेहत भी !!',
+  "Awakening Health Naturally",
+  "प्राकृतिक पद्धति से स्वस्थ जीवन",
+  "स्वाद भी ! सेहत भी !!",
 ];
 
 export default function RotatingTagline() {
@@ -29,7 +29,8 @@ export default function RotatingTagline() {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -30 }}
           transition={{ duration: 0.6, ease: [0.6, -0.05, 0.01, 0.99] }}
-          className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-headline font-bold text-center text-foreground px-4 absolute"
+          className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-headline font-bold text-center px-4 absolute"
+          style={{ color: "#702a0c" }}
         >
           {taglines[currentIndex]}
         </motion.p>
@@ -37,4 +38,3 @@ export default function RotatingTagline() {
     </div>
   );
 }
-
