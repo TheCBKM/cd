@@ -89,19 +89,19 @@ export const wellnessGuideContent: WellnessItem[] = [
 
 export const teamMembers: TeamMember[] = [
   {
-    name: 'Mrs. Prerna Kolhatkar',
-    role: 'Music and social services',
-    bio: 'Committed to community health awareness.',
+    name: 'Mrs. Prerna (Sangeeta)  Kolhatkar',
+    role: 'COO - Manufacturing, Product Development',
+    bio: 'A visionary mind & leader with rich mastery in various arts, handicrafts, culinary innovation, musical expression, blending with meaningful social service for decades.',
   },
   {
     name: 'Mr. Sanjeev Joshi',
-    role: 'MBA, ex-COO in fibre optics industry',
-    bio: 'Founder of Fincare for Life, experienced in startups and financial management.',
+    role: 'CEO - Business strategist. Brings corporate discipline into farm-to-food transformation',
+    bio: 'A proven corporate leader,  an engineer and an MBA, with decades of success in business development, operations, manufacturing, strategy, and product development, delivering efficiency, innovation, and sustainable growth.',
   },
   {
     name: 'Ms. Shriya Kavishwar',
-    role: 'Pursuing CA, strong financial background',
-    bio: 'Managing finances for esteemed clients.',
+    role: 'CFO: Financial Management & Systems,  Brand development,  Consumer Engagement',
+    bio: 'An excellence in financial clarity, strategic insight, and contemporary brand growth. A CA aspirant with deep competence in personal finance management.',
   },
 ];
 

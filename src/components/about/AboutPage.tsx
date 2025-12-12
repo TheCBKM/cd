@@ -2,24 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Target, Goal, Users } from "lucide-react";
 import { ChaitanyaLogo } from "@/components/ui/logo";
 import { SafeImage } from "@/components/ui/safe-image";
-
-const founders = [
-  {
-    name: "Mrs. Prerna Kolhatkar",
-    bio: "Music and social services background, active in community health and awareness.",
-    image: "/images/profile/1.png",
-  },
-  {
-    name: "Mr. Sanjeev Joshi",
-    bio: "MBA, corporate leadership experience as COO in fibre optics sector, founder of Fincare for Life, passionate about wellness and organic living.",
-    image: "/images/profile/2.png",
-  },
-  {
-    name: "Ms. Shriya Kavishwar",
-    bio: "Pursuing CA, strong financial background, managing finances for multiple clients.",
-    image: "/images/profile/3.png",
-  },
-];
+import { teamMembers } from "@/lib/data";
 
 export default function AboutPage() {
   return (
@@ -59,7 +42,9 @@ export default function AboutPage() {
                 <h2 className="text-3xl font-headline font-bold">Our Vision</h2>
               </div>
               <p className="text-muted-foreground text-lg">
-              To inspire a world where mindful living, regenerative farming, and evidence-based wellness practices work together for the upliftment of individuals and the planet.
+                To inspire a world where mindful living, regenerative farming,
+                and evidence-based wellness practices work together for the
+                upliftment of individuals and the planet.
               </p>
             </div>
             <div className="space-y-4">
@@ -70,7 +55,10 @@ export default function AboutPage() {
                 </h2>
               </div>
               <p className="text-muted-foreground text-lg">
-              Our mission is to create trustworthy natural wellness solutions by integrating research-backed nutrition, sustainable agriculture, and the spiritual principles of purity, harmony, and service.
+                Our mission is to create trustworthy natural wellness solutions
+                by integrating research-backed nutrition, sustainable
+                agriculture, and the spiritual principles of purity, harmony,
+                and service.
               </p>
             </div>
           </div>
@@ -86,16 +74,16 @@ export default function AboutPage() {
             </h2>
           </div>
           <div className="mx-auto grid gap-8 sm:grid-cols-1 md:grid-cols-3 lg:max-w-5xl">
-            {founders.map((founder) => (
+            {teamMembers.map((member, index) => (
               <Card
-                key={founder.name}
+                key={member.name}
                 className="text-center flex flex-col bg-white border border-border shadow-sm hover:shadow-lg transition-shadow"
               >
                 <CardHeader className="pb-8">
                   <div className="w-40 h-40 md:w-48 md:h-48 lg:w-56 lg:h-56 mx-auto rounded-full overflow-hidden border-4 border-primary/50 shadow-lg mt-4">
                     <SafeImage
-                      src={founder.image}
-                      alt={founder.name}
+                      src={`/images/profile/${index + 1}.png`}
+                      alt={member.name}
                       width={224}
                       height={224}
                       className="w-full h-full object-cover object-top"
@@ -106,10 +94,13 @@ export default function AboutPage() {
                 <CardContent className="flex flex-col items-center justify-center gap-2 flex-grow">
                   <div className="space-y-1">
                     <h3 className="text-xl font-bold font-headline">
-                      {founder.name}
+                      {member.name}
                     </h3>
+                    <p className="text-sm font-semibold text-primary">
+                      {member.role}
+                    </p>
                     <p className="text-sm text-muted-foreground">
-                      {founder.bio}
+                      {member.bio}
                     </p>
                   </div>
                 </CardContent>

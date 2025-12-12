@@ -74,27 +74,29 @@
                 "prod-18"
               ],
               "outOfStock": false,
-              "variants": [{
-                "title": "200g",
-                "price": 300,
-                "discount": 3,
-                "discountedPrice": 290,
-                "outOfStock": false
-              },
-              {
-                "title": "80g",
-                "price": 180,
-                "discount": 3,
-                "discountedPrice": 175,
-                "outOfStock": false
-              },
-              {
-                "title": "1Kg",
-                "price": 1400,
-                "discount": 4,
-                "discountedPrice": 1350,
-                "outOfStock": false
-              }]
+              "variants": [
+                {
+                  "title": "200g",
+                  "price": 300,
+                  "discount": 3,
+                  "discountedPrice": 290,
+                  "outOfStock": false
+                },
+                {
+                  "title": "80g",
+                  "price": 180,
+                  "discount": 3,
+                  "discountedPrice": 175,
+                  "outOfStock": false
+                },
+                {
+                  "title": "1Kg",
+                  "price": 1400,
+                  "discount": 4,
+                  "discountedPrice": 1350,
+                  "outOfStock": false
+                }
+              ]
             },
             {
               "id": "prod-3",
@@ -152,7 +154,6 @@
                 "prod-9",
                 "prod-3"
               ],
-              "price": 199,
               "outOfStock": false,
               "variants": [
                 {
@@ -196,7 +197,6 @@
                 "prod-6",
                 "prod-4"
               ],
-              "price": 199,
               "outOfStock": false,
               "variants": [
                 {
@@ -242,7 +242,6 @@
                 "prod-4",
                 "prod-3"
               ],
-              "price": 279,
               "outOfStock": false,
               "variants": [
                 {
@@ -283,7 +282,6 @@
                 "Burn in combination with camphor & cow dung cake for vatavaran shuddhi at home and repelling mosquitoes"
               ],
               "recommendedProductIds": ["prod-32", "prod-14", "prod-11"],
-              "price": 329,
               "outOfStock": false,
               "variants": [
                 {
@@ -322,7 +320,6 @@
                 "Aids weight control and improves oral hygiene"
               ],
               "recommendedProductIds": ["prod-10"],
-              "price": 299,
               "outOfStock": false,
               "variants": [
                 {
@@ -366,7 +363,6 @@
                 "prod-6",
                 "prod-5"
               ],
-              "price": 249,
               "outOfStock": false,
               "variants": [
                 {
@@ -405,7 +401,6 @@
                 "Supports overall heart health and strengthens immunity"
               ],
               "recommendedProductIds": ["prod-8"],
-              "price": 279,
               "outOfStock": false,
               "variants": [
                 {
@@ -451,7 +446,6 @@
                 "Supports healthy hair growth, skin health & overall wellness"
               ],
               "recommendedProductIds": ["prod-12", "prod-7", "prod-14"],
-              "price": 319,
               "outOfStock": false,
               "variants": [
                 {
@@ -490,7 +484,6 @@
                 "Improves digestion by easing acidity, constipation & bloating; diabetic-friendly nutrients"
               ],
               "recommendedProductIds": ["prod-3", "prod-4", "prod-5", "prod-6"],
-              "price": 259,
               "outOfStock": false,
               "variants": [
                 {
@@ -542,7 +535,6 @@
                 "prod-11",
                 "prod-6"
               ],
-              "price": 349,
               "outOfStock": false,
               "variants": [
                 {
@@ -586,7 +578,6 @@
                 "prod-11",
                 "prod-6"
               ],
-              "price": 299,
               "outOfStock": false,
               "variants": [
                 {
@@ -645,7 +636,6 @@
                 "prod-1",
                 "prod-2"
               ],
-              "price": 399,
               "outOfStock": false,
               "variants": [
                 {
@@ -692,14 +682,13 @@
                 "prod-1",
                 "prod-2"
               ],
-              "price": 429,
               "outOfStock": false,
               "variants": [
                 {
                   "title": "200g",
                   "price": 320,
                   "discount": 9,
-                  "discountedPrice": 2900,
+                  "discountedPrice": 290,
                   "outOfStock": false
                 },
                 {
@@ -736,7 +725,6 @@
                 "prod-1",
                 "prod-2"
               ],
-              "price": 429,
               "outOfStock": false,
               "variants": [
                 {
@@ -788,34 +776,35 @@
                 "Supports smooth digestion and reduces acidity",
                 "Aids detox & skin health with antioxidants for a clear, glowing look"
               ],
-              "recommendedProductIds": [
-                "prod-28",
-                "prod-26",
-                "prod-21",
-                "prod-19"
-              ],
-              "price": 199,
+              "recommendedProductIds": ["prod-26", "prod-21", "prod-19"],
               "outOfStock": false,
               "variants": [
                 {
-                  "title": "100g",
-                  "price": 199,
-                  "discount": 10,
-                  "discountedPrice": 179,
+                  "title": "200ml",
+                  "price": 150,
+                  "discount": 13,
+                  "discountedPrice": 130,
                   "outOfStock": false
                 },
                 {
-                  "title": "200g",
-                  "price": 398,
-                  "discount": 10,
-                  "discountedPrice": 358,
+                  "title": "100ml",
+                  "price": 120,
+                  "discount": 13,
+                  "discountedPrice": 105,
                   "outOfStock": false
                 },
                 {
-                  "title": "500g",
-                  "price": 995,
-                  "discount": 10,
-                  "discountedPrice": 895,
+                  "title": "500ml",
+                  "price": 180,
+                  "discount": 8,
+                  "discountedPrice": 165,
+                  "outOfStock": false
+                },
+                {
+                  "title": "1L",
+                  "price": 350,
+                  "discount": 14,
+                  "discountedPrice": 300,
                   "outOfStock": false
                 }
               ]
@@ -832,34 +821,35 @@
                 "Lemon & turmeric support immunity and healthy digestion",
                 "Spice blend enhances metabolism and offers a healthier alternative to refined-sugar chutneys"
               ],
-              "recommendedProductIds": [
-                "prod-28",
-                "prod-26",
-                "prod-21",
-                "prod-18"
-              ],
-              "price": 249,
+              "recommendedProductIds": ["prod-26", "prod-21", "prod-18"],
               "outOfStock": false,
               "variants": [
                 {
-                  "title": "100g",
-                  "price": 249,
-                  "discount": 10,
-                  "discountedPrice": 224,
+                  "title": "250g",
+                  "price": 240,
+                  "discount": 8,
+                  "discountedPrice": 220,
                   "outOfStock": false
                 },
                 {
-                  "title": "200g",
-                  "price": 498,
-                  "discount": 10,
-                  "discountedPrice": 448,
+                  "title": "100g",
+                  "price": 160,
+                  "discount": 6,
+                  "discountedPrice": 150,
                   "outOfStock": false
                 },
                 {
                   "title": "500g",
-                  "price": 1245,
-                  "discount": 10,
-                  "discountedPrice": 1120,
+                  "price": 350,
+                  "discount": 3,
+                  "discountedPrice": 340,
+                  "outOfStock": false
+                },
+                {
+                  "title": "1Kg",
+                  "price": 650,
+                  "discount": 8,
+                  "discountedPrice": 600,
                   "outOfStock": false
                 }
               ]
@@ -876,34 +866,35 @@
                 "Antimicrobial properties support gut wellness",
                 "Spices enhance metabolism, appetite & daily meal nutrition"
               ],
-              "recommendedProductIds": [
-                "prod-28",
-                "prod-26",
-                "prod-21",
-                "prod-18"
-              ],
-              "price": 229,
+              "recommendedProductIds": ["prod-26", "prod-21", "prod-18"],
               "outOfStock": false,
               "variants": [
                 {
-                  "title": "100g",
-                  "price": 229,
-                  "discount": 10,
-                  "discountedPrice": 206,
+                  "title": "250g",
+                  "price": 240,
+                  "discount": 6,
+                  "discountedPrice": 225,
                   "outOfStock": false
                 },
                 {
-                  "title": "200g",
-                  "price": 458,
-                  "discount": 10,
-                  "discountedPrice": 412,
+                  "title": "100g",
+                  "price": 160,
+                  "discount": 13,
+                  "discountedPrice": 140,
                   "outOfStock": false
                 },
                 {
                   "title": "500g",
-                  "price": 1145,
-                  "discount": 10,
-                  "discountedPrice": 1030,
+                  "price": 360,
+                  "discount": 36,
+                  "discountedPrice": 340,
+                  "outOfStock": false
+                },
+                {
+                  "title": "1Kg",
+                  "price": 625,
+                  "discount": 8,
+                  "discountedPrice": 600,
                   "outOfStock": false
                 }
               ]
@@ -920,34 +911,35 @@
                 "Promotes healthy secretion of digestive juices",
                 "Rich in antioxidants that support overall wellness"
               ],
-              "recommendedProductIds": [
-                "prod-28",
-                "prod-26",
-                "prod-21",
-                "prod-18"
-              ],
-              "price": 199,
+              "recommendedProductIds": ["prod-26", "prod-21", "prod-18"],
               "outOfStock": false,
               "variants": [
                 {
-                  "title": "100g",
-                  "price": 199,
-                  "discount": 10,
-                  "discountedPrice": 179,
+                  "title": "250g",
+                  "price": 180,
+                  "discount": 6,
+                  "discountedPrice": 170,
                   "outOfStock": false
                 },
                 {
-                  "title": "200g",
-                  "price": 398,
-                  "discount": 10,
-                  "discountedPrice": 358,
+                  "title": "80g",
+                  "price": 120,
+                  "discount": 13,
+                  "discountedPrice": 105,
                   "outOfStock": false
                 },
                 {
                   "title": "500g",
-                  "price": 995,
-                  "discount": 10,
-                  "discountedPrice": 895,
+                  "price": 300,
+                  "discount": 12,
+                  "discountedPrice": 365,
+                  "outOfStock": false
+                },
+                {
+                  "title": "1Kg",
+                  "price": 440,
+                  "discount": 7,
+                  "discountedPrice": 420,
                   "outOfStock": false
                 }
               ]
@@ -983,21 +975,20 @@
                 "prod-24",
                 "prod-23"
               ],
-              "price": 499,
               "outOfStock": false,
               "variants": [
-                {
-                  "title": "100g",
-                  "price": 499,
-                  "discount": 10,
-                  "discountedPrice": 449,
-                  "outOfStock": false
-                },
                 {
                   "title": "200g",
                   "price": 998,
                   "discount": 10,
                   "discountedPrice": 898,
+                  "outOfStock": false
+                },
+                {
+                  "title": "100g",
+                  "price": 499,
+                  "discount": 10,
+                  "discountedPrice": 449,
                   "outOfStock": false
                 },
                 {
@@ -1028,21 +1019,20 @@
                 "prod-24",
                 "prod-23"
               ],
-              "price": 449,
               "outOfStock": false,
               "variants": [
-                {
-                  "title": "100g",
-                  "price": 449,
-                  "discount": 10,
-                  "discountedPrice": 404,
-                  "outOfStock": false
-                },
                 {
                   "title": "200g",
                   "price": 898,
                   "discount": 10,
                   "discountedPrice": 808,
+                  "outOfStock": false
+                },
+                {
+                  "title": "100g",
+                  "price": 449,
+                  "discount": 10,
+                  "discountedPrice": 404,
                   "outOfStock": false
                 },
                 {
@@ -1073,21 +1063,20 @@
                 "prod-24",
                 "prod-23"
               ],
-              "price": 549,
               "outOfStock": false,
               "variants": [
-                {
-                  "title": "100g",
-                  "price": 549,
-                  "discount": 10,
-                  "discountedPrice": 494,
-                  "outOfStock": false
-                },
                 {
                   "title": "200g",
                   "price": 1098,
                   "discount": 10,
                   "discountedPrice": 988,
+                  "outOfStock": false
+                },
+                {
+                  "title": "100g",
+                  "price": 549,
+                  "discount": 10,
+                  "discountedPrice": 494,
                   "outOfStock": false
                 },
                 {
@@ -1126,28 +1115,34 @@
                 "Boosts antioxidants with lemon & ginger to reset the digestive system"
               ],
               "recommendedProductIds": ["prod-18"],
-              "price": 179,
               "outOfStock": false,
               "variants": [
                 {
-                  "title": "100g",
-                  "price": 179,
-                  "discount": 10,
-                  "discountedPrice": 161,
+                  "title": "250ml",
+                  "price": 175,
+                  "discount": 9,
+                  "discountedPrice": 160,
                   "outOfStock": false
                 },
                 {
-                  "title": "200g",
-                  "price": 358,
-                  "discount": 10,
-                  "discountedPrice": 322,
+                  "title": "80ml",
+                  "price": 120,
+                  "discount": 17,
+                  "discountedPrice": 100,
                   "outOfStock": false
                 },
                 {
-                  "title": "500g",
-                  "price": 895,
-                  "discount": 10,
-                  "discountedPrice": 805,
+                  "title": "500ml",
+                  "price": 220,
+                  "discount": 9,
+                  "discountedPrice": 200,
+                  "outOfStock": false
+                },
+                {
+                  "title": "1L",
+                  "price": 380,
+                  "discount": 5,
+                  "discountedPrice": 360,
                   "outOfStock": false
                 }
               ]
@@ -1170,28 +1165,34 @@
                 "Rich in iron, supporting energy and vitality"
               ],
               "recommendedProductIds": ["prod-27", "prod-22", "prod-20"],
-              "price": 199,
               "outOfStock": false,
               "variants": [
                 {
-                  "title": "100g",
-                  "price": 199,
-                  "discount": 10,
-                  "discountedPrice": 179,
+                  "title": "250g",
+                  "price": 300,
+                  "discount": 7,
+                  "discountedPrice": 260,
                   "outOfStock": false
                 },
                 {
-                  "title": "200g",
-                  "price": 398,
-                  "discount": 10,
-                  "discountedPrice": 358,
+                  "title": "100g",
+                  "price": 150,
+                  "discount": 3,
+                  "discountedPrice": 145,
                   "outOfStock": false
                 },
                 {
                   "title": "500g",
-                  "price": 995,
-                  "discount": 10,
-                  "discountedPrice": 895,
+                  "price": 440,
+                  "discount": 9,
+                  "discountedPrice": 400,
+                  "outOfStock": false
+                },
+                {
+                  "title": "1Kg",
+                  "price": 750,
+                  "discount": 4,
+                  "discountedPrice": 720,
                   "outOfStock": false
                 }
               ]
@@ -1208,74 +1209,35 @@
                 "Sun-dried for concentrated flavour and gut-friendly plant nutrients",
                 "Adds bold flavour with very few calories"
               ],
-              "recommendedProductIds": ["prod-28", "prod-22", "prod-20"],
-              "price": 279,
+              "recommendedProductIds": ["prod-22", "prod-20"],
               "outOfStock": false,
               "variants": [
                 {
                   "title": "100g",
-                  "price": 279,
+                  "price": 200,
                   "discount": 10,
-                  "discountedPrice": 251,
+                  "discountedPrice": 180,
                   "outOfStock": false
                 },
                 {
-                  "title": "200g",
-                  "price": 558,
-                  "discount": 10,
-                  "discountedPrice": 502,
-                  "outOfStock": false
-                },
-                {
-                  "title": "500g",
-                  "price": 1395,
-                  "discount": 10,
-                  "discountedPrice": 1255,
-                  "outOfStock": false
-                }
-              ]
-            },
-            {
-              "id": "prod-28",
-              "title": "Stuffed Green Chillies (भरली मिर्ची)",
-              "description": "Stuffed green chillies are a flavorful preparation that combines heat with taste. Supports metabolism, aids digestion, and adds zest to everyday meals.",
-              "compressedDescription": "Flavorful stuffed chillies. Supports metabolism and adds zest to meals.",
-              "images": ["stuffed-chillies-1.jpg", "stuffed-chillies-2.jpg"],
-              "benefits": [
-                "Supports metabolism",
-                "Aids digestion",
-                "Rich in flavor",
-                "Adds zest to meals",
-                "Traditional recipe"
-              ],
-              "recommendedProductIds": [
-                "prod-26",
-                "prod-22",
-                "prod-20",
-                "prod-19"
-              ],
-              "price": 279,
-              "outOfStock": false,
-              "variants": [
-                {
-                  "title": "100g",
-                  "price": 279,
-                  "discount": 10,
-                  "discountedPrice": 251,
-                  "outOfStock": false
-                },
-                {
-                  "title": "200g",
-                  "price": 558,
-                  "discount": 10,
-                  "discountedPrice": 502,
+                  "title": "50g",
+                  "price": 160,
+                  "discount": 13,
+                  "discountedPrice": 140,
                   "outOfStock": false
                 },
                 {
                   "title": "500g",
-                  "price": 1395,
-                  "discount": 10,
-                  "discountedPrice": 1255,
+                  "price": 500,
+                  "discount": 4,
+                  "discountedPrice": 480,
+                  "outOfStock": false
+                },
+                {
+                  "title": "1Kg",
+                  "price": 900,
+                  "discount": 6,
+                  "discountedPrice": 850,
                   "outOfStock": false
                 }
               ]
@@ -1308,7 +1270,6 @@
                 "Safe for daily use — made from 100% natural, chemical-free ingredients"
               ],
               "recommendedProductIds": ["prod-30", "prod-31", "prod-32"],
-              "price": 199,
               "outOfStock": false,
               "variants": [
                 {
@@ -1348,7 +1309,6 @@
                 "Safe for daily use — made from 100% natural, chemical-free ingredients"
               ],
               "recommendedProductIds": ["prod-29", "prod-31", "prod-32"],
-              "price": 219,
               "outOfStock": false,
               "variants": [
                 {
@@ -1388,7 +1348,6 @@
                 "Safe for daily use — made from 100% natural, chemical-free ingredients"
               ],
               "recommendedProductIds": ["prod-29", "prod-30", "prod-32"],
-              "price": 179,
               "outOfStock": false,
               "variants": [
                 {
@@ -1419,7 +1378,7 @@
               "title": "Divya Gomaya Saṃhitā (Cow Dung Cakes for Homa)",
               "description": "Divya Gomaya Saṃhitā are specially prepared cow dung cakes for Homa rituals. Made with sacred cow dung and Ayurvedic herbs, they create a purifying, traditional atmosphere.",
               "compressedDescription": "Specially prepared cow dung cakes for Homa. Purifying and traditional.",
-              "images": ["gomaya-1.jpg", "gomaya-2.jpg"],
+              "images": ["gomaya-1.jpg"],
               "benefits": [
                 "Traditional Homa preparation",
                 "Purifying properties",
@@ -1433,7 +1392,6 @@
                 "prod-31",
                 "prod-7"
               ],
-              "price": 249,
               "outOfStock": false,
               "variants": [
                 {
