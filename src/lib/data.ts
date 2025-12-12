@@ -76,7 +76,7 @@ export const wellnessGuideContent: WellnessItem[] = [
       'Our herbal powders can be mixed with warm water or added to your favourite smoothies. A typical dosage is two teaspoons per day. For best results, take it in the morning on an empty stomach. Can repeat in the evening also for consistent results. All powders come with a usage guide on the sachet that contains the powder. Always start with a smaller dose to see how your body reacts.',
   },
   {
-    title: 'Preparing Our Smoothies',
+    title: 'Preparing Our NutriGreens',
     content:
       'Simply blend one scoop of our smoothie mix with 250ml of warm water, or a plant-based alternative. Add fresh lemon juice for extra taste, and during summer, add ice cubes. Can also add fruits like bananas or berries for extra flavour and nutrients. We also offer ready-to-use fruity-flavoured Nutrigreens. Our Nutrigreens are a perfect quick solution for the daily body requirements of greens dosage.',
   },

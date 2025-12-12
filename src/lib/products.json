@@ -610,12 +610,12 @@
     {
       "id": "cat-2",
       "title": "Vitality Boost",
-      "description": "Delicious and nutritious smoothie mixes suitable for various body needs and tastes for a quick, healthy greens on the go! Include NutriGreens with superfoods like moringa, wheatgrass, and spirulina one at a time on a weekly basis to boost your health",
+      "description": "Delicious and nutritious  mixes suitable for various body needs and tastes for a quick, healthy greens on the go! Include NutriGreens with superfoods like moringa, wheatgrass, and spirulina one at a time on a weekly basis to boost your health",
       "subcategories": [
         {
           "id": "subcat-4",
           "title": "NutriGreen",
-          "description": "Ready-to-mix smoothie blends designed for specific health needs. Quick, convenient, and packed with nutrition.",
+          "description": "Ready-to-mix NutriGreens blends designed for specific health needs. Quick, convenient, and packed with nutrition.",
           "products": [
             {
               "id": "prod-15",
@@ -1005,7 +1005,7 @@
               "title": "Mustard oil",
               "description": "Cold-pressed mustard oil is known for its strong flavor and health benefits. Rich in omega-3 fatty acids, it supports heart health and has natural antimicrobial properties.",
               "compressedDescription": "Rich in omega-3 fatty acids. Supports heart health with natural antimicrobial properties.",
-              "images": ["mustard-oil-1.jpg", "mustard-oil-2.jpg"],
+              "images": ["mustard-oil-1.jpg"],
               "benefits": [
                 "Rich in omega-3 fatty acids",
                 "Supports heart health",
@@ -1049,7 +1049,7 @@
               "title": "Sesame oil",
               "description": "Cold-pressed sesame oil is rich in antioxidants and healthy fats. Supports skin health, heart health, and adds a nutty flavor to dishes.",
               "compressedDescription": "Rich in antioxidants and healthy fats. Supports skin and heart health.",
-              "images": ["sesame-oil-1.jpg", "sesame-oil-2.jpg"],
+              "images": ["sesame-oil-1.jpg"],
               "benefits": [
                 "Rich in antioxidants",
                 "Supports skin health",

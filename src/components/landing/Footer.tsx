@@ -161,7 +161,7 @@ export default function Footer() {
           transition={{ duration: 0.6, delay: 0.3 }}
         >
           <p>
-            Visitors are welcome by prior appointment. Come experience organic
+            Visitors are welcome by prior appointment. Come experience Chemical-free
             farming and natural living at Chaitanya Dham.
           </p>
         </motion.div>

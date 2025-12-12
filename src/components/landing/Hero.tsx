@@ -44,7 +44,7 @@ export default function Hero() {
             variants={fadeInUp}
           >
             From our farm at Chaitanya Dham to your kitchen, Your heart
-            – pure herbal powders, healthy smoothies, chutneys, Premium cold
+            – pure herbal powders, healthy NutriGreens, chutneys, Premium cold
             pressed oils and eco-friendly cow dung products for a healthier
             lifestyle.
           </motion.p>

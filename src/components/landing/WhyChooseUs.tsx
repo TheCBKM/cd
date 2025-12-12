@@ -22,7 +22,7 @@ const features = [
     icon: HeartPulse,
     title: "Holistic Health",
     description:
-      "Smoothies and supplements specially curated for gut health improvements, toxin removal, full of micro nutrients and weight management.",
+      "NutriGreens and supplements specially curated for gut health improvements, toxin removal, full of micro nutrients and weight management.",
   },
   {
     icon: Recycle,
