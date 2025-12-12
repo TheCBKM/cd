@@ -78,7 +78,7 @@ export const wellnessGuideContent: WellnessItem[] = [
   {
     title: 'Preparing Our NutriGreens',
     content:
-      'Simply blend one scoop of our smoothie mix with 250ml of warm water, or a plant-based alternative. Add fresh lemon juice for extra taste, and during summer, add ice cubes. Can also add fruits like bananas or berries for extra flavour and nutrients. We also offer ready-to-use fruity-flavoured Nutrigreens. Our Nutrigreens are a perfect quick solution for the daily body requirements of greens dosage.',
+      'Simply blend one scoop of our NutriGreen mix with 250ml of warm water, or a plant-based alternative. Add fresh lemon juice for extra taste, and during summer, add ice cubes. Can also add fruits like bananas or berries for extra flavour and nutrients. We also offer ready-to-use fruity-flavoured Nutrigreens. Our Nutrigreens are a perfect quick solution for the daily body requirements of greens dosage.',
   },
   {
     title: 'Health Benefits & Disclaimer',

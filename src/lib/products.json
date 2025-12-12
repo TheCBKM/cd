@@ -217,7 +217,7 @@
                   "title": "1Kg",
                   "price": 1100,
                   "discount": 5,
-                  "discountedPrice": 1150,
+                  "discountedPrice": 1050,
                   "outOfStock": false
                 }
               ]
@@ -248,21 +248,21 @@
                   "title": "200g",
                   "price": 280,
                   "discount": 2,
-                  "discountedPrice": 270,
+                  "discountedPrice": 275,
                   "outOfStock": false
                 },
                 {
                   "title": "80g",
                   "price": 180,
                   "discount": 11,
-                  "discountedPrice": 165,
+                  "discountedPrice": 160,
                   "outOfStock": false
                 },
                 {
                   "title": "1Kg",
                   "price": 1100,
                   "discount": 5,
-                  "discountedPrice": 1150,
+                  "discountedPrice": 1050,
                   "outOfStock": false
                 }
               ]
@@ -340,7 +340,7 @@
                   "title": "1Kg",
                   "price": 1100,
                   "discount": 5,
-                  "discountedPrice": 1150,
+                  "discountedPrice": 1050,
                   "outOfStock": false
                 }
               ]
@@ -369,7 +369,7 @@
                   "title": "200g",
                   "price": 300,
                   "discount": 8,
-                  "discountedPrice": 270,
+                  "discountedPrice": 275,
                   "outOfStock": false
                 },
                 {
@@ -459,7 +459,7 @@
                   "title": "80g",
                   "price": 180,
                   "discount": 11,
-                  "discountedPrice": 60,
+                  "discountedPrice": 160,
                   "outOfStock": false
                 },
                 {
@@ -591,7 +591,7 @@
                   "title": "80g",
                   "price": 160,
                   "discount": 6,
-                  "discountedPrice": 155,
+                  "discountedPrice": 150,
                   "outOfStock": false
                 },
                 {
@@ -886,14 +886,14 @@
                 {
                   "title": "500g",
                   "price": 360,
-                  "discount": 36,
+                  "discount": 6,
                   "discountedPrice": 340,
                   "outOfStock": false
                 },
                 {
                   "title": "1Kg",
                   "price": 625,
-                  "discount": 8,
+                  "discount": 4,
                   "discountedPrice": 600,
                   "outOfStock": false
                 }
@@ -978,24 +978,17 @@
               "outOfStock": false,
               "variants": [
                 {
-                  "title": "200g",
-                  "price": 998,
-                  "discount": 10,
-                  "discountedPrice": 898,
+                  "title": "1000ml",
+                  "price": 400,
+                  "discount": 11,
+                  "discountedPrice": 280,
                   "outOfStock": false
                 },
                 {
-                  "title": "100g",
-                  "price": 499,
-                  "discount": 10,
-                  "discountedPrice": 449,
-                  "outOfStock": false
-                },
-                {
-                  "title": "500g",
-                  "price": 2495,
-                  "discount": 10,
-                  "discountedPrice": 2245,
+                  "title": "500ml",
+                  "price": 260,
+                  "discount": 6,
+                  "discountedPrice": 245,
                   "outOfStock": false
                 }
               ]
@@ -1022,24 +1015,17 @@
               "outOfStock": false,
               "variants": [
                 {
-                  "title": "200g",
-                  "price": 898,
-                  "discount": 10,
-                  "discountedPrice": 808,
+                  "title": "1000ml",
+                  "price": 400,
+                  "discount": 11,
+                  "discountedPrice": 280,
                   "outOfStock": false
                 },
                 {
-                  "title": "100g",
-                  "price": 449,
-                  "discount": 10,
-                  "discountedPrice": 404,
-                  "outOfStock": false
-                },
-                {
-                  "title": "500g",
-                  "price": 2245,
-                  "discount": 10,
-                  "discountedPrice": 2020,
+                  "title": "500ml",
+                  "price": 260,
+                  "discount": 6,
+                  "discountedPrice": 245,
                   "outOfStock": false
                 }
               ]
@@ -1066,24 +1052,17 @@
               "outOfStock": false,
               "variants": [
                 {
-                  "title": "200g",
-                  "price": 1098,
-                  "discount": 10,
-                  "discountedPrice": 988,
+                  "title": "1000ml",
+                  "price": 400,
+                  "discount": 11,
+                  "discountedPrice": 280,
                   "outOfStock": false
                 },
                 {
-                  "title": "100g",
-                  "price": 549,
-                  "discount": 10,
-                  "discountedPrice": 494,
-                  "outOfStock": false
-                },
-                {
-                  "title": "500g",
-                  "price": 2745,
-                  "discount": 10,
-                  "discountedPrice": 2470,
+                  "title": "500ml",
+                  "price": 260,
+                  "discount": 6,
+                  "discountedPrice": 245,
                   "outOfStock": false
                 }
               ]
@@ -1105,7 +1084,7 @@
             {
               "id": "prod-25",
               "title": "Digextract",
-              "description": "A bright, zingy chutney that elevates simple meals while naturally boosting appetite. Rich in citric acid and antioxidants, it supports digestion, reduces bloating, and adds a refreshing zest to everyday dishes.",
+              "description": "A bright, zingy extract that elevates simple meals while naturally boosting appetite. Rich in citric acid and antioxidants, it supports digestion, reduces bloating, and adds a refreshing zest to everyday dishes.",
               "images": ["digextract-1.jpg", "digextract-2.jpg"],
               "benefits": [
                 "Eases discomfort from overeating, such as bloating and nausea",
@@ -1171,7 +1150,7 @@
                   "title": "250g",
                   "price": 300,
                   "discount": 7,
-                  "discountedPrice": 260,
+                  "discountedPrice": 280,
                   "outOfStock": false
                 },
                 {
@@ -1273,24 +1252,10 @@
               "outOfStock": false,
               "variants": [
                 {
-                  "title": "100g",
-                  "price": 199,
-                  "discount": 10,
-                  "discountedPrice": 179,
-                  "outOfStock": false
-                },
-                {
-                  "title": "200g",
-                  "price": 398,
-                  "discount": 10,
-                  "discountedPrice": 358,
-                  "outOfStock": false
-                },
-                {
-                  "title": "500g",
-                  "price": 995,
-                  "discount": 10,
-                  "discountedPrice": 895,
+                  "title": "1 packet",
+                  "price": 180,
+                  "discount": 7,
+                  "discountedPrice": 170,
                   "outOfStock": false
                 }
               ]
@@ -1312,24 +1277,10 @@
               "outOfStock": false,
               "variants": [
                 {
-                  "title": "100g",
-                  "price": 219,
-                  "discount": 10,
-                  "discountedPrice": 197,
-                  "outOfStock": false
-                },
-                {
-                  "title": "200g",
-                  "price": 438,
-                  "discount": 10,
-                  "discountedPrice": 394,
-                  "outOfStock": false
-                },
-                {
-                  "title": "500g",
-                  "price": 1095,
-                  "discount": 10,
-                  "discountedPrice": 985,
+                  "title": "1 packet",
+                  "price": 180,
+                  "discount": 7,
+                  "discountedPrice": 170,
                   "outOfStock": false
                 }
               ]
@@ -1351,24 +1302,10 @@
               "outOfStock": false,
               "variants": [
                 {
-                  "title": "100g",
-                  "price": 179,
-                  "discount": 10,
-                  "discountedPrice": 161,
-                  "outOfStock": false
-                },
-                {
-                  "title": "200g",
-                  "price": 358,
-                  "discount": 10,
-                  "discountedPrice": 322,
-                  "outOfStock": false
-                },
-                {
-                  "title": "500g",
-                  "price": 895,
-                  "discount": 10,
-                  "discountedPrice": 805,
+                  "title": "1 packet",
+                  "price": 180,
+                  "discount": 7,
+                  "discountedPrice": 170,
                   "outOfStock": false
                 }
               ]
@@ -1384,7 +1321,8 @@
                 "Purifying properties",
                 "Eco-friendly",
                 "Sacred ingredients",
-                "Spiritual enhancement"
+                "Spiritual enhancement",
+                "Used as a pure & natural manure for gardens at home"
               ],
               "recommendedProductIds": [
                 "prod-29",
@@ -1395,24 +1333,10 @@
               "outOfStock": false,
               "variants": [
                 {
-                  "title": "100g",
-                  "price": 249,
-                  "discount": 10,
-                  "discountedPrice": 224,
-                  "outOfStock": false
-                },
-                {
-                  "title": "200g",
-                  "price": 498,
-                  "discount": 10,
-                  "discountedPrice": 448,
-                  "outOfStock": false
-                },
-                {
-                  "title": "500g",
-                  "price": 1245,
-                  "discount": 10,
-                  "discountedPrice": 1120,
+                  "title": "10 pc",
+                  "price": 300,
+                  "discount": 0,
+                  "discountedPrice": 0,
                   "outOfStock": false
                 }
               ]
