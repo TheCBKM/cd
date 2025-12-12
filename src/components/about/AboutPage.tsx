@@ -109,9 +109,12 @@ export default function AboutPage() {
           </div>
           <div className="mx-auto max-w-3xl mt-12 text-center">
             <p className="text-muted-foreground text-lg">
-              Their combined expertise in social service, corporate management,
-              and finance drives The Chaitanya Group with purpose and
-              commitment.
+              Together, Prerna, Sanjeev, and Shriya combine creativity, business
+              acumen, and financial discipline to drive Chaitanya Enterprises
+              forward. United by a shared belief that healthy food should also
+              be delicious, they are committed to producing chemical-free,
+              natural, and flavourful food items crafted from their own farm’s
+              produce.
             </p>
           </div>
         </div>
