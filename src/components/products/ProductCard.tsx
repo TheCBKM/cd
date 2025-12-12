@@ -32,35 +32,40 @@ export function ProductCard({ product }: ProductCardProps) {
   return (
     <Link href={`/products/${product.id}`} className="block h-full">
       <Card className="h-full flex flex-col bg-white border border-border shadow-sm hover:shadow-lg transition-shadow cursor-pointer group relative">
-        {isOutOfStock && (
-          <Badge variant="destructive" className="absolute top-2 right-2 z-10">
-            Out of Stock
-          </Badge>
-        )}
         {firstVariant && (
-          <div className="absolute top-2 left-2 z-10 bg-primary text-primary-foreground text-base md:text-lg font-bold px-3 py-1.5 rounded-md">
-            <div className="flex items-center gap-2">
+          <div className="absolute top-1 left-1 md:top-2 md:left-2 z-10 bg-primary text-primary-foreground text-xs sm:text-sm md:text-base lg:text-lg font-bold px-1.5 py-0.5 md:px-3 md:py-1.5 rounded-md">
+            <div className="flex items-center gap-1 md:gap-2">
               {firstVariant.discount && firstVariant.discount > 0 ? (
                 <>
-                  <span className="line-through text-sm opacity-75">
+                  <span className="line-through text-[10px] sm:text-xs opacity-75">
                     ₹{firstVariant.price.toLocaleString("en-IN")}
                   </span>
-                  <span>
+                  <span className="text-xs sm:text-sm md:text-base">
                     ₹{firstVariant.discountedPrice.toLocaleString("en-IN")}
                   </span>
                 </>
               ) : (
-                <span>₹{firstVariant.price.toLocaleString("en-IN")}</span>
+                <span className="text-xs sm:text-sm md:text-base">
+                  ₹{firstVariant.price.toLocaleString("en-IN")}
+                </span>
               )}
             </div>
           </div>
         )}
         {!firstVariant && product.price && (
-          <Badge className="absolute top-2 left-2 z-10 bg-primary text-primary-foreground text-base md:text-lg font-bold px-3 py-1.5">
+          <Badge className="absolute top-1 left-1 md:top-2 md:left-2 z-10 bg-primary text-primary-foreground text-xs sm:text-sm md:text-base lg:text-lg font-bold px-1.5 py-0.5 md:px-3 md:py-1.5">
             ₹{product.price.toLocaleString("en-IN")}
           </Badge>
         )}
-        <div className="relative w-full aspect-[840/1500] overflow-hidden rounded-t-lg">
+        {isOutOfStock && (
+          <Badge
+            variant="destructive"
+            className="absolute top-1 right-1 md:top-2 md:right-2 z-10 text-[10px] sm:text-xs"
+          >
+            Out of Stock
+          </Badge>
+        )}
+        <div className="relative w-full aspect-[840/1500] overflow-hidden rounded-t-lg max-h-[200px] sm:max-h-[250px] md:max-h-none">
           <Image
             src={imagePath}
             alt={product.title}
@@ -76,11 +81,11 @@ export function ProductCard({ product }: ProductCardProps) {
             }}
           />
         </div>
-        <CardHeader className="flex-grow">
-          <CardTitle className="text-lg font-headline line-clamp-2">
+        <CardHeader className="flex-grow p-3 sm:p-4 md:p-6">
+          <CardTitle className="text-sm sm:text-base md:text-lg font-headline line-clamp-2">
             {product.title}
           </CardTitle>
-          <CardDescription className="line-clamp-3 mt-2">
+          <CardDescription className="line-clamp-2 sm:line-clamp-3 mt-1 sm:mt-2 text-xs sm:text-sm md:text-base">
             {product.description}
           </CardDescription>
         </CardHeader>
