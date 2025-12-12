@@ -34,8 +34,8 @@
                 {
                   "title": "200g",
                   "price": 300,
-                  "discount": 0,
-                  "discountedPrice": 0,
+                  "discount": 3,
+                  "discountedPrice": 290,
                   "outOfStock": false
                 },
                 {
@@ -43,6 +43,13 @@
                   "price": 180,
                   "discount": 3,
                   "discountedPrice": 175,
+                  "outOfStock": false
+                },
+                {
+                  "title": "1Kg",
+                  "price": 1400,
+                  "discount": 4,
+                  "discountedPrice": 1350,
                   "outOfStock": false
                 }
               ]
@@ -67,7 +74,27 @@
                 "prod-18"
               ],
               "outOfStock": false,
-              "variants": []
+              "variants": [{
+                "title": "200g",
+                "price": 300,
+                "discount": 3,
+                "discountedPrice": 2900,
+                "outOfStock": false
+              },
+              {
+                "title": "80g",
+                "price": 180,
+                "discount": 3,
+                "discountedPrice": 175,
+                "outOfStock": false
+              },
+              {
+                "title": "1Kg",
+                "price": 1400,
+                "discount": 4,
+                "discountedPrice": 1350,
+                "outOfStock": false
+              }]
             },
             {
               "id": "prod-3",
@@ -88,15 +115,22 @@
                 {
                   "title": "200g",
                   "price": 300,
-                  "discount": 10,
-                  "discountedPrice": 270,
+                  "discount": 3,
+                  "discountedPrice": 290,
                   "outOfStock": false
                 },
                 {
-                  "title": "80",
+                  "title": "80g",
                   "price": 180,
                   "discount": 8,
                   "discountedPrice": 165,
+                  "outOfStock": false
+                },
+                {
+                  "title": "1Kg",
+                  "price": 1200,
+                  "discount": 4,
+                  "discountedPrice": 1150,
                   "outOfStock": false
                 }
               ]
@@ -124,15 +158,22 @@
                 {
                   "title": "200g",
                   "price": 300,
-                  "discount": 10,
-                  "discountedPrice": 270,
+                  "discount": 3,
+                  "discountedPrice": 290,
                   "outOfStock": false
                 },
                 {
-                  "title": "80",
+                  "title": "80g",
                   "price": 180,
                   "discount": 8,
                   "discountedPrice": 165,
+                  "outOfStock": false
+                },
+                {
+                  "title": "1Kg",
+                  "price": 1200,
+                  "discount": 4,
+                  "discountedPrice": 1150,
                   "outOfStock": false
                 }
               ]
@@ -161,15 +202,22 @@
                 {
                   "title": "200g",
                   "price": 300,
-                  "discount": 13,
-                  "discountedPrice": 260,
+                  "discount": 10,
+                  "discountedPrice": 270,
                   "outOfStock": false
                 },
                 {
-                  "title": "80",
+                  "title": "80g",
                   "price": 180,
                   "discount": 8,
                   "discountedPrice": 165,
+                  "outOfStock": false
+                },
+                {
+                  "title": "1Kg",
+                  "price": 1100,
+                  "discount": 5,
+                  "discountedPrice": 1150,
                   "outOfStock": false
                 }
               ]
@@ -199,16 +247,23 @@
               "variants": [
                 {
                   "title": "200g",
-                  "price": 300,
-                  "discount": 13,
-                  "discountedPrice": 260,
+                  "price": 280,
+                  "discount": 2,
+                  "discountedPrice": 270,
                   "outOfStock": false
                 },
                 {
-                  "title": "80",
+                  "title": "80g",
                   "price": 180,
                   "discount": 11,
-                  "discountedPrice": 160,
+                  "discountedPrice": 165,
+                  "outOfStock": false
+                },
+                {
+                  "title": "1Kg",
+                  "price": 1100,
+                  "discount": 5,
+                  "discountedPrice": 1150,
                   "outOfStock": false
                 }
               ]
@@ -239,10 +294,17 @@
                   "outOfStock": false
                 },
                 {
-                  "title": "80",
+                  "title": "80g",
                   "price": 180,
                   "discount": 6,
                   "discountedPrice": 170,
+                  "outOfStock": false
+                },
+                {
+                  "title": "1Kg",
+                  "price": 1200,
+                  "discount": 4,
+                  "discountedPrice": 1150,
                   "outOfStock": false
                 }
               ]
@@ -271,10 +333,17 @@
                   "outOfStock": false
                 },
                 {
-                  "title": "80",
+                  "title": "80g",
                   "price": 180,
                   "discount": 8,
                   "discountedPrice": 165,
+                  "outOfStock": false
+                },
+                {
+                  "title": "1Kg",
+                  "price": 1100,
+                  "discount": 5,
+                  "discountedPrice": 1150,
                   "outOfStock": false
                 }
               ]
@@ -301,24 +370,24 @@
               "outOfStock": false,
               "variants": [
                 {
-                  "title": "100g",
-                  "price": 249,
-                  "discount": 10,
-                  "discountedPrice": 224,
-                  "outOfStock": false
-                },
-                {
                   "title": "200g",
-                  "price": 498,
-                  "discount": 10,
-                  "discountedPrice": 448,
+                  "price": 300,
+                  "discount": 8,
+                  "discountedPrice": 270,
                   "outOfStock": false
                 },
                 {
-                  "title": "500g",
-                  "price": 1245,
-                  "discount": 10,
-                  "discountedPrice": 1120,
+                  "title": "80g",
+                  "price": 180,
+                  "discount": 3,
+                  "discountedPrice": 175,
+                  "outOfStock": false
+                },
+                {
+                  "title": "1Kg",
+                  "price": 1100,
+                  "discount": 3,
+                  "discountedPrice": 1070,
                   "outOfStock": false
                 }
               ]
@@ -340,24 +409,24 @@
               "outOfStock": false,
               "variants": [
                 {
-                  "title": "100g",
-                  "price": 279,
-                  "discount": 10,
-                  "discountedPrice": 251,
-                  "outOfStock": false
-                },
-                {
                   "title": "200g",
-                  "price": 558,
-                  "discount": 10,
-                  "discountedPrice": 502,
+                  "price": 280,
+                  "discount": 9,
+                  "discountedPrice": 255,
                   "outOfStock": false
                 },
                 {
-                  "title": "500g",
-                  "price": 1395,
-                  "discount": 10,
-                  "discountedPrice": 1255,
+                  "title": "80g",
+                  "price": 180,
+                  "discount": 11,
+                  "discountedPrice": 160,
+                  "outOfStock": false
+                },
+                {
+                  "title": "1Kg",
+                  "price": 1000,
+                  "discount": 5,
+                  "discountedPrice": 950,
                   "outOfStock": false
                 }
               ]
@@ -386,24 +455,24 @@
               "outOfStock": false,
               "variants": [
                 {
-                  "title": "100g",
-                  "price": 319,
-                  "discount": 10,
-                  "discountedPrice": 287,
-                  "outOfStock": false
-                },
-                {
                   "title": "200g",
-                  "price": 638,
-                  "discount": 10,
-                  "discountedPrice": 574,
+                  "price": 280,
+                  "discount": 2,
+                  "discountedPrice": 275,
                   "outOfStock": false
                 },
                 {
-                  "title": "500g",
-                  "price": 1595,
-                  "discount": 10,
-                  "discountedPrice": 1435,
+                  "title": "80g",
+                  "price": 180,
+                  "discount": 11,
+                  "discountedPrice": 60,
+                  "outOfStock": false
+                },
+                {
+                  "title": "1Kg",
+                  "price": 1100,
+                  "discount": 5,
+                  "discountedPrice": 1050,
                   "outOfStock": false
                 }
               ]
@@ -425,24 +494,24 @@
               "outOfStock": false,
               "variants": [
                 {
-                  "title": "100g",
-                  "price": 259,
-                  "discount": 10,
-                  "discountedPrice": 233,
-                  "outOfStock": false
-                },
-                {
                   "title": "200g",
-                  "price": 518,
+                  "price": 300,
                   "discount": 10,
-                  "discountedPrice": 466,
+                  "discountedPrice": 270,
                   "outOfStock": false
                 },
                 {
-                  "title": "500g",
-                  "price": 1295,
-                  "discount": 10,
-                  "discountedPrice": 1165,
+                  "title": "80g",
+                  "price": 180,
+                  "discount": 8,
+                  "discountedPrice": 165,
+                  "outOfStock": false
+                },
+                {
+                  "title": "1Kg",
+                  "price": 1100,
+                  "discount": 5,
+                  "discountedPrice": 1050,
                   "outOfStock": false
                 }
               ]
@@ -477,24 +546,24 @@
               "outOfStock": false,
               "variants": [
                 {
-                  "title": "100g",
-                  "price": 349,
-                  "discount": 10,
-                  "discountedPrice": 314,
-                  "outOfStock": false
-                },
-                {
                   "title": "200g",
-                  "price": 698,
-                  "discount": 10,
-                  "discountedPrice": 628,
+                  "price": 340,
+                  "discount": 3,
+                  "discountedPrice": 330,
                   "outOfStock": false
                 },
                 {
-                  "title": "500g",
-                  "price": 1745,
-                  "discount": 10,
-                  "discountedPrice": 1570,
+                  "title": "80g",
+                  "price": 180,
+                  "discount": 3,
+                  "discountedPrice": 175,
+                  "outOfStock": false
+                },
+                {
+                  "title": "1Kg",
+                  "price": 1400,
+                  "discount": 3,
+                  "discountedPrice": 1360,
                   "outOfStock": false
                 }
               ]
@@ -521,24 +590,24 @@
               "outOfStock": false,
               "variants": [
                 {
-                  "title": "100g",
-                  "price": 299,
-                  "discount": 10,
-                  "discountedPrice": 269,
-                  "outOfStock": false
-                },
-                {
                   "title": "200g",
-                  "price": 598,
-                  "discount": 10,
-                  "discountedPrice": 538,
+                  "price": 220,
+                  "discount": 5,
+                  "discountedPrice": 210,
                   "outOfStock": false
                 },
                 {
-                  "title": "500g",
-                  "price": 1495,
-                  "discount": 10,
-                  "discountedPrice": 1345,
+                  "title": "80g",
+                  "price": 160,
+                  "discount": 6,
+                  "discountedPrice": 155,
+                  "outOfStock": false
+                },
+                {
+                  "title": "1Kg",
+                  "price": 750,
+                  "discount": 3,
+                  "discountedPrice": 730,
                   "outOfStock": false
                 }
               ]
@@ -580,24 +649,24 @@
               "outOfStock": false,
               "variants": [
                 {
-                  "title": "100g",
-                  "price": 399,
-                  "discount": 10,
-                  "discountedPrice": 359,
-                  "outOfStock": false
-                },
-                {
                   "title": "200g",
-                  "price": 798,
-                  "discount": 10,
-                  "discountedPrice": 718,
+                  "price": 320,
+                  "discount": 6,
+                  "discountedPrice": 300,
                   "outOfStock": false
                 },
                 {
-                  "title": "500g",
-                  "price": 1995,
-                  "discount": 10,
-                  "discountedPrice": 1795,
+                  "title": "80g",
+                  "price": 180,
+                  "discount": 6,
+                  "discountedPrice": 170,
+                  "outOfStock": false
+                },
+                {
+                  "title": "1Kg",
+                  "price": 1300,
+                  "discount": 2,
+                  "discountedPrice": 1270,
                   "outOfStock": false
                 }
               ]
@@ -627,24 +696,24 @@
               "outOfStock": false,
               "variants": [
                 {
-                  "title": "100g",
-                  "price": 429,
-                  "discount": 10,
-                  "discountedPrice": 386,
-                  "outOfStock": false
-                },
-                {
                   "title": "200g",
-                  "price": 858,
-                  "discount": 10,
-                  "discountedPrice": 772,
+                  "price": 320,
+                  "discount": 9,
+                  "discountedPrice": 2900,
                   "outOfStock": false
                 },
                 {
-                  "title": "500g",
-                  "price": 2145,
-                  "discount": 10,
-                  "discountedPrice": 1930,
+                  "title": "80g",
+                  "price": 180,
+                  "discount": 6,
+                  "discountedPrice": 170,
+                  "outOfStock": false
+                },
+                {
+                  "title": "1Kg",
+                  "price": 1300,
+                  "discount": 1,
+                  "discountedPrice": 1290,
                   "outOfStock": false
                 }
               ]
@@ -671,24 +740,24 @@
               "outOfStock": false,
               "variants": [
                 {
-                  "title": "100g",
-                  "price": 429,
-                  "discount": 10,
-                  "discountedPrice": 386,
-                  "outOfStock": false
-                },
-                {
                   "title": "200g",
-                  "price": 858,
-                  "discount": 10,
-                  "discountedPrice": 772,
+                  "price": 320,
+                  "discount": 6,
+                  "discountedPrice": 300,
                   "outOfStock": false
                 },
                 {
-                  "title": "500g",
-                  "price": 2145,
-                  "discount": 10,
-                  "discountedPrice": 1930,
+                  "title": "80g",
+                  "price": 180,
+                  "discount": 3,
+                  "discountedPrice": 175,
+                  "outOfStock": false
+                },
+                {
+                  "title": "1Kg",
+                  "price": 1300,
+                  "discount": 2,
+                  "discountedPrice": 1270,
                   "outOfStock": false
                 }
               ]
