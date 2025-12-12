@@ -140,7 +140,7 @@
             {
               "id": "prod-4",
               "title": "Mint leaves powder",
-              "description": "A fresh, aromatic powder made from naturally dried coriander leaves. Supports digestion, detoxification, and overall wellness while adding a gentle herbal lift to your daily health routine.",
+              "description": "A fresh, aromatic powder made from naturally dried mint leaves. Supports digestion, detoxification, and overall wellness while adding a gentle herbal lift to your daily health routine.",
               "images": ["mint-1.jpg"],
               "benefits": [
                 "Supports digestion and detoxification",
@@ -225,7 +225,7 @@
             {
               "id": "prod-6",
               "title": "Spinach powder",
-              "description": "Spinach powder is a powerhouse of iron, folate, and vitamins. Essential for maintaining healthy blood, supporting bone health, and promoting overall vitality. Great for daily nutrition.",
+              "description": "Spinach powder is a powerhouse of iron, folate, and vitamins. Essential for maintaining healthy blood, supporting bone health, and promoting overall vitality. Great for occasional nutrition.",
               "compressedDescription": "Powerhouse of iron and folate. Supports healthy blood and bone health.",
               "images": ["spinach-1.jpg", "spinach-2.jpg"],
               "benefits": [
@@ -514,7 +514,7 @@
         {
           "id": "subcat-3",
           "title": "Fruit Powders",
-          "description": "A tangy, vitamin-rich powder made from naturally dried guava, packed with Vitamin C and antioxidants. Supports immunity, digestion, and adds a naturally sweet–tart boost to health drinks and mixes.",
+          "description": "A sweet & sour, vitamin-rich powder made from naturally dried guava, packed with Vitamin C and antioxidants. Supports immunity, digestion, and adds a naturally sweet–tart boost to health drinks and mixes.",
           "products": [
             {
               "id": "prod-13",
@@ -620,7 +620,7 @@
             {
               "id": "prod-15",
               "title": "NutriGreen",
-              "description": "NutriGreen is a comprehensive green superfood blend featuring moringa, wheatgrass, and spirulina. Perfect for daily nutrition, immune support, and overall vitality. Mix with water or your favorite beverage.",
+              "description": "NutriGreen is a comprehensive green, complemented by superfood blend of moringa/ wheatgrass/ spirulina. Perfect for daily nutrition, immune support, and overall vitality. Mix with water or your favorite beverage.",
               "compressedDescription": "Comprehensive green superfood blend with moringa, wheatgrass, and spirulina. Perfect for daily nutrition.",
               "images": ["nutrigreen-1.jpg", "nutrigreen-2.jpg"],
               "benefits": [
@@ -962,7 +962,7 @@
               "id": "prod-22",
               "title": "Groundnut oil",
               "description": "A 100% pure, preservative-free oil extracted at low temperatures to retain natural nutrients and rich aroma. Ideal for everyday cooking, it offers authentic flavour, high stability, and wholesome goodness in every drop.",
-              "images": ["groundnut-oil-1.jpg"],
+              "images": ["groundnut-oil-1.jpg","groundnut-oil-2.jpg"],
               "benefits": [
                 "Rich in heart-healthy monounsaturated fats",
                 "Cold-pressed to retain natural nutrients, antioxidants & flavor",

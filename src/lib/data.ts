@@ -5,7 +5,7 @@ import { CowIcon, HerbalPowderIcon, PickleJarIcon, SmoothieIcon } from '@/compon
 export const products: Product[] = [
   {
     name: 'Vitality Boost',
-    description: 'Nutritious smoothie mixes for varied body needs and tastes, giving quick, healthy greens. A daily dose of greens. Favoured greens make them popular even with kids.',
+    description: 'Nutritious smoothie mixes for varied body needs and tastes, giving quick, healthy greens. A daily dose of greens. Flavoured greens make them popular even with kids.',
     image: 'product-smoothie',
     icon: SmoothieIcon,
   },
