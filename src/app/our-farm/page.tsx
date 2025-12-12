@@ -10,28 +10,28 @@ export const dynamic = "force-static";
 export const metadata: Metadata = {
   title: "Our Farm",
   description:
-    "Discover Chaitanya Dham - our organic farm in Mandleshwar, Madhya Pradesh. Learn about our organic farming practices, farm-to-product journey, and commitment to sustainable, chemical-free agriculture.",
+    "Discover Chaitanya Dham - our Natural farm in Mandleshwar, Madhya Pradesh. Learn about our farming practices, farm-to-product journey, and commitment to sustainable, chemical-free agriculture.",
   keywords: [
     "Chaitanya Dham",
-    "organic farm",
-    "organic farming practices",
+    "Farm",
+    "Farming practices",
     "farm to table",
     "sustainable farming",
-    "organic agriculture",
+    "Agriculture",
     "Mandleshwar farm",
-    "Khargone organic farm",
+    "Khargone Farm",
   ],
   openGraph: {
     title: `Our Farm - Chaitanya Dham | ${siteConfig.name}`,
     description:
-      "Discover our organic farm at Chaitanya Dham and learn about our organic farming practices and farm-to-product journey.",
+      "Discover our farm at Chaitanya Dham and learn about our farming practices and farm-to-product journey.",
     url: `${siteConfig.url}/our-farm`,
     images: [
       {
         url: siteConfig.ogImage,
         width: 1200,
         height: 630,
-        alt: "Chaitanya Dham Organic Farm",
+        alt: "Chaitanya Dham Farm",
       },
     ],
   },

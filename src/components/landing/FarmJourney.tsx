@@ -30,7 +30,7 @@ export default function FarmJourney() {
               From Our Farm to You
             </h2>
             <p className="max-w-2xl text-muted-foreground text-lg md:text-xl">
-              All leaves and farm produce are grown organically at Chaitanya Dham, handpicked, naturally dried, processed hygienically and packed with care. We ensure purity, freshness and nutritional value in every product.
+              All leaves and farm produce are grown at Chaitanya Dham, handpicked, naturally dried, processed hygienically and packed with care. We ensure purity, freshness and nutritional value in every product.
             </p>
           </div>
         </motion.div>

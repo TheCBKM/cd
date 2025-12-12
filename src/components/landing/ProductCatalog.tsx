@@ -47,10 +47,10 @@ export default function ProductCatalog() {
         >
           <div className="space-y-3">
             <h2 className="text-3xl font-headline font-bold tracking-tight text-foreground sm:text-4xl md:text-5xl">
-              Our Organic Offerings
+              Our Offerings
             </h2>
             <p className="max-w-2xl text-muted-foreground text-lg md:text-xl">
-              Discover our range of organic and eco-friendly products, crafted
+              Discover our range of Chemical-free and eco-friendly products, crafted
               with care to bring you the best of nature, health and taste.{" "}
             </p>
           </div>

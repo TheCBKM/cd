@@ -15,14 +15,14 @@ export const dynamic = "force-static";
 export const metadata: Metadata = {
   title: "Products",
   description:
-    "Explore our range of organic products: NutriPowder Vault herbal powders, Vitality Boost smoothies, Chaitanya Cold Pressed Oils, The Zing Collection chutneys and pickles, Chaitanya Blends, and Śuddhāhuti sacred flames.",
+    "Explore our range of Natural products: NutriPowder Vault herbal powders, Vitality Boost smoothies, Chaitanya Cold Pressed Oils, The Zing Collection chutneys and pickles, Chaitanya Blends, and Śuddhāhuti sacred flames.",
   keywords: [
-    "organic products",
+    "Natural products",
     "herbal powders",
-    "organic smoothies",
+    "Smoothies",
     "cold pressed oils",
-    "organic chutneys",
-    "organic pickles",
+    "Chutneys",
+    "Pickles",
     "cow dung products",
     "ayurvedic products",
     "natural products",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: `Our Products | ${siteConfig.name}`,
     description:
-      "Explore our range of pure, organic products from Chaitanya Dham - herbal powders, smoothies, cold-pressed oils, chutneys, and more.",
+      "Explore our range of pure, Natural products from Chaitanya Dham - herbal powders, smoothies, cold-pressed oils, chutneys, and more.",
     url: `${siteConfig.url}/products`,
     images: [
       {
@@ -53,7 +53,7 @@ export default function Products() {
       name: product.name,
       description: product.description,
       image: `/images/offerings/${product.image}.png`,
-      category: "Organic Products",
+      category: "Natural Products",
     })
   );
 
@@ -72,7 +72,7 @@ export default function Products() {
     generateProductSchema({
       name: category.title,
       description: category.description,
-      category: "Organic Products",
+      category: "Natural Products",
     })
   );
 

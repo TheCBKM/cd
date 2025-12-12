@@ -14,7 +14,7 @@ import {
 const features = [
   {
     icon: Leaf,
-    title: "Organic Farming",
+    title: "Chemical-free Farming",
     description:
       "Grown at Chaitanya Dham in the Narmada valley, near Mandleshwar; using natural farming methods – no chemicals, no pesticides.",
   },

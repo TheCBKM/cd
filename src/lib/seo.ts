@@ -5,9 +5,9 @@
 
 export const siteConfig = {
   name: "The Chaitanya Group",
-  shortName: "Chaitanya Organics",
+  shortName: "Chaitanya Natural Products",
   description:
-    "Pure, organic, and eco-friendly products from the heart of nature. Organic herbal powders, healthy smoothies, chutneys, premium cold-pressed oils, and eco-friendly cow dung products from Chaitanya Dham.",
+    "Pure, chemical-free, and eco-friendly products from the heart of nature. Chemical-free herbal powders, healthy smoothies, chutneys, premium cold-pressed oils, and eco-friendly cow dung products from Chaitanya Dham.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://thechaitanyagroup.com",
   ogImage: "/images/chaitanya-logo.png",
   logo: "/images/chaitanya-logo.png",
@@ -29,20 +29,20 @@ export const siteConfig = {
     instagram: "https://www.instagram.com/thechaitanyagroup/",
   },
   keywords: [
-    "organic products",
+    "Natural products",
     "herbal powders",
-    "organic farming",
+    "Chemical-free farming",
     "cold pressed oils",
-    "organic smoothies",
+    "Smoothies",
     "eco-friendly products",
     "cow dung products",
-    "organic chutneys",
+    "Chutneys",
     "natural products",
     "Chaitanya Dham",
-    "organic food",
+    "Food",
     "ayurvedic products",
     "healthy lifestyle",
-    "organic farm",
+    "Farm",
     "sustainable living",
   ],
 };
@@ -101,7 +101,7 @@ export function generateLocalBusinessSchema() {
     email: siteConfig.contact.email,
     url: siteConfig.url,
     priceRange: "$$",
-    servesCuisine: "Organic & Natural Products",
+    servesCuisine: "Chemical-free & Natural Products",
   };
 }
 
@@ -122,7 +122,7 @@ export function generateProductSchema(product: {
     image: product.image
       ? `${siteConfig.url}${product.image}`
       : `${siteConfig.url}${siteConfig.ogImage}`,
-    category: product.category || "Organic Products",
+    category: product.category || "Natural Products",
     brand: {
       "@type": "Brand",
       name: siteConfig.name,
@@ -257,7 +257,7 @@ export function generateFarmSchema() {
     "@type": "Farm",
     name: "Chaitanya Dham",
     description:
-      "Organic farm producing pure, chemical-free products including herbal powders, smoothies, cold-pressed oils, and eco-friendly products.",
+      "Chemical-free farm producing pure, Natural products including herbal powders, smoothies, cold-pressed oils, and eco-friendly products.",
     address: {
       "@type": "PostalAddress",
       streetAddress: siteConfig.contact.address.street,

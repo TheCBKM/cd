@@ -29,28 +29,28 @@ export const dynamic = "force-static";
 export const metadata: Metadata = {
   title: "Home",
   description:
-    "Discover pure, organic products from Chaitanya Dham. Organic herbal powders, healthy smoothies, premium cold-pressed oils, chutneys, and eco-friendly cow dung products for a healthier lifestyle.",
+    "Discover pure, Natural products from Chaitanya Dham. Herbal powders, healthy smoothies, premium cold-pressed oils, chutneys, and eco-friendly cow dung products for a healthier lifestyle.",
   keywords: [
-    "organic products",
+    "Natural products",
     "herbal powders",
-    "organic smoothies",
+    "Smoothies",
     "cold pressed oils",
-    "organic chutneys",
+    "Chutneys",
     "Chaitanya Dham",
-    "organic farm products",
+    "Farm products",
     "natural products India",
   ],
   openGraph: {
-    title: `${siteConfig.name} - Pure Organic Products from Nature`,
+    title: `${siteConfig.name} - Pure Natural Products from Nature`,
     description:
-      "From our organic farm at Chaitanya Dham to your kitchen - pure herbal powders, healthy smoothies, chutneys, premium cold-pressed oils and eco-friendly products.",
+      "From our farm at Chaitanya Dham to your kitchen - pure herbal powders, healthy smoothies, chutneys, premium cold-pressed oils and eco-friendly products.",
     url: siteConfig.url,
     images: [
       {
         url: siteConfig.ogImage,
         width: 1200,
         height: 630,
-        alt: "The Chaitanya Group - Organic Products",
+        alt: "The Chaitanya Group - Natural Products",
       },
     ],
   },
@@ -78,7 +78,7 @@ export default function Home() {
     email: siteConfig.contact.email,
     url: siteConfig.url,
     priceRange: "$$",
-    servesCuisine: "Organic & Natural Products",
+    servesCuisine: "Natural Products",
   };
 
   return (

@@ -44,8 +44,8 @@ export const products: Product[] = [
 
 export const journeySteps: JourneyStep[] = [
   {
-    title: 'Organic Sowing',
-    description: 'We begin with non-GMO, organic seeds, sown with care in nutrient-rich soil, free from any chemical fertilizers.',
+    title: 'Chemical-free Sowing',
+    description: 'We begin with non-GMO seeds, sown with care in nutrient-rich soil, free from any chemical fertilizers.',
     image: 'farm-sowing',
     icon: Sprout,
   },

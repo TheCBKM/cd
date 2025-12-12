@@ -11,19 +11,19 @@ export const dynamic = "force-static";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about The Chaitanya Group and our mission to provide pure, organic products from Chaitanya Dham. Discover our team, values, and commitment to organic farming and sustainable living.",
+    "Learn about The Chaitanya Group and our mission to provide pure, Natural products from Chaitanya Dham. Discover our team, values, and commitment to  farming and sustainable living.",
   keywords: [
     "about Chaitanya Group",
-    "organic farming",
+    "Naturl farming",
     "sustainable living",
-    "organic products team",
+    "Natural products team",
     "Chaitanya Dham",
-    "organic farm story",
+    "Farm story",
   ],
   openGraph: {
     title: `About Us | ${siteConfig.name}`,
     description:
-      "Learn about The Chaitanya Group and our mission to provide pure, organic products from Chaitanya Dham.",
+      "Learn about The Chaitanya Group and our mission to provide pure, Natural products from Chaitanya Dham.",
     url: `${siteConfig.url}/about`,
     images: [
       {

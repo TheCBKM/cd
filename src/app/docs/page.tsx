@@ -21,20 +21,20 @@ export const dynamic = "force-static";
 export const metadata: Metadata = {
   title: "Documentation & Help Center",
   description:
-    "Complete guide to The Chaitanya Group's organic products, usage instructions, farm information, and frequently asked questions.",
+    "Complete guide to The Chaitanya Group's Natural products, usage instructions, farm information, and frequently asked questions.",
   keywords: [
     "Chaitanya Group documentation",
-    "organic products guide",
+    "Products guide",
     "herbal powder usage",
     "smoothie preparation",
-    "organic farming",
+    "Farming",
     "product information",
     "help center",
   ],
   openGraph: {
     title: `Documentation & Help Center | ${siteConfig.name}`,
     description:
-      "Complete guide to our organic products, usage instructions, and farm information.",
+      "Complete guide to our Natural products, usage instructions, and farm information.",
     url: `${siteConfig.url}/docs`,
     images: [
       {
@@ -62,7 +62,7 @@ export default function DocsPage() {
                 Documentation & Help Center
               </h1>
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Complete information about our organic products, usage
+                Complete information about our Natural products, usage
                 guidelines, farm practices, and more.
               </p>
             </div>
@@ -83,17 +83,17 @@ export default function DocsPage() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground mb-4">
-                      The Chaitanya Group is dedicated to organic farming, value
+                      The Chaitanya Group is dedicated to Natural farming, value
                       addition of farm produce, and promoting a healthy
                       lifestyle through natural products. We provide pure,
-                      organic, and eco-friendly products from the heart of
+                      Natural, and eco-friendly products from the heart of
                       nature.
                     </p>
                     <p className="text-muted-foreground">
-                      Our products include organic herbal powders, healthy
+                      Our products include Natural herbal powders, healthy
                       smoothies, chutneys, premium cold-pressed oils, and
                       eco-friendly cow dung products from Chaitanya Dham, our
-                      organic farm in Mandleshwar, Madhya Pradesh.
+                      farm in Mandleshwar, Madhya Pradesh.
                     </p>
                   </CardContent>
                 </Card>
@@ -169,13 +169,13 @@ export default function DocsPage() {
                 </h2>
                 <Card className="bg-white border border-border">
                   <CardHeader>
-                    <CardTitle>Chaitanya Dham - Our Organic Farm</CardTitle>
+                    <CardTitle>Chaitanya Dham - Our Farm</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground mb-6">
                       Chaitanya Dham is located in Mandleshwar, Maheshwar,
                       Khargone district, Madhya Pradesh, India. We follow
-                      organic farming practices to produce pure, chemical-free
+                      Natural farming practices to produce pure, chemical-free
                       products.
                     </p>
                     <div className="grid gap-4 md:grid-cols-2">

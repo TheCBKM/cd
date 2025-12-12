@@ -31,7 +31,7 @@ export default function WellnessGuide() {
               Your Guide to Wellness
             </h2>
             <p className="max-w-2xl text-muted-foreground text-lg md:text-xl">
-              Learn how to make the most of our organic products with these simple guidelines and important information.
+              Learn how to make the most of our Natural products with these simple guidelines and important information.
             </p>
           </div>
         </motion.div>

@@ -15,7 +15,7 @@ export default function AboutPage() {
               About The Chaitanya Group
             </h1>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              The Chaitanya Group is dedicated to organic farming, value
+              The Chaitanya Group is dedicated to Chemical-free farming, value
               addition of farm produce, and promoting a healthy lifestyle
               through natural products.
             </p>

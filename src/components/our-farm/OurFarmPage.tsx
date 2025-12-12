@@ -50,7 +50,7 @@ const practices = [
 ];
 
 const farmToProductSteps = [
-  { text: "Grown organically", icon: Sprout },
+  { text: "Grown Naturally", icon: Sprout },
   { text: "Handpicked at the right stage", icon: Hand },
   { text: "Naturally dried and processed", icon: Wind },
   { text: "Packed hygienically", icon: Package },
@@ -205,7 +205,7 @@ export default function OurFarmPage() {
           )}
           <div className="space-y-4">
             <h2 className="text-3xl font-headline font-bold">
-              Our Organic Practices
+              Our Chemical-free Practices
             </h2>
             <p className="text-muted-foreground">
               We follow traditional farming methods:
@@ -268,7 +268,7 @@ export default function OurFarmPage() {
               Farm Gallery
             </h2>
             <p className="max-w-[900px] mx-auto text-muted-foreground md:text-xl/relaxed">
-              Take a visual journey through Chaitanya Dham and see our organic
+              Take a visual journey through Chaitanya Dham and see our chemical-free
               farming practices in action.
             </p>
           </motion.div>

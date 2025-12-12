@@ -43,7 +43,7 @@ export default function Hero() {
             style={{ color: "#180a80" }}
             variants={fadeInUp}
           >
-            From our organic farm at Chaitanya Dham to your kitchen, Your heart
+            From our farm at Chaitanya Dham to your kitchen, Your heart
             – pure herbal powders, healthy smoothies, chutneys, Premium cold
             pressed oils and eco-friendly cow dung products for a healthier
             lifestyle.

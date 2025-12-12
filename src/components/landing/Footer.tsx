@@ -52,7 +52,7 @@ export default function Footer() {
               </Link>
             </motion.div>
             <p className="text-muted-foreground text-sm">
-              Pure, organic, and eco-friendly products from the heart of nature.
+              Pure, chemical-free, and eco-friendly products from the heart of nature.
             </p>
           </motion.div>
 

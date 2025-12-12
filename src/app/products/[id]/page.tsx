@@ -47,8 +47,7 @@ export async function generateMetadata({
       product.title,
       category?.title || "",
       subcategory?.title || "",
-      "organic products",
-      "natural products",
+      "Natural products",
     ].filter(Boolean),
     openGraph: {
       title: `${product.title} | ${siteConfig.name}`,

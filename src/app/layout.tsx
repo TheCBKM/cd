@@ -108,7 +108,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: siteConfig.url,
   },
-  category: "Organic Products",
+  category: "Natural Products",
 };
 
 export default function RootLayout({

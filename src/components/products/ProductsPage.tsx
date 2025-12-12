@@ -14,7 +14,7 @@ export default function ProductsPage() {
               Our Products
             </h1>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Explore our full range of organic, homemade, and eco-friendly
+              Explore our full range of chemical-free, homemade, and eco-friendly
               products, made with the purest ingredients from our farm.
             </p>
             <div className="mt-6">

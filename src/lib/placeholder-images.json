@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "hero-background",
-      "description": "A vibrant, lush green organic farm under a bright sun.",
+      "description": "A vibrant, lush green Chemical-free farm under a bright sun.",
       "imageUrl": "https://images.unsplash.com/photo-1515150144380-bca9f1650ed9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxvcmdhbmljJTIwZmFybXxlbnwwfHx8fDE3NjQ0MzE5ODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "organic farm"
+      "imageHint": "Chemical-free farm"
     },
     {
       "id": "product-herbal-powder",
@@ -68,7 +68,7 @@
     },
     {
       "id": "farm-packaging",
-      "description": "Eco-friendly packaging for organic products being prepared.",
+      "description": "Eco-friendly packaging for Natural products being prepared.",
       "imageUrl": "/images/ftof/packging.png",
       "imageHint": "eco packaging"
     },
@@ -92,7 +92,7 @@
     },
     {
       "id": "our-farm-hero",
-      "description": "A beautiful view of an organic farm with a river in the background.",
+      "description": "A beautiful view of an Chemical-free farm with a river in the background.",
       "imageUrl": "https://images.unsplash.com/photo-1498709322049-277069df3f58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmYXJtJTIwcml2ZXJ8ZW58MHx8fHwxNzY1MDUzNTAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "farm river"
     },
@@ -103,9 +103,9 @@
       "imageHint": "fresh leaves"
     },
     {
-      "id": "organic-practices",
+      "id": "Chemical-free-practices",
       "description": "A close-up of hands holding rich, dark compost soil.",
-      "imageUrl": "/images/ftof/organic-practices.png",
+      "imageUrl": "/images/ftof/Chemical-free-practices.png",
       "imageHint": "compost soil"
     }
   ]
